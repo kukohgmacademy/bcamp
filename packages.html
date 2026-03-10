@@ -7,7 +7,7 @@
     <title>Paket Batu Camping — Sunrise 1, 2, 3 | Mulai Rp 250K</title>
     <meta name="description"
         content="Pilih paket camping terbaik di Batu, Jawa Timur. Paket Sunrise 1 (Dasar), Sunrise 2 (Menengah), Sunrise 3 (Lengkap) dengan fasilitas tenda, sleeping bag, matras, dan aktivitas outdoor seru." />
-    <link rel="canonical" href="https://www.campingbatu.com/packages.html" />
+    <link rel="canonical" href="https://batucamping.web.id/packages.html" />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <meta name="author" content="Batu Camping" />
     <meta name="geo.region" content="ID-JI" />
@@ -18,10 +18,12 @@
     <meta property="og:title" content="Paket Batu Camping — Sunrise 1, 2, 3 | Mulai Rp 250K" />
     <meta property="og:description"
         content="Pilih paket camping terbaik di Batu, Jawa Timur. Paket Sunrise 1 (Dasar), Sunrise 2 (Menengah), Sunrise 3 (Lengkap) dengan fasilitas tenda, sleeping bag, matras, dan aktivitas outdoor seru." />
-    <meta property="og:image" content="https://www.campingbatu.com/image/hero_paket.webp" />
+    <meta property="og:image" content="https://batucamping.web.id/image/hero_paket.webp" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:url" content="https://www.campingbatu.com/packages.html" />
+    <meta property="og:image:alt" content="Paket Batu Camping — Sunrise 1, 2, 3" />
+
+    <meta property="og:url" content="https://batucamping.web.id/packages.html" />
     <meta property="og:site_name" content="Batu Camping" />
     <meta property="og:locale" content="id_ID" />
 
@@ -30,12 +32,18 @@
     <meta name="twitter:title" content="Paket Batu Camping — Sunrise 1, 2, 3 | Mulai Rp 250K" />
     <meta name="twitter:description"
         content="Pilih paket camping terbaik di Batu, Jawa Timur. Paket Sunrise 1 (Dasar), Sunrise 2 (Menengah), Sunrise 3 (Lengkap) dengan fasilitas tenda, sleeping bag, matras, dan aktivitas outdoor seru." />
-    <meta name="twitter:image" content="https://www.campingbatu.com/image/hero_paket.webp" />
+    <meta name="twitter:image" content="https://batucamping.web.id/image/hero_paket.webp" />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="image/Batu_Sunrise_Camp_-_Logo-removebg-preview.png" />
-    <link rel="apple-touch-icon" href="image/Batu_Sunrise_Camp_-_Logo-removebg-preview.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="image/Batu_Sunrise_Camp.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="image/Batu_Sunrise_Camp.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="image/Batu_Sunrise_Camp.png" />
+    <!-- Preload Critical Assets -->
+    <link rel="preload" href="image/hero_paket.webp" as="image" />
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" as="style" />
+
     <!-- Preconnect & DNS Prefetch for Performance -->
+
     <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -996,35 +1004,212 @@
     </style>
 
     <!-- Structured Data - JSON-LD for AEO/GEO -->
+    <!-- Consolidated Structured Data (CollectionPage, Breadcrumbs, ItemList) -->
     <script type="application/ld+json">
-{
-        "@context": "https://schema.org",
-        "@type": "CollectionPage",
-        "name": "Paket Batu Camping",
-        "description": "Pilih paket camping terbaik di Batu. Paket Sunrise 1, 2, 3.",
-        "url": "https://www.campingbatu.com/packages.html",
-        "isPartOf": {
-                "@id": "https://www.campingbatu.com/#website"
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CollectionPage",
+          "@id": "https://batucamping.web.id/packages.html#webpage",
+          "url": "https://batucamping.web.id/packages.html",
+          "name": "Daftar Paket Batu Camping",
+          "description": "Pilih paket camping terbaik di Batu. Paket Sunrise 1, 2, 3 dengan fasilitas lengkap.",
+          "isPartOf": { "@id": "https://batucamping.web.id/#website" },
+          "breadcrumb": { "@id": "https://batucamping.web.id/packages.html#breadcrumb" },
+          "mainEntity": { "@id": "https://batucamping.web.id/packages.html#itemlist" },
+          "inLanguage": "id-ID"
         },
-        "breadcrumb": {
-                "@type": "BreadcrumbList",
-                "itemListElement": [
-                        {
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home",
-                                "item": "https://www.campingbatu.com/"
-                        },
-                        {
-                                "@type": "ListItem",
-                                "position": 2,
-                                "name": "Paket Camping",
-                                "item": "https://www.campingbatu.com/packages.html"
-                        }
-                ]
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://batucamping.web.id/packages.html#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://batucamping.web.id/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Paket Camping",
+              "item": "https://batucamping.web.id/packages.html"
+            }
+          ]
         },
-        "inLanguage": "id-ID"
-}
+        {
+          "@type": "ItemList",
+          "@id": "https://batucamping.web.id/packages.html#itemlist",
+          "name": "Pilihan Paket Camping Batu",
+          "numberOfItems": 3,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "Product",
+                "name": "Paket Sunrise 1 (Standard)",
+                "description": "Paket camping hemat lengkap dengan tenda, matras, dan sleeping bag.",
+                "image": "https://batucamping.web.id/image/gambar1.webp",
+                "sku": "BC-S1-STD",
+                "mpn": "BC-S1-STD",
+                "url": "https://batucamping.web.id/paket-sunrise1.html",
+                "brand": {
+                  "@type": "Brand",
+                  "name": "Batu Camping"
+                },
+                "aggregateRating": {
+                  "@type": "AggregateRating",
+                  "ratingValue": 4.8,
+                  "bestRating": 5,
+                  "worstRating": 1,
+                  "reviewCount": 850
+                },
+                "review": {
+                  "@type": "Review",
+                  "author": { "@type": "Person", "name": "Budi Santoso" },
+                  "datePublished": "2026-02-15T08:00:00+07:00",
+                  "reviewRating": { "@type": "Rating", "ratingValue": 5, "bestRating": 5 }
+                },
+                "offers": {
+                  "@type": "Offer",
+                  "price": 250000,
+                  "priceCurrency": "IDR",
+                  "priceValidUntil": "2026-12-31T23:59:59+07:00",
+                  "itemCondition": "https://schema.org/NewCondition",
+                  "availability": "https://schema.org/InStock",
+                  "url": "https://batucamping.web.id/paket-sunrise1.html",
+                  "hasMerchantReturnPolicy": {
+                    "@type": "MerchantReturnPolicy",
+                    "applicableCountry": "ID",
+                    "returnPolicyCategory": "https://schema.org/NoReturns"
+                  },
+                  "shippingDetails": {
+                    "@type": "OfferShippingDetails",
+                    "shippingRate": { "@type": "MonetaryAmount", "value": 0, "currency": "IDR" },
+                    "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "ID" },
+                    "deliveryTime": {
+                      "@type": "ShippingDeliveryTime",
+                      "handlingTime": { "@type": "QuantitativeValue", "minValue": 0, "maxValue": 1, "unitCode": "DAY" },
+                      "transitTime": { "@type": "QuantitativeValue", "minValue": 0, "maxValue": 1, "unitCode": "DAY" }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "Product",
+                "name": "Paket Sunrise 2 (Premium)",
+                "description": "Pengalaman camping lebih nyaman dengan fasilitas tambahan dan lokasi strategis.",
+                "image": "https://batucamping.web.id/image/gambar2.webp",
+                "sku": "BC-S2-PRM",
+                "mpn": "BC-S2-PRM",
+                "url": "https://batucamping.web.id/paket-sunrise2.html",
+                "brand": {
+                  "@type": "Brand",
+                  "name": "Batu Camping"
+                },
+                "aggregateRating": {
+                  "@type": "AggregateRating",
+                  "ratingValue": 4.9,
+                  "bestRating": 5,
+                  "worstRating": 1,
+                  "reviewCount": 1200
+                },
+                "review": {
+                  "@type": "Review",
+                  "author": { "@type": "Person", "name": "Sari Dewi" },
+                  "datePublished": "2026-03-01T08:00:00+07:00",
+                  "reviewRating": { "@type": "Rating", "ratingValue": 5, "bestRating": 5 }
+                },
+                "offers": {
+                  "@type": "Offer",
+                  "price": 450000,
+                  "priceCurrency": "IDR",
+                  "priceValidUntil": "2026-12-31T23:59:59+07:00",
+                  "itemCondition": "https://schema.org/NewCondition",
+                  "availability": "https://schema.org/InStock",
+                  "url": "https://batucamping.web.id/paket-sunrise2.html",
+                  "hasMerchantReturnPolicy": {
+                    "@type": "MerchantReturnPolicy",
+                    "applicableCountry": "ID",
+                    "returnPolicyCategory": "https://schema.org/NoReturns"
+                  },
+                  "shippingDetails": {
+                    "@type": "OfferShippingDetails",
+                    "shippingRate": { "@type": "MonetaryAmount", "value": 0, "currency": "IDR" },
+                    "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "ID" },
+                    "deliveryTime": {
+                      "@type": "ShippingDeliveryTime",
+                      "handlingTime": { "@type": "QuantitativeValue", "minValue": 0, "maxValue": 1, "unitCode": "DAY" },
+                      "transitTime": { "@type": "QuantitativeValue", "minValue": 0, "maxValue": 1, "unitCode": "DAY" }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "Product",
+                "name": "Paket Sunrise 3 (Glamping)",
+                "description": "Nikmati kemewahan berkemah dengan fasilitas lengkap ala hotel di alam terbuka.",
+                "image": "https://batucamping.web.id/image/gambar3.webp",
+                "sku": "BC-S3-GLP",
+                "mpn": "BC-S3-GLP",
+                "url": "https://batucamping.web.id/paket-sunrise3.html",
+                "brand": {
+                  "@type": "Brand",
+                  "name": "Batu Camping"
+                },
+                "aggregateRating": {
+                  "@type": "AggregateRating",
+                  "ratingValue": 4.9,
+                  "bestRating": 5,
+                  "worstRating": 1,
+                  "reviewCount": 350
+                },
+                "review": {
+                  "@type": "Review",
+                  "author": { "@type": "Person", "name": "Rizky Pratama" },
+                  "datePublished": "2026-03-05T08:00:00+07:00",
+                  "reviewRating": { "@type": "Rating", "ratingValue": 5, "bestRating": 5 }
+                },
+                "offers": {
+                  "@type": "Offer",
+                  "price": 750000,
+                  "priceCurrency": "IDR",
+                  "priceValidUntil": "2026-12-31T23:59:59+07:00",
+                  "itemCondition": "https://schema.org/NewCondition",
+                  "availability": "https://schema.org/InStock",
+                  "url": "https://batucamping.web.id/paket-sunrise3.html",
+                  "hasMerchantReturnPolicy": {
+                    "@type": "MerchantReturnPolicy",
+                    "applicableCountry": "ID",
+                    "returnPolicyCategory": "https://schema.org/NoReturns"
+                  },
+                  "shippingDetails": {
+                    "@type": "OfferShippingDetails",
+                    "shippingRate": { "@type": "MonetaryAmount", "value": 0, "currency": "IDR" },
+                    "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "ID" },
+                    "deliveryTime": {
+                      "@type": "ShippingDeliveryTime",
+                      "handlingTime": { "@type": "QuantitativeValue", "minValue": 0, "maxValue": 1, "unitCode": "DAY" },
+                      "transitTime": { "@type": "QuantitativeValue", "minValue": 0, "maxValue": 1, "unitCode": "DAY" }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
     </script>
 </head>
 
@@ -1034,7 +1219,7 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-                <img src="image/Batu_Sunrise_Camp_-_Logo-removebg-preview.png" alt="Batu Camping Logo" height="50"
+                <img decoding="async" src="image/Batu_Sunrise_Camp.png" alt="Batu Camping Logo" height="50"
                     class="d-inline-block align-top">
                 <span class="ms-2">BATU <span class="accent">CAMPING</span></span>
             </a>
@@ -1260,14 +1445,16 @@
         </div>
     </section>
 
+    <!-- SECTION -->
+
     <!-- FOOTER -->
     <footer>
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-4">
                     <div class="brand">
-                        <img src="image/Batu_Sunrise_Camp_-_Logo-removebg-preview.png" alt="Logo" height="50"
-                            class="me-2" loading="lazy">
+                        <img decoding="async" src="image/Batu_Sunrise_Camp.png" alt="Logo" height="50" class="me-2"
+                            fetchpriority="high">
                         BATU <span class="accent ms-1">CAMPING</span>
                     </div>
                     <p class="footer-desc">Penyedia area camping terbaik di Kota Wisata Batu. Berkomitmen memberikan
@@ -1291,10 +1478,9 @@
                 <div class="col-sm-6 col-lg-2">
                     <h5>Network</h5>
                     <ul>
-                        <li><a href="#">Batu Hiking</a></li>
-                        <li><a href="#">Paralayang Batu</a></li>
-                        <li><a href="#">Wisata Kota Batu</a></li>
-                        <li><a href="#">Outbound Batu</a></li>
+                        <li><a href="https://sunrisecamp.web.id/" target="_blank">Batu Sunrise Camp</a></li>
+                        <li><a href="https://citylightscamp.web.id/" target="_blank">City Light Camp</a></li>
+                        <li><a href="https://paketcampingbatu.web.id/" target="_blank">Paket Camping Batu</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-4">

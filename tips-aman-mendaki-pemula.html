@@ -5,8 +5,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tips Aman Mendaki untuk Pemula — Batu Camping</title>
-    <meta name="description" content="Tips aman mendaki gunung untuk pemula: persiapan fisik, perlengkapan wajib, teknik mendaki, dan cara menghadapi cuaca ekstrem. Panduan lengkap dari ahli outdoor." />
-    <link rel="canonical" href="https://www.campingbatu.com/tips-aman-mendaki-pemula.html" />
+    <meta name="description"
+        content="Tips aman mendaki gunung untuk pemula: persiapan fisik, perlengkapan wajib, teknik mendaki, dan cara menghadapi cuaca ekstrem. Panduan lengkap dari ahli outdoor." />
+    <link rel="canonical" href="https://batucamping.web.id/tips-aman-mendaki-pemula.html" />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <meta name="author" content="Batu Camping" />
     <meta name="geo.region" content="ID-JI" />
@@ -15,24 +16,36 @@
     <!-- Open Graph -->
     <meta property="og:type" content="article" />
     <meta property="og:title" content="Tips Aman Mendaki untuk Pemula — Batu Camping" />
-    <meta property="og:description" content="Tips aman mendaki gunung untuk pemula: persiapan fisik, perlengkapan wajib, teknik mendaki, dan cara menghadapi cuaca ekstrem. Panduan lengkap dari ahli outdoor." />
-    <meta property="og:image" content="https://www.campingbatu.com/image/gambar4.webp" />
+    <meta property="og:description"
+        content="Tips aman mendaki gunung untuk pemula: persiapan fisik, perlengkapan wajib, teknik mendaki, dan cara menghadapi cuaca ekstrem. Panduan lengkap dari ahli outdoor." />
+    <meta property="og:image" content="https://batucamping.web.id/image/gambar4.webp" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:url" content="https://www.campingbatu.com/tips-aman-mendaki-pemula.html" />
+    <meta property="og:image:alt" content="Tips Aman Mendaki untuk Pemula — Batu Camping" />
+
+    <meta property="og:url" content="https://batucamping.web.id/tips-aman-mendaki-pemula.html" />
     <meta property="og:site_name" content="Batu Camping" />
     <meta property="og:locale" content="id_ID" />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Tips Aman Mendaki untuk Pemula — Batu Camping" />
-    <meta name="twitter:description" content="Tips aman mendaki gunung untuk pemula: persiapan fisik, perlengkapan wajib, teknik mendaki, dan cara menghadapi cuaca ekstrem. Panduan lengkap dari ahli outdoor." />
-    <meta name="twitter:image" content="https://www.campingbatu.com/image/gambar4.webp" />
+    <meta name="twitter:description"
+        content="Tips aman mendaki gunung untuk pemula: persiapan fisik, perlengkapan wajib, teknik mendaki, dan cara menghadapi cuaca ekstrem. Panduan lengkap dari ahli outdoor." />
+    <meta name="twitter:image" content="https://batucamping.web.id/image/gambar4.webp" />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="image/Batu_Sunrise_Camp_-_Logo-removebg-preview.png" />
-    <link rel="apple-touch-icon" href="image/Batu_Sunrise_Camp_-_Logo-removebg-preview.png" />
-        <!-- Preconnect & DNS Prefetch for Performance -->
+    <link rel="icon" type="image/png" sizes="32x32" href="image/Batu_Sunrise_Camp.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="image/Batu_Sunrise_Camp.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="image/Batu_Sunrise_Camp.png" />
+    <link rel="shortcut icon" href="image/Batu_Sunrise_Camp.png" />
+
+    <!-- Preload Critical Assets -->
+    <link rel="preload" href="image/gambar4.webp" as="image" />
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" as="style" />
+
+    <!-- Preconnect & DNS Prefetch for Performance -->
+
     <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -40,7 +53,7 @@
     <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
     <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
         rel="stylesheet" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
@@ -439,8 +452,9 @@
         }
 
         .related-section h3 {
+            font-size: 1.75rem;
             font-weight: 800;
-            margin-bottom: 2rem
+            margin-bottom: 2.5rem
         }
 
         .rel-card {
@@ -465,12 +479,17 @@
         .rel-card-img img {
             width: 100%;
             height: 100%;
-            object-fit: cover
+            object-fit: cover;
+            transition: transform .4s
+        }
+
+        .rel-card:hover .rel-card-img img {
+            transform: scale(1.06)
         }
 
         .rel-card-body {
             overflow-wrap: break-word;
-            padding: 1.25rem
+            padding: 1.5rem
         }
 
         .rel-card-body .cat {
@@ -479,20 +498,24 @@
             color: var(--forest);
             font-size: .68rem;
             font-weight: 800;
+            letter-spacing: .08em;
+            text-transform: uppercase;
             padding: .2rem .6rem;
             border-radius: 50px;
             margin-bottom: .75rem
         }
 
         .rel-card-body h4 {
-            font-size: 1rem;
+            font-size: 1.15rem;
             font-weight: 700;
-            margin-bottom: .5rem
+            line-height: 1.4;
+            margin-bottom: .75rem
         }
 
         .rel-card-body h4 a {
             color: var(--text);
-            text-decoration: none
+            text-decoration: none;
+            transition: color .2s
         }
 
         .rel-card-body h4 a:hover {
@@ -500,8 +523,38 @@
         }
 
         .rel-card-body .meta {
-            font-size: .75rem;
-            color: var(--muted)
+            font-size: 0.8rem;
+            color: var(--muted);
+            margin-bottom: 1rem;
+            opacity: 0.8;
+        }
+
+        .rel-card-body p {
+            font-size: 0.85rem;
+            color: var(--muted);
+            line-height: 1.6;
+            margin-bottom: 1.25rem;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .read-more {
+            color: var(--lime);
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            transition: all 0.2s;
+        }
+
+        .read-more:hover {
+            gap: 0.5rem;
+            color: var(--lime);
         }
 
         footer {
@@ -671,23 +724,24 @@
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "Tips Aman Mendaki untuk Pemula",
-        "image": "https://www.campingbatu.com/image/gambar4.webp",
-        "datePublished": "2026-01-10",
-        "dateModified": "2026-03-10",
+        "image": "https://batucamping.web.id/image/gambar4.webp",
+        "datePublished": "2026-01-10T08:00:00+07:00",
+        "dateModified": "2026-03-10T08:00:00+07:00",
         "author": {
-                "@type": "Organization",
-                "name": "Batu Camping",
-                "url": "https://www.campingbatu.com"
+                "@type": "Person",
+                "name": "Fachry Rendy",
+                "image": "https://batucamping.web.id/image/Fachry%20Rendy.webp",
+                "url": "https://batucamping.web.id/"
         },
         "publisher": {
                 "@type": "Organization",
                 "name": "Batu Camping",
                 "logo": {
                         "@type": "ImageObject",
-                        "url": "https://www.campingbatu.com/image/Batu_Sunrise_Camp_-_Logo-removebg-preview.png"
+                        "url": "https://batucamping.web.id/image/Batu_Sunrise_Camp.png"
                 }
         },
-        "mainEntityOfPage": "https://www.campingbatu.com/tips-aman-mendaki-pemula.html",
+        "mainEntityOfPage": "https://batucamping.web.id/tips-aman-mendaki-pemula.html",
         "articleSection": "Tips Hiking",
         "inLanguage": "id-ID",
         "breadcrumb": {
@@ -697,19 +751,19 @@
                                 "@type": "ListItem",
                                 "position": 1,
                                 "name": "Home",
-                                "item": "https://www.campingbatu.com/"
+                                "item": "https://batucamping.web.id/"
                         },
                         {
                                 "@type": "ListItem",
                                 "position": 2,
                                 "name": "Blog",
-                                "item": "https://www.campingbatu.com/blog.html"
+                                "item": "https://batucamping.web.id/blog.html"
                         },
                         {
                                 "@type": "ListItem",
                                 "position": 3,
                                 "name": "Tips Aman Mendaki Pemula",
-                                "item": "https://www.campingbatu.com/tips-aman-mendaki-pemula.html"
+                                "item": "https://batucamping.web.id/tips-aman-mendaki-pemula.html"
                         }
                 ]
         }
@@ -719,10 +773,9 @@
 
 <body>
     <nav class="navbar navbar-expand-lg">
-        <div class="container"><a class="navbar-brand" href="index.html"><img
-                    src="image/Batu_Sunrise_Camp_-_Logo-removebg-preview.png" alt="Logo" height="50"><span
-                    class="ms-2">BATU <span class="accent">CAMPING</span></span></a><button class="navbar-toggler"
-                type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"><span
+        <div class="container"><a class="navbar-brand" href="index.html"><img src="image/Batu_Sunrise_Camp.png"
+                    alt="Logo" height="50"><span class="ms-2">BATU <span class="accent">CAMPING</span></span></a><button
+                class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"><span
                     class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="mainNav">
                 <ul class="navbar-nav mx-auto">
@@ -741,8 +794,8 @@
             <nav class="breadcrumb-bar"><a href="index.html">Home</a> › <a href="blog.html">Blog</a> › <span
                     style="color:var(--lime)">Tips Camping</span></nav>
             <h1 class="article-title">Tips Aman Mendaki untuk Pemula di Pegunungan Wisata Batu</h1>
-            <div class="article-meta"><span><i class="bi bi-calendar3 me-1"></i>10 Jan 2026</span><span><i class="bi bi-person me-1"></i>Admin
-                    Batu Camping</span></div>
+            <div class="article-meta"><span><i class="bi bi-calendar3 me-1"></i>10 Jan 2026</span><span><i
+                        class="bi bi-person me-1"></i> Fachry Rendy</span></div>
         </div>
     </header>
 
@@ -752,9 +805,10 @@
                 <div class="col-lg-8">
                     <article class="article-body">
                         <div class="article-img-wrap">
-                            <img src="image/gambar4.webp" alt="Mendaki gunung"><span
+                            <img decoding="async" src="image/gambar4.webp" alt="Mendaki gunung"><span
                                 class="img-caption">Mendaki di kawasan pegunungan Batu —
-                                keindahan alam yang menanti di setiap langkah.</span></div>
+                                keindahan alam yang menanti di setiap langkah.</span>
+                        </div>
 
                         <div class="toc-box">
                             <div class="toc-title"
@@ -812,8 +866,9 @@
                             <li>Hormati pendaki lain dan masyarakat sekitar</li>
                         </ul>
 
-                        <div class="article-img-wrap"><img src="image/gambar2.webp" alt="Pemandangan gunung" loading="lazy"><span
-                                class="img-caption">Pemandangan puncak di kawasan Batu —
+                        <div class="article-img-wrap"><img decoding="async" src="image/gambar2.webp"
+                                alt="Pemandangan gunung" loading="lazy"><span class="img-caption">Pemandangan puncak di
+                                kawasan Batu —
                                 reward terbaik untuk para pendaki.</span></div>
 
                         <div class="faq-section">
@@ -852,11 +907,12 @@
                         </div>
 
                         <div class="author-card">
-                            <div class="author-avatar">AC</div>
+                            <img src="image/Fachry Rendy.webp" alt="Fachry Rendy" class="author-avatar"
+                                style="object-fit:cover;">
                             <div class="author-info">
-                                <h5>Admin Batu Camping</h5>
-                                <p>Tim redaksi Batu Camping — konten wisata alam, tips camping, dan aktivitas
-                                    outdoor di Kota Batu.</p>
+                                <h5>Fachry Rendy</h5>
+                                <p>Outdoor Specialist & Content Writer — Berpengalaman lebih dari 8 tahun dalam dunia
+                                    petualangan luar ruang dan manajemen camping ground di Kota Batu.</p>
                             </div>
                         </div>
 
@@ -883,22 +939,40 @@
             <div class="row g-4">
                 <div class="col-md-4">
                     <div class="rel-card">
-                        <div class="rel-card-img"><img src="image/gambar3.webp" alt="" loading="lazy">
+                        <div class="rel-card-img"><img decoding="async" src="image/gambar10.webp"
+                                alt="Permainan Outbound" loading="lazy">
                         </div>
-                        <div class="rel-card-body"><span class="cat">Gear Review</span>
-                            <h4><a href="panduan-memilih-sepatu-trekking.html">Panduan Memilih Sepatu Trekking</a></h4>
-                            <div class="meta">15 Feb 2026
-                                <p style="font-size: 0.85rem; color: var(--muted); margin-bottom: 1rem;">Temukan
-                                    informasi lengkap dan inspirasi menarik terkait topik ini di artikel berikutnya.</p>
-                                <a href="panduan-memilih-sepatu-trekking.html" class="read-more">Baca Selengkapnya <span
-                                        class="material-icons-round" style="font-size:1rem;">arrow_forward</span></a>
-                            </div>
+                        <div class="rel-card-body">
+                            <span class="cat">Tips Camping</span>
+                            <h4><a href="permainan-outbound-edukatif-anak.html">Permainan Outbound Edukatif untuk
+                                    Anak-Anak</a></h4>
+                            <div class="meta">10 Feb 2026</div>
+                            <p>Daftar permainan outbound edukatif dan aman yang bisa dicoba bersama keluarga.
+                            </p>
+                            <a href="permainan-outbound-edukatif-anak.html" class="read-more">Baca Selengkapnya <span
+                                    class="material-icons-round" style="font-size:1rem;">arrow_forward</span></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="rel-card">
-                        <div class="rel-card-img"><img src="image/gambar4.webp" alt="" loading="lazy">
+                        <div class="rel-card-img"><img decoding="async" src="image/gambar8.webp" alt="Team Building"
+                                loading="lazy">
+                        </div>
+                        <div class="rel-card-body">
+                            <span class="cat">Tips Camping</span>
+                            <h4><a href="manfaat-team-building-outdoor.html">Manfaat Team Building Outdoor</a></h4>
+                            <div class="meta">28 Feb 2026</div>
+                            <p>Manfaat psikologis dan dampaknya bagi produktivitas dan kekompakan tim kerja.</p>
+                            <a href="manfaat-team-building-outdoor.html" class="read-more">Baca Selengkapnya <span
+                                    class="material-icons-round" style="font-size:1rem;">arrow_forward</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="rel-card">
+                        <div class="rel-card-img"><img decoding="async" src="image/gambar12.webp"
+                                alt="Perlengkapan Camping" loading="lazy">
                         </div>
                         <div class="rel-card-body">
                             <span class="cat">Tips Camping</span>
@@ -911,47 +985,17 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="rel-card">
-                        <div class="rel-card-img"><img src="image/gambar5.webp" alt="" loading="lazy">
-                        </div>
-                        <div class="rel-card-body">
-                            <span class="cat">Wisata Batu</span>
-                            <h4><a href="sensasi-offroad-jeep-adventure.html">Sensasi Offroad Jeep Adventure</a></h4>
-                            <div class="meta">5 Feb 2026</div>
-                            <p>Pengalaman memacu adrenalin menyusuri rute menantang di lereng Gunung Arjuno Batu.</p>
-                            <a href="sensasi-offroad-jeep-adventure.html" class="read-more">Baca Selengkapnya <span
-                                    class="material-icons-round" style="font-size:1rem;">arrow_forward</span></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="rel-card">
-                        <div class="rel-card-img"><img src="image/gambar6.webp" alt="" loading="lazy">
-                        </div>
-                        <div class="rel-card-body">
-                            <span class="cat">Wisata Batu</span>
-                            <h4><a href="5-spot-foto-terbaik-coban-rondo.html">5 Spot Foto Terbaik di Coban Rondo</a>
-                            </h4>
-                            <div class="meta">25 Feb 2026</div>
-                            <p>Jangan lewatkan spot instagramable ini saat berkunjung ke kawasan air terjun Coban Rondo.
-                            </p>
-                            <a href="5-spot-foto-terbaik-coban-rondo.html" class="read-more">Baca Selengkapnya <span
-                                    class="material-icons-round" style="font-size:1rem;">arrow_forward</span></a>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
 
-        <footer>
+    <footer>
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-4">
                     <div class="brand">
-                        <img src="image/Batu_Sunrise_Camp_-_Logo-removebg-preview.png" alt="Logo" height="50"
-                            class="me-2" loading="lazy">
+                        <img decoding="async" src="image/Batu_Sunrise_Camp.png" alt="Logo" height="50" class="me-2"
+                            fetchpriority="high">
                         BATU <span class="accent ms-1">CAMPING</span>
                     </div>
                     <p class="footer-desc">Penyedia area camping terbaik di Kota Wisata Batu. Berkomitmen memberikan
@@ -975,10 +1019,9 @@
                 <div class="col-sm-6 col-lg-2">
                     <h5>Network</h5>
                     <ul>
-                        <li><a href="#">Batu Hiking</a></li>
-                        <li><a href="#">Paralayang Batu</a></li>
-                        <li><a href="#">Wisata Kota Batu</a></li>
-                        <li><a href="#">Outbound Batu</a></li>
+                        <li><a href="https://sunrisecamp.web.id/" target="_blank">Batu Sunrise Camp</a></li>
+                        <li><a href="https://citylightscamp.web.id/" target="_blank">City Light Camp</a></li>
+                        <li><a href="https://paketcampingbatu.web.id/" target="_blank">Paket Camping Batu</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-4">
