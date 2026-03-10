@@ -1010,12 +1010,77 @@
       "@context": "https://schema.org",
       "@graph": [
         {
+          "@type": ["Organization", "LocalBusiness"],
+          "@id": "https://batucamping.web.id/#organization",
+          "name": "Batu Camping",
+          "alternateName": "Batu Sunrise Camp",
+          "url": "https://batucamping.web.id",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://batucamping.web.id/image/Batu_Sunrise_Camp.png",
+            "width": 512,
+            "height": 512
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://batucamping.web.id/image/hero_index.webp"
+          },
+          "description": "Camping ground terbaik di Batu, Jawa Timur dengan fasilitas lengkap dan pemandangan sunrise spektakuler.",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Jl. Gn. Banyak, Jurangrejo, Pandesari, Kec. Bumiaji",
+            "addressLocality": "Batu",
+            "addressRegion": "Jawa Timur",
+            "postalCode": "65337",
+            "addressCountry": "ID"
+          },
+          "telephone": "+6281239225692",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": -7.8672,
+            "longitude": 112.5239
+          },
+          "priceRange": "Rp 250.000 - Rp 1.500.000",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.8,
+            "bestRating": 5,
+            "reviewCount": 2400
+          },
+          "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+            ],
+            "opens": "00:00",
+            "closes": "23:59"
+          },
+          "sameAs": [
+            "https://www.instagram.com/campingbatu",
+            "https://www.facebook.com/campingbatu"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://batucamping.web.id/#website",
+          "url": "https://batucamping.web.id",
+          "name": "Batu Camping",
+          "publisher": { "@id": "https://batucamping.web.id/#organization" },
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://batucamping.web.id/blog.html?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+          },
+          "inLanguage": "id-ID"
+        },
+        {
           "@type": "CollectionPage",
           "@id": "https://batucamping.web.id/packages.html#webpage",
           "url": "https://batucamping.web.id/packages.html",
           "name": "Daftar Paket Batu Camping",
           "description": "Pilih paket camping terbaik di Batu. Paket Sunrise 1, 2, 3 dengan fasilitas lengkap.",
           "isPartOf": { "@id": "https://batucamping.web.id/#website" },
+          "about": { "@id": "https://batucamping.web.id/#organization" },
           "breadcrumb": { "@id": "https://batucamping.web.id/packages.html#breadcrumb" },
           "mainEntity": { "@id": "https://batucamping.web.id/packages.html#itemlist" },
           "inLanguage": "id-ID"
@@ -1057,7 +1122,9 @@
                 "url": "https://batucamping.web.id/paket-sunrise1.html",
                 "brand": {
                   "@type": "Brand",
-                  "name": "Batu Camping"
+                  "@id": "https://batucamping.web.id/#organization",
+                  "name": "Batu Camping",
+                  "logo": "https://batucamping.web.id/image/Batu_Sunrise_Camp.png"
                 },
                 "aggregateRating": {
                   "@type": "AggregateRating",
@@ -1074,9 +1141,9 @@
                 },
                 "offers": {
                   "@type": "Offer",
-                  "price": 250000,
+                  "price": "250000",
                   "priceCurrency": "IDR",
-                  "priceValidUntil": "2026-12-31T23:59:59+07:00",
+                  "priceValidUntil": "2026-12-31",
                   "itemCondition": "https://schema.org/NewCondition",
                   "availability": "https://schema.org/InStock",
                   "url": "https://batucamping.web.id/paket-sunrise1.html",
@@ -1085,16 +1152,18 @@
                     "applicableCountry": "ID",
                     "returnPolicyCategory": "https://schema.org/NoReturns"
                   },
-                  "shippingDetails": {
-                    "@type": "OfferShippingDetails",
-                    "shippingRate": { "@type": "MonetaryAmount", "value": 0, "currency": "IDR" },
-                    "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "ID" },
-                    "deliveryTime": {
-                      "@type": "ShippingDeliveryTime",
-                      "handlingTime": { "@type": "QuantitativeValue", "minValue": 0, "maxValue": 1, "unitCode": "DAY" },
-                      "transitTime": { "@type": "QuantitativeValue", "minValue": 0, "maxValue": 1, "unitCode": "DAY" }
+                  "shippingDetails": [
+                    {
+                      "@type": "OfferShippingDetails",
+                      "shippingRate": { "@type": "MonetaryAmount", "value": "0", "currency": "IDR" },
+                      "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "ID" },
+                      "deliveryTime": {
+                        "@type": "ShippingDeliveryTime",
+                        "handlingTime": { "@type": "QuantitativeValue", "minValue": 0, "maxValue": 1, "unitCode": "DAY" },
+                        "transitTime": { "@type": "QuantitativeValue", "minValue": 0, "maxValue": 1, "unitCode": "DAY" }
+                      }
                     }
-                  }
+                  ]
                 }
               }
             },
@@ -1111,7 +1180,9 @@
                 "url": "https://batucamping.web.id/paket-sunrise2.html",
                 "brand": {
                   "@type": "Brand",
-                  "name": "Batu Camping"
+                  "@id": "https://batucamping.web.id/#organization",
+                  "name": "Batu Camping",
+                  "logo": "https://batucamping.web.id/image/Batu_Sunrise_Camp.png"
                 },
                 "aggregateRating": {
                   "@type": "AggregateRating",
@@ -1128,9 +1199,9 @@
                 },
                 "offers": {
                   "@type": "Offer",
-                  "price": 450000,
+                  "price": "450000",
                   "priceCurrency": "IDR",
-                  "priceValidUntil": "2026-12-31T23:59:59+07:00",
+                  "priceValidUntil": "2026-12-31",
                   "itemCondition": "https://schema.org/NewCondition",
                   "availability": "https://schema.org/InStock",
                   "url": "https://batucamping.web.id/paket-sunrise2.html",
@@ -1139,16 +1210,18 @@
                     "applicableCountry": "ID",
                     "returnPolicyCategory": "https://schema.org/NoReturns"
                   },
-                  "shippingDetails": {
-                    "@type": "OfferShippingDetails",
-                    "shippingRate": { "@type": "MonetaryAmount", "value": 0, "currency": "IDR" },
-                    "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "ID" },
-                    "deliveryTime": {
-                      "@type": "ShippingDeliveryTime",
-                      "handlingTime": { "@type": "QuantitativeValue", "minValue": 0, "maxValue": 1, "unitCode": "DAY" },
-                      "transitTime": { "@type": "QuantitativeValue", "minValue": 0, "maxValue": 1, "unitCode": "DAY" }
+                  "shippingDetails": [
+                    {
+                      "@type": "OfferShippingDetails",
+                      "shippingRate": { "@type": "MonetaryAmount", "value": "0", "currency": "IDR" },
+                      "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "ID" },
+                      "deliveryTime": {
+                        "@type": "ShippingDeliveryTime",
+                        "handlingTime": { "@type": "QuantitativeValue", "minValue": 0, "maxValue": 1, "unitCode": "DAY" },
+                        "transitTime": { "@type": "QuantitativeValue", "minValue": 0, "maxValue": 1, "unitCode": "DAY" }
+                      }
                     }
-                  }
+                  ]
                 }
               }
             },
@@ -1165,7 +1238,9 @@
                 "url": "https://batucamping.web.id/paket-sunrise3.html",
                 "brand": {
                   "@type": "Brand",
-                  "name": "Batu Camping"
+                  "@id": "https://batucamping.web.id/#organization",
+                  "name": "Batu Camping",
+                  "logo": "https://batucamping.web.id/image/Batu_Sunrise_Camp.png"
                 },
                 "aggregateRating": {
                   "@type": "AggregateRating",
@@ -1182,9 +1257,9 @@
                 },
                 "offers": {
                   "@type": "Offer",
-                  "price": 750000,
+                  "price": "750000",
                   "priceCurrency": "IDR",
-                  "priceValidUntil": "2026-12-31T23:59:59+07:00",
+                  "priceValidUntil": "2026-12-31",
                   "itemCondition": "https://schema.org/NewCondition",
                   "availability": "https://schema.org/InStock",
                   "url": "https://batucamping.web.id/paket-sunrise3.html",
@@ -1193,16 +1268,18 @@
                     "applicableCountry": "ID",
                     "returnPolicyCategory": "https://schema.org/NoReturns"
                   },
-                  "shippingDetails": {
-                    "@type": "OfferShippingDetails",
-                    "shippingRate": { "@type": "MonetaryAmount", "value": 0, "currency": "IDR" },
-                    "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "ID" },
-                    "deliveryTime": {
-                      "@type": "ShippingDeliveryTime",
-                      "handlingTime": { "@type": "QuantitativeValue", "minValue": 0, "maxValue": 1, "unitCode": "DAY" },
-                      "transitTime": { "@type": "QuantitativeValue", "minValue": 0, "maxValue": 1, "unitCode": "DAY" }
+                  "shippingDetails": [
+                    {
+                      "@type": "OfferShippingDetails",
+                      "shippingRate": { "@type": "MonetaryAmount", "value": "0", "currency": "IDR" },
+                      "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "ID" },
+                      "deliveryTime": {
+                        "@type": "ShippingDeliveryTime",
+                        "handlingTime": { "@type": "QuantitativeValue", "minValue": 0, "maxValue": 1, "unitCode": "DAY" },
+                        "transitTime": { "@type": "QuantitativeValue", "minValue": 0, "maxValue": 1, "unitCode": "DAY" }
+                      }
                     }
-                  }
+                  ]
                 }
               }
             }
