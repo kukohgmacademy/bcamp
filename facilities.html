@@ -12,6 +12,8 @@
     <meta name="author" content="Batu Camping" />
     <meta name="geo.region" content="ID-JI" />
     <meta name="geo.placename" content="Batu, Jawa Timur" />
+    <meta name="geo.position" content="-7.8672;112.5239" />
+    <meta name="ICBM" content="-7.8672, 112.5239" />
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
@@ -22,7 +24,6 @@
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content="Fasilitas Batu Camping — Lengkap & Terawat" />
-
     <meta property="og:url" content="https://batucamping.web.id/facilities.html" />
     <meta property="og:site_name" content="Batu Camping" />
     <meta property="og:locale" content="id_ID" />
@@ -44,8 +45,7 @@
     <link rel="preload" href="image/hero_fasilitas.webp" as="image" />
     <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" as="style" />
 
-    <!-- Preconnect & DNS Prefetch for Performance -->
-
+    <!-- Preconnect & DNS Prefetch -->
     <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -53,13 +53,35 @@
     <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
     <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
 
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=DM+Sans:wght@300;400;500&display=swap"
-        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Structured Data - JSON-LD for AEO/GEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Organization",
+                "@id": "https://batucamping.web.id/#organization",
+                "name": "Batu Camping",
+                "url": "https://batucamping.web.id",
+                "logo": "https://batucamping.web.id/image/Batu_Sunrise_Camp.png"
+            },
+            {
+                "@type": "WebPage",
+                "@id": "https://batucamping.web.id/facilities.html#webpage",
+                "url": "https://batucamping.web.id/facilities.html",
+                "name": "Fasilitas Batu Camping — Lengkap & Terawat",
+                "isPartOf": { "@id": "https://batucamping.web.id/#website" },
+                "description": "Fasilitas camping ground lengkap di Batu: area luas, toilet bersih, musholla, kantin, dan keamanan 24 jam.",
+                "inLanguage": "id-ID"
+            }
+        ]
+    }
+    </script>
     <style>
         :root {
             --lime: #b5f23d;
@@ -791,38 +813,6 @@
             }
         }
     </style>
-
-    <!-- Structured Data - JSON-LD for AEO/GEO -->
-    <script type="application/ld+json">
-{
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "name": "Fasilitas Batu Camping",
-        "description": "Fasilitas camping ground lengkap di Batu: camping ground luas, toilet bersih, musholla, kantin.",
-        "url": "https://batucamping.web.id/facilities.html",
-        "isPartOf": {
-                "@id": "https://batucamping.web.id/#website"
-        },
-        "breadcrumb": {
-                "@type": "BreadcrumbList",
-                "itemListElement": [
-                        {
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home",
-                                "item": "https://batucamping.web.id/"
-                        },
-                        {
-                                "@type": "ListItem",
-                                "position": 2,
-                                "name": "Fasilitas",
-                                "item": "https://batucamping.web.id/facilities.html"
-                        }
-                ]
-        },
-        "inLanguage": "id-ID"
-}
-    </script>
 </head>
 
 <body>
@@ -882,7 +872,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="fac-card">
                         <div class="fac-card-img">
-                            <img decoding="async" src="image/area_umum.webp" alt="Toilet" />
+                            <img decoding="async" src="image/area_umum.webp" alt="Toilet" loading="lazy" />
                             <div class="fac-icon-badge"><span class="material-icons-round">wc</span></div>
                         </div>
                         <div class="fac-card-body">
@@ -903,7 +893,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="fac-card">
                         <div class="fac-card-img">
-                            <img decoding="async" src="image/gambar1.webp" alt="Mushola" / loading="lazy">
+                            <img decoding="async" src="image/gambar1.webp" alt="Mushola" loading="lazy">
                             <div class="fac-icon-badge"><span class="material-icons-round">mosque</span></div>
                         </div>
                         <div class="fac-card-body">
@@ -924,7 +914,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="fac-card">
                         <div class="fac-card-img">
-                            <img decoding="async" src="image/gambar6.webp" alt="Listrik" / loading="lazy">
+                            <img decoding="async" src="image/gambar6.webp" alt="Listrik" loading="lazy">
                             <div class="fac-icon-badge"><span class="material-icons-round">electrical_services</span>
                             </div>
                         </div>
@@ -946,7 +936,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="fac-card">
                         <div class="fac-card-img">
-                            <img decoding="async" src="image/gambar7.webp" alt="BBQ Area" / loading="lazy">
+                            <img decoding="async" src="image/gambar7.webp" alt="BBQ Area" loading="lazy">
                             <div class="fac-icon-badge"><span class="material-icons-round">outdoor_grill</span></div>
                         </div>
                         <div class="fac-card-body">
@@ -967,7 +957,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="fac-card">
                         <div class="fac-card-img">
-                            <img decoding="async" src="image/posko.webp" alt="Keamanan" / loading="lazy">
+                            <img decoding="async" src="image/posko.webp" alt="Keamanan" loading="lazy">
                             <div class="fac-icon-badge"><span class="material-icons-round">security</span></div>
                         </div>
                         <div class="fac-card-body">
@@ -987,7 +977,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="fac-card">
                         <div class="fac-card-img">
-                            <img decoding="async" src="image/kantin.webp" alt="Kantin" / loading="lazy">
+                            <img decoding="async" src="image/kantin.webp" alt="Kantin" loading="lazy">
                             <div class="fac-icon-badge"><span class="material-icons-round">storefront</span></div>
                         </div>
                         <div class="fac-card-body">
@@ -1007,7 +997,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="fac-card">
                         <div class="fac-card-img">
-                            <img decoding="async" src="image/posko.webp" alt="P3K" / loading="lazy">
+                            <img decoding="async" src="image/posko.webp" alt="P3K" loading="lazy">
                             <div class="fac-icon-badge"><span class="material-icons-round">medical_services</span></div>
                         </div>
                         <div class="fac-card-body">
@@ -1027,7 +1017,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="fac-card">
                         <div class="fac-card-img">
-                            <img decoding="async" src="image/posko.webp" alt="Wifi" / loading="lazy">
+                            <img decoding="async" src="image/posko.webp" alt="Wifi" loading="lazy">
                             <div class="fac-icon-badge"><span class="material-icons-round">wifi</span></div>
                         </div>
                         <div class="fac-card-body">
@@ -1046,7 +1036,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="fac-card">
                         <div class="fac-card-img">
-                            <img decoding="async" src="image/area_umum.webp" alt="Aula" / loading="lazy">
+                            <img decoding="async" src="image/area_umum.webp" alt="Aula" loading="lazy">
                             <div class="fac-icon-badge"><span class="material-icons-round">meeting_room</span></div>
                         </div>
                         <div class="fac-card-body">
@@ -1224,7 +1214,7 @@
                 <p>Hubungi kami sekarang untuk cek ketersediaan kavling dan booking peralatan. Harga spesial untuk
                     rombongan!</p>
                 <div class="d-flex flex-wrap justify-content-center gap-3">
-                    <a href="#" class="btn-primary-lime"><span class="material-icons-round"
+                    <a href="https://wa.me/6281239225692" class="btn-primary-lime"><span class="material-icons-round"
                             style="font-size:1rem;">chat</span> Chat WhatsApp</a>
                     <a href="packages.html" class="btn-outline-glass">Lihat Paket Camping</a>
                 </div>

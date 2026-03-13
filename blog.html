@@ -12,6 +12,8 @@
     <meta name="author" content="Batu Camping" />
     <meta name="geo.region" content="ID-JI" />
     <meta name="geo.placename" content="Batu, Jawa Timur" />
+    <meta name="geo.position" content="-7.8672;112.5239" />
+    <meta name="ICBM" content="-7.8672, 112.5239" />
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
@@ -60,6 +62,31 @@
         rel="stylesheet" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Structured Data - JSON-LD for AEO/GEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Organization",
+                "@id": "https://batucamping.web.id/#organization",
+                "name": "Batu Camping",
+                "url": "https://batucamping.web.id",
+                "logo": "https://batucamping.web.id/image/Batu_Sunrise_Camp.png"
+            },
+            {
+                "@type": "CollectionPage",
+                "@id": "https://batucamping.web.id/blog.html#webpage",
+                "url": "https://batucamping.web.id/blog.html",
+                "name": "Blog Camping — Tips, Panduan & Inspirasi Outdoor | Batu Camping",
+                "isPartOf": { "@id": "https://batucamping.web.id/#website" },
+                "description": "Baca artikel terbaru seputar tips camping, panduan outdoor, rekomendasi perlengkapan, dan inspirasi wisata alam di Batu dari Batu Camping.",
+                "inLanguage": "id-ID"
+            }
+        ]
+    }
+    </script>
     <style>
         :root {
             --lime: #b5f23d;
@@ -1247,13 +1274,29 @@
         // Article Data
         const articles = [
             {
+                title: "Tips Barbeque Saat Camping: Panduan Praktis Anti Gagal",
+                url: "tips-barbeque-saat-camping.html",
+                category: "Tips Camping",
+                date: "13 Mar 2026",
+                desc: "Panduan lengkap tips barbeque saat camping agar BBQ di alam terbuka sukses besar. Mulai dari pemilihan arang briket, alat panggang portabel, marinasi daging, hingga manajemen waktu memanggang.",
+                img: "image/Tips_Barbeque_saat_camping.webp",
+                featured: true
+            },
+            {
+                title: "7 Tempat Camping Kids Friendly Malang: Liburan Tanpa Rewel",
+                url: "tempat-camping-kids-friendly-malang.html",
+                category: "Wisata Batu",
+                date: "13 Mar 2026",
+                desc: "Rekomendasi 7 tempat camping kids friendly di Malang dan Batu yang aman untuk balita. Lengkap dengan fasilitas air hangat, toilet bersih, dan akses kendaraan langsung.",
+                img: "image/Camping_kids_friendly_malang.webp"
+            },
+            {
                 title: "Rekomendasi Rental Alat Outdoor Malang & Tips Anti Dingin",
                 url: "rekomendasi-rental-alat-outdoor-malang.html",
                 category: "Gear Review",
                 date: "12 Mar 2026",
                 desc: "Tips anti kedinginan dan panduan mencari rental alat outdoor Malang yang tepat agar liburanmu tidak berujung masuk angin. Jangan salah pilih alat tempur!",
-                img: "image/Tempat_rental_alat_camping_outdoor.webp",
-                featured: true
+                img: "image/Tempat_rental_alat_camping_outdoor.webp"
             },
             {
                 title: "Harga Tiket Camping Batu 2026: Cek Sebelum Nyesel Liburan",

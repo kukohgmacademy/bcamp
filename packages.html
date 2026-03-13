@@ -12,6 +12,9 @@
     <meta name="author" content="Batu Camping" />
     <meta name="geo.region" content="ID-JI" />
     <meta name="geo.placename" content="Batu, Jawa Timur" />
+    <meta name="geo.position" content="-7.8672;112.5239" />
+    <meta name="ICBM" content="-7.8672, 112.5239" />
+
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
@@ -58,6 +61,38 @@
         rel="stylesheet" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Structured Data - JSON-LD for AEO/GEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Organization",
+                "@id": "https://batucamping.web.id/#organization",
+                "name": "Batu Camping",
+                "url": "https://batucamping.web.id",
+                "logo": "https://batucamping.web.id/image/Batu_Sunrise_Camp.png"
+            },
+            {
+                "@type": "CollectionPage",
+                "@id": "https://batucamping.web.id/packages.html#webpage",
+                "url": "https://batucamping.web.id/packages.html",
+                "name": "Paket Batu Camping — Pilih Pengalaman Berkemah Anda",
+                "isPartOf": { "@id": "https://batucamping.web.id/#website" },
+                "description": "Berbagai pilihan paket camping di Batu: Sunrise 1, 2, dan 3. Lengkap dengan peralatan dan fasilitas pendukung.",
+                "breadcrumb": {
+                    "@type": "BreadcrumbList",
+                    "itemListElement": [
+                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://batucamping.web.id/" },
+                        { "@type": "ListItem", "position": 2, "name": "Paket", "item": "https://batucamping.web.id/packages.html" }
+                    ]
+                },
+                "inLanguage": "id-ID"
+            }
+        ]
+    }
+    </script>
     <style>
         :root {
             --lime: #b5f23d;
