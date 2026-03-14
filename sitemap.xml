@@ -3,37 +3,37 @@
   <!-- Core Pages -->
   <url>
     <loc>https://batucamping.web.id/</loc>
-    <lastmod>2026-03-13T17:00:00+07:00</lastmod>
+    <lastmod>2026-03-14T16:10:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://batucamping.web.id/about.html</loc>
-    <lastmod>2026-03-10T12:00:00+07:00</lastmod>
+    <lastmod>2026-03-14T16:10:00+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://batucamping.web.id/packages.html</loc>
-    <lastmod>2026-03-13T17:00:00+07:00</lastmod>
+    <lastmod>2026-03-14T16:10:00+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://batucamping.web.id/facilities.html</loc>
-    <lastmod>2026-03-13T17:00:00+07:00</lastmod>
+    <lastmod>2026-03-14T16:10:00+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://batucamping.web.id/blog.html</loc>
-    <lastmod>2026-03-13T17:00:00+07:00</lastmod>
+    <lastmod>2026-03-14T16:10:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://batucamping.web.id/booking.html</loc>
-    <lastmod>2026-03-13T17:00:00+07:00</lastmod>
+    <lastmod>2026-03-14T16:10:00+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -41,19 +41,19 @@
   <!-- Package Details Pages -->
   <url>
     <loc>https://batucamping.web.id/paket-sunrise1.html</loc>
-    <lastmod>2026-03-13T17:00:00+07:00</lastmod>
+    <lastmod>2026-03-14T16:10:00+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://batucamping.web.id/paket-sunrise2.html</loc>
-    <lastmod>2026-03-13T17:00:00+07:00</lastmod>
+    <lastmod>2026-03-14T16:10:00+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://batucamping.web.id/paket-sunrise3.html</loc>
-    <lastmod>2026-03-13T17:00:00+07:00</lastmod>
+    <lastmod>2026-03-14T16:10:00+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -79,13 +79,13 @@
   <!-- Blog & Promo Articles -->
   <url>
     <loc>https://batucamping.web.id/rekomendasi-rental-alat-outdoor-malang.html</loc>
-    <lastmod>2026-03-13T17:00:00+07:00</lastmod>
+    <lastmod>2026-03-14T16:10:00+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://batucamping.web.id/harga-tiket-camping-batu.html</loc>
-    <lastmod>2026-03-13T17:00:00+07:00</lastmod>
+    <lastmod>2026-03-14T16:10:00+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -169,13 +169,25 @@
   </url>
   <url>
     <loc>https://batucamping.web.id/tips-barbeque-saat-camping.html</loc>
-    <lastmod>2026-03-13T12:00:00+07:00</lastmod>
+    <lastmod>2026-03-14T16:10:00+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://batucamping.web.id/tempat-camping-kids-friendly-malang.html</loc>
-    <lastmod>2026-03-13T12:00:00+07:00</lastmod>
+    <lastmod>2026-03-14T16:10:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://batucamping.web.id/rute-tiket-camping-bedengan-malang.html</loc>
+    <lastmod>2026-03-14T16:10:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://batucamping.web.id/makanan-hangat-camping-praktis.html</loc>
+    <lastmod>2026-03-14T16:10:00+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
