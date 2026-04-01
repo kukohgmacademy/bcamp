@@ -300,4 +300,28 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://batucamping.web.id/glamping-di-batu-view-pegunungan.html</loc>
+    <lastmod>2026-04-01T08:00:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://batucamping.web.id/beda-glamping-dan-camping.html</loc>
+    <lastmod>2026-04-01T08:00:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://batucamping.web.id/tips-glamping-booking.html</loc>
+    <lastmod>2026-04-01T08:00:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://batucamping.web.id/tempat-camping-dekat-surabaya.html</loc>
+    <lastmod>2026-04-01T08:00:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
