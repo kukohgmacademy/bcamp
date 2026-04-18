@@ -528,4 +528,16 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://batucamping.web.id/rekomendasi-perkemahan-batu-terbaik.html</loc>
+    <lastmod>2026-04-18T10:00:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://batucamping.web.id/checklist-perlengkapan-camping-pribadi.html</loc>
+    <lastmod>2026-04-18T10:30:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
