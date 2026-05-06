@@ -648,5 +648,22 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://batucamping.web.id/daftar-perlengkapan-camping-ala-ala-batu-malang-pemula.html</loc>
+    <lastmod>2026-05-06T19:00:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://batucamping.web.id/7-spot-lokasi-estetik-camping-ala-ala-batu-malang-2026.html</loc>
+    <lastmod>2026-05-06T19:00:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://batucamping.web.id/panduan-aman-camping-ala-ala-batu-malang-keluarga.html</loc>
+    <lastmod>2026-05-06T19:00:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
-
