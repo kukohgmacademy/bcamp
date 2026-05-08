@@ -678,4 +678,16 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://batucamping.web.id/standar-toilet-dan-sanitasi-camping-ground.html</loc>
+    <lastmod>2026-05-08T17:00:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://batucamping.web.id/tips-memilih-camping-ground-sesuai-kebutuhan-kelompok.html</loc>
+    <lastmod>2026-05-08T17:00:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
