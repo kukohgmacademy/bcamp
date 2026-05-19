@@ -738,4 +738,16 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://batucamping.web.id/panduan-lengkap-cara-berkemah-dari-persiapan-hingga-pulang-dengan-selamat.html</loc>
+    <lastmod>2026-05-19T10:00:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://batucamping.web.id/perlengkapan-berkemah-wajib-yang-harus-dibawa-pemula.html</loc>
+    <lastmod>2026-05-19T10:05:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
