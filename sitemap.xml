@@ -3,7 +3,7 @@
   <!-- Core Pages -->
   <url>
     <loc>https://batucamping.web.id/</loc>
-    <lastmod>2026-05-07T21:30:00+07:00</lastmod>
+    <lastmod>2026-06-18T10:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -27,7 +27,7 @@
   </url>
   <url>
     <loc>https://batucamping.web.id/blog.html</loc>
-    <lastmod>2026-05-07T21:30:00+07:00</lastmod>
+    <lastmod>2026-06-18T10:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
@@ -975,6 +975,30 @@
   <url>
     <loc>https://batucamping.web.id/tips-camping-aman-bersama-keluarga-dan-anak-di-alam-batu.html</loc>
     <lastmod>2026-06-13T09:00:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://batucamping.web.id/panduan-lengkap-harga-sewa-dan-beli-tenda-camping-di-batu.html</loc>
+    <lastmod>2026-06-17T10:00:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://batucamping.web.id/harga-dan-tips-memilih-sewa-tenda-camping-di-batu.html</loc>
+    <lastmod>2026-06-17T10:00:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://batucamping.web.id/panduan-jenis-dan-kisaran-harga-beli-tenda-camping.html</loc>
+    <lastmod>2026-06-18T10:00:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://batucamping.web.id/lokasi-camping-terbaik-di-batu-dan-estimasi-biayanya.html</loc>
+    <lastmod>2026-06-18T10:00:00+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
