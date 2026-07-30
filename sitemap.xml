@@ -1146,4 +1146,22 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://batucamping.web.id/panduan-lengkap-destinasi-wisata-baru-di-batu-2026.html</loc>
+    <lastmod>2026-07-30T09:00:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://batucamping.web.id/wisata-baru-di-batu-untuk-liburan-keluarga-2026.html</loc>
+    <lastmod>2026-07-30T09:00:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://batucamping.web.id/wisata-baru-di-batu-untuk-healing-dan-alam-2026.html</loc>
+    <lastmod>2026-07-30T09:00:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
