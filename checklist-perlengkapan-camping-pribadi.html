@@ -44,8 +44,8 @@
     <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" media="print" onload="this.media='all'">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" media="print" onload="this.media='all'">
     <style>
         :root {
             --lime: #b5f23d;
@@ -785,11 +785,17 @@
     <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Apakah saya perlu membawa tenda sendiri jika sudah ada pembagian logistik kelompok?","acceptedAnswer":{"@type":"Answer","text":"Tidak perlu, kecuali jika kamu memang berencana memisahkan diri atau menginginkan privasi mutlak. Tenda biasanya dihitung sebagai peralatan kelompok (biasanya diisi 2-4 orang). Pastikan saja kamu sudah mendapat alokasi ruang di tenda mana kamu akan tidur sebelum berangkat."}},{"@type":"Question","name":"Berapa ukuran ransel (carrier) yang ideal untuk membawa perlengkapan pribadi?","acceptedAnswer":{"@type":"Answer","text":"Untuk kemah durasi pendek (1-2 malam), ransel dengan kapasitas 35 hingga 45 liter sudah sangat memadai untuk memuat sleeping bag, matras, pakaian ganti, dan peralatan makan pribadi tanpa membuat punggungmu cedera."}},{"@type":"Question","name":"Bolehkah memakai celana berbahan jeans saat berkemah?","acceptedAnswer":{"@type":"Answer","text":"Sangat tidak disarankan. Bahan jeans atau denim sangat berat, membatasi pergerakan, dan jika basah terkena embun atau hujan, ia akan sangat lama mengering serta bisa memicu hipotermia. Gunakan celana berbahan parasut, ripstop, atau quick-dry yang dirancang khusus untuk aktivitas luar ruang."}}]}
     </script>
-</head>
+
+    <style>
+        a:not([class]) { color: var(--lime, #b5f23d); text-decoration: underline; }
+        a:not([class]):hover { color: var(--lime-dark, #8fca22); }
+        .text-muted { color: var(--muted, #ffffff) !important; }
+    </style>
+    </head>
 <body>
     <nav class="navbar navbar-expand-lg">
         <div class="container"><a class="navbar-brand" href="index.html"><img src="image/Batu_Sunrise_Camp.png"
-                    alt="Logo" height="50" class="d-inline-block align-top"><span class="ms-2">BATU <span
+                    alt="Logo" height="50" class="d-inline-block align-top" loading="lazy"><span class="ms-2">BATU <span
                         class="accent">CAMPING</span></span></a><button class="navbar-toggler" type="button"
                 data-bs-toggle="collapse" data-bs-target="#mainNav"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="mainNav">
@@ -812,7 +818,7 @@
     </header>
     <main class="article-main">
         <div class="container"><div class="row justify-content-center"><div class="col-lg-8"><article class="article-body">
-            <div class="article-img-wrap"><img decoding="async" src="image/perlengkapan_camping_pribadi.webp" alt="Perlengkapan camping pribadi yang tertata rapi sebelum berangkat berkemah"><span class="img-caption">Menyiapkan perlengkapan camping pribadi dengan cermat adalah investasi terpenting sebelum kamu berangkat ke alam terbuka.</span></div>
+            <div class="article-img-wrap"><img decoding="async" src="image/perlengkapan_camping_pribadi.webp" alt="Perlengkapan camping pribadi yang tertata rapi sebelum berangkat berkemah" loading="lazy"><span class="img-caption">Menyiapkan perlengkapan camping pribadi dengan cermat adalah investasi terpenting sebelum kamu berangkat ke alam terbuka.</span></div>
             <div class="toc-box"><div class="toc-title" onclick="document.getElementById('tocContent').classList.toggle('show');this.querySelector('.material-icons-round').innerText=document.getElementById('tocContent').classList.contains('show')?'expand_less':'expand_more'"><span><i class="bi bi-list-ul me-2"></i>Daftar Isi</span><span class="material-icons-round">expand_more</span></div><div class="toc-content" id="tocContent"><ul><li><a href="#s1">Memisahkan Logistik Tim dan Personal: Mengapa Penting?</a></li><li><a href="#s2">Daftar Esensial Perlengkapan Camping Pribadi</a></li><li><a href="#s3">Strategi Packing: Efisien Tanpa Membawa Seisi Lemari</a></li><li><a href="#s4">Penutup</a></li><li><a href="#s5">FAQ</a></li></ul></div></div>
             <p>Pernahkah kamu menghabiskan berminggu-minggu merencanakan pelarian akhir pekan dari penatnya tumpukan beban kerja, hanya untuk mendapati dirimu menggigil kedinginan di dalam tenda pada pukul dua pagi? Bayangkan skenario ini: cuti sudah disetujui, email sudah disetel ke mode auto-reply, dan kamu siap menyatu dengan alam.</p>
             <p>Namun, karena terlalu sibuk menyelesaikan deadline di menit-menit terakhir, kamu mengepak barang seadanya. Alhasil, kamu lupa membawa jaket penahan angin yang proper dan hanya mengandalkan kaos tipis. Momen yang seharusnya menjadi ruang untuk reset mental justru berubah menjadi penyesalan panjang. Waktu liburmu terlalu berharga untuk dirusak oleh hal sepele seperti kurangnya persiapan.</p>
@@ -888,7 +894,7 @@
                 <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">Berapa ukuran ransel (carrier) yang ideal untuk membawa perlengkapan pribadi?</button></h2><div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">Untuk kemah durasi pendek (1-2 malam), ransel dengan kapasitas 35 hingga 45 liter sudah sangat memadai untuk memuat sleeping bag, matras, pakaian ganti, dan peralatan makan pribadi tanpa membuat punggungmu cedera.</div></div></div>
                 <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">Bolehkah memakai celana berbahan jeans saat berkemah?</button></h2><div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">Sangat tidak disarankan. Bahan jeans atau denim sangat berat, membatasi pergerakan, dan jika basah terkena embun atau hujan, ia akan sangat lama mengering serta bisa memicu hipotermia. Gunakan celana berbahan parasut, ripstop, atau quick-dry yang dirancang khusus untuk aktivitas luar ruang.</div></div></div>
             </div></div>
-            <div class="author-card"><img src="image/Fachry Rendy.webp" alt="Fachry Rendy" class="author-avatar" style="object-fit:cover;"><div class="author-info"><h5>Fachry Rendy</h5><p>Outdoor Specialist &amp; Content Writer — Berpengalaman lebih dari 8 tahun dalam dunia petualangan luar ruang dan manajemen camping ground di Kota Batu.</p></div></div>
+            <div class="author-card"><img src="image/Fachry Rendy.webp" alt="Fachry Rendy" class="author-avatar" style="object-fit:cover;" loading="lazy"><div class="author-info"><h5>Fachry Rendy</h5><p>Outdoor Specialist &amp; Content Writer — Berpengalaman lebih dari 8 tahun dalam dunia petualangan luar ruang dan manajemen camping ground di Kota Batu.</p></div></div>
             <div class="share-section"><span>Bagikan:</span><a href="#" class="share-btn" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(window.location.href),'_blank','width=600,height=400');return false;"><i class="bi bi-facebook"></i></a><a href="#" class="share-btn" onclick="window.open('https://twitter.com/intent/tweet?url='+encodeURIComponent(window.location.href)+'&text='+encodeURIComponent(document.title),'_blank','width=600,height=400');return false;"><i class="bi bi-twitter-x"></i></a><a href="#" class="share-btn" onclick="window.open('https://wa.me/?text='+encodeURIComponent(document.title+' '+window.location.href),'_blank');return false;"><i class="bi bi-whatsapp"></i></a><a href="#" class="share-btn" onclick="window.open('https://www.linkedin.com/sharing/share-offsite/?url='+encodeURIComponent(window.location.href),'_blank','width=600,height=400');return false;"><i class="bi bi-linkedin"></i></a><a href="#" class="share-btn" onclick="window.open('https://t.me/share/url?url='+encodeURIComponent(window.location.href)+'&text='+encodeURIComponent(document.title),'_blank');return false;"><i class="bi bi-telegram"></i></a></div>
         </article></div></div></div>
     </main>
@@ -909,9 +915,9 @@
                     <p class="footer-desc">Penyedia area camping terbaik di Kota Wisata Batu. Berkomitmen memberikan
                         pengalaman menyatu dengan alam yang aman dan nyaman.</p>
                     <div class="mt-3">
-                        <a href="#" class="social-btn"><i class="bi bi-facebook"></i></a>
-                        <a href="#" class="social-btn"><i class="bi bi-instagram"></i></a>
-                        <a href="#" class="social-btn"><i class="bi bi-youtube"></i></a>
+                        <a href="#" class="social-btn" aria-label="Social Media"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="social-btn" aria-label="Social Media"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="social-btn" aria-label="Social Media"><i class="bi bi-youtube"></i></a>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-2">
@@ -953,9 +959,9 @@
             </div>
         </div>
     </footer>
-    <div class="float-actions"><a href="#" class="btn-float float-top" id="scrollTop"><span
+    <div class="float-actions"><a href="#" class="btn-float float-top" aria-label="Scroll to top" id="scrollTop"><span
                 class="material-icons-round">expand_less</span></a><a href="https://wa.me/6281239225692"
-            class="btn-float float-wa" target="_blank"><i class="bi bi-whatsapp" style="font-size:1.95rem;"></i></a>
+            class="btn-float float-wa" aria-label="WhatsApp" target="_blank"><i class="bi bi-whatsapp" style="font-size:1.95rem;"></i></a>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script>const sb = document.getElementById('scrollTop'); if (sb) { window.addEventListener('scroll', () => { sb.classList.toggle('show', window.pageYOffset > 300) }); sb.addEventListener('click', e => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) }) }</script>

@@ -44,8 +44,8 @@
     <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" media="print" onload="this.media='all'">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" media="print" onload="this.media='all'">
     <style>
         :root {
             --lime: #b5f23d;
@@ -757,11 +757,17 @@
     <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Apakah arena glamping benar-benar aman untuk anak balita?","acceptedAnswer":{"@type":"Answer","text":"Secara umum sangat aman, karena arena glamping komersial sudah didesain ramah pengunjung. Namun, tetap pastikan kamu mengawasi anak-anak, terutama jika lokasi glamping berdekatan dengan danau, sungai, atau tebing. Pilihlah tenda yang posisinya agak di tengah dan jauh dari tepian curam."}},{"@type":"Question","name":"Apakah saya perlu membawa makanan sendiri saat menginap di arena glamping?","acceptedAnswer":{"@type":"Answer","text":"Sebagian besar arena glamping sudah menyediakan sarapan (include dalam harga sewa) dan memiliki restoran atau paket BBQ untuk makan malam. Namun, sangat disarankan untuk tetap membawa camilan ringan, mie instan cup, dan minuman favorit keluarga sebagai persediaan tambahan di malam hari."}},{"@type":"Question","name":"Berapa kisaran harga sewa di arena glamping per malamnya?","acceptedAnswer":{"@type":"Answer","text":"Harganya cukup bervariasi tergantung lokasi dan tingkat kemewahan fasilitas. Untuk ukuran keluarga (kapasitas 3-4 orang), kisarannya mulai dari Rp 600.000 hingga Rp 2.500.000+ per malam. Anggap saja ini investasi sepadan untuk kenyamanan fisik dan mentalmu."}}]}
     </script>
-</head>
+
+    <style>
+        a:not([class]) { color: var(--lime, #b5f23d); text-decoration: underline; }
+        a:not([class]):hover { color: var(--lime-dark, #8fca22); }
+        .text-muted { color: var(--muted, #ffffff) !important; }
+    </style>
+    </head>
 <body>
     <nav class="navbar navbar-expand-lg">
         <div class="container"><a class="navbar-brand" href="index.html"><img src="image/Batu_Sunrise_Camp.png"
-                    alt="Logo" height="50" class="d-inline-block align-top"><span class="ms-2">BATU <span
+                    alt="Logo" height="50" class="d-inline-block align-top" loading="lazy"><span class="ms-2">BATU <span
                         class="accent">CAMPING</span></span></a><button class="navbar-toggler" type="button"
                 data-bs-toggle="collapse" data-bs-target="#mainNav"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="mainNav">
@@ -784,7 +790,7 @@
     </header>
     <main class="article-main">
         <div class="container"><div class="row justify-content-center"><div class="col-lg-8"><article class="article-body">
-            <div class="article-img-wrap"><img decoding="async" src="image/arena_glamping.webp" alt="Arena Glamping Terbaik untuk Keluarga"><span class="img-caption">Arena glamping menawarkan kenyamanan hotel dengan keindahan alam terbuka — liburan keluarga yang sempurna.</span></div>
+            <div class="article-img-wrap"><img decoding="async" src="image/arena_glamping.webp" alt="Arena Glamping Terbaik untuk Keluarga" loading="lazy"><span class="img-caption">Arena glamping menawarkan kenyamanan hotel dengan keindahan alam terbuka — liburan keluarga yang sempurna.</span></div>
             <div class="toc-box"><div class="toc-title" onclick="document.getElementById('tocContent').classList.toggle('show');this.querySelector('.material-icons-round').innerText=document.getElementById('tocContent').classList.contains('show')?'expand_less':'expand_more'"><span><i class="bi bi-list-ul me-2"></i>Daftar Isi</span><span class="material-icons-round">expand_more</span></div><div class="toc-content" id="tocContent"><ul><li><a href="#s1">Mengapa Arena Glamping Jadi Solusi Liburan Kaum Urban?</a></li><li><a href="#s2">Kriteria Arena Glamping yang Ramah Anak dan Lansia</a></li><li><a href="#s3">Daftar Rekomendasi Arena Glamping Terbaik</a></li><li><a href="#s4">Tips Mempersiapkan Liburan Glamping</a></li><li><a href="#s5">Kesimpulan</a></li><li><a href="#s6">FAQ</a></li></ul></div></div>
 
             <p>Pernah nggak sih kamu merasa waktu berjalan terlalu cepat? Tahu-tahu anak sudah makin besar, sementara kamu masih saja terjebak dengan tumpukan deadline dan meeting marathon setiap harinya.</p>
@@ -861,7 +867,7 @@
                 <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">Apakah saya perlu membawa makanan sendiri saat menginap di arena glamping?</button></h2><div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">Sebagian besar arena glamping sudah menyediakan sarapan (include dalam harga sewa) dan memiliki restoran atau paket BBQ untuk makan malam. Namun, sangat disarankan untuk tetap membawa camilan ringan, mie instan cup, dan minuman favorit keluarga sebagai persediaan tambahan di malam hari.</div></div></div>
                 <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">Berapa kisaran harga sewa di arena glamping per malamnya?</button></h2><div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">Harganya cukup bervariasi tergantung lokasi dan tingkat kemewahan fasilitas. Untuk ukuran keluarga (kapasitas 3-4 orang), kisarannya mulai dari Rp 600.000 hingga Rp 2.500.000+ per malam. Anggap saja ini investasi sepadan untuk kenyamanan fisik dan mentalmu.</div></div></div>
             </div></div>
-            <div class="author-card"><img src="image/Fachry Rendy.webp" alt="Fachry Rendy" class="author-avatar" style="object-fit:cover;"><div class="author-info"><h5>Fachry Rendy</h5><p>Outdoor Specialist &amp; Content Writer — Berpengalaman lebih dari 8 tahun dalam dunia petualangan luar ruang dan manajemen camping ground di Kota Batu.</p></div></div>
+            <div class="author-card"><img src="image/Fachry Rendy.webp" alt="Fachry Rendy" class="author-avatar" style="object-fit:cover;" loading="lazy"><div class="author-info"><h5>Fachry Rendy</h5><p>Outdoor Specialist &amp; Content Writer — Berpengalaman lebih dari 8 tahun dalam dunia petualangan luar ruang dan manajemen camping ground di Kota Batu.</p></div></div>
             <div class="share-section"><span>Bagikan:</span><a href="#" class="share-btn" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(window.location.href),'_blank','width=600,height=400');return false;"><i class="bi bi-facebook"></i></a><a href="#" class="share-btn" onclick="window.open('https://twitter.com/intent/tweet?url='+encodeURIComponent(window.location.href)+'&text='+encodeURIComponent(document.title),'_blank','width=600,height=400');return false;"><i class="bi bi-twitter-x"></i></a><a href="#" class="share-btn" onclick="window.open('https://wa.me/?text='+encodeURIComponent(document.title+' '+window.location.href),'_blank');return false;"><i class="bi bi-whatsapp"></i></a><a href="#" class="share-btn" onclick="window.open('https://www.linkedin.com/sharing/share-offsite/?url='+encodeURIComponent(window.location.href),'_blank','width=600,height=400');return false;"><i class="bi bi-linkedin"></i></a><a href="#" class="share-btn" onclick="window.open('https://t.me/share/url?url='+encodeURIComponent(window.location.href)+'&text='+encodeURIComponent(document.title),'_blank');return false;"><i class="bi bi-telegram"></i></a></div>
         </article></div></div></div>
     </main>
@@ -880,9 +886,9 @@
                     </div>
                     <p class="footer-desc">Penyedia area camping terbaik di Kota Wisata Batu. Berkomitmen memberikan pengalaman menyatu dengan alam yang aman dan nyaman.</p>
                     <div class="mt-3">
-                        <a href="#" class="social-btn"><i class="bi bi-facebook"></i></a>
-                        <a href="#" class="social-btn"><i class="bi bi-instagram"></i></a>
-                        <a href="#" class="social-btn"><i class="bi bi-youtube"></i></a>
+                        <a href="#" class="social-btn" aria-label="Social Media"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="social-btn" aria-label="Social Media"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="social-btn" aria-label="Social Media"><i class="bi bi-youtube"></i></a>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-2">
@@ -920,7 +926,7 @@
             </div>
         </div>
     </footer>
-    <div class="float-actions"><a href="#" class="btn-float float-top" id="scrollTop"><span class="material-icons-round">expand_less</span></a><a href="https://wa.me/6281239225692" class="btn-float float-wa" target="_blank"><i class="bi bi-whatsapp" style="font-size:1.95rem;"></i></a>
+    <div class="float-actions"><a href="#" class="btn-float float-top" aria-label="Scroll to top" id="scrollTop"><span class="material-icons-round">expand_less</span></a><a href="https://wa.me/6281239225692" class="btn-float float-wa" aria-label="WhatsApp" target="_blank"><i class="bi bi-whatsapp" style="font-size:1.95rem;"></i></a>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script>const sb = document.getElementById('scrollTop'); if (sb) { window.addEventListener('scroll', () => { sb.classList.toggle('show', window.pageYOffset > 300) }); sb.addEventListener('click', e => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) }) }</script>
