@@ -44,8 +44,8 @@
     <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" media="print" onload="this.media='all'">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" media="print" onload="this.media='all'">
     <style>
         :root {
             --lime: #b5f23d;
@@ -785,11 +785,17 @@
     <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Apakah semua tempat camping di Batu menyediakan sarung dan mukena di musholanya?","acceptedAnswer":{"@type":"Answer","text":"Sebagian besar pengelola yang baik menyediakan inventaris mukena dan sarung. Namun, kondisinya tidak selalu kering atau bersih, terutama saat high season atau akhir pekan. Sangat disarankan untuk membawa perlengkapan shalat travel-friendly milik pribadi demi kebersihan dan kenyamanan."}},{"@type":"Question","name":"Seberapa dingin air wudhu di area camping Kota Batu, terutama saat Subuh?","acceptedAnswer":{"@type":"Answer","text":"Sangat dingin. Di bulan-bulan tertentu (biasanya Juli hingga Agustus), suhu udara bisa turun drastis dan air keran akan terasa seperti air es dari kulkas. Jika tidak kuat dingin, kamu bisa memasak sedikit air panas di tenda untuk dicampur dengan air keran saat berwudhu, atau siapkan mental untuk kesegaran ekstra."}},{"@type":"Question","name":"Apakah mushola di area perkemahan buka 24 jam?","acceptedAnswer":{"@type":"Answer","text":"Ya, hampir semua mushola di area camping ground selalu terbuka 24 jam karena letaknya berada di ruang publik atau dekat area fasilitas umum seperti toilet. Kamu bisa menggunakannya untuk shalat Tahajud di sepertiga malam tanpa khawatir terkunci."}}]}
     </script>
-</head>
+
+    <style>
+        a:not([class]) { color: var(--lime, #b5f23d); text-decoration: underline; }
+        a:not([class]):hover { color: var(--lime-dark, #8fca22); }
+        .text-muted { color: var(--muted, #ffffff) !important; }
+    </style>
+    </head>
 <body>
     <nav class="navbar navbar-expand-lg">
         <div class="container"><a class="navbar-brand" href="index.html"><img src="image/Batu_Sunrise_Camp.png"
-                    alt="Logo" height="50" class="d-inline-block align-top"><span class="ms-2">BATU <span
+                    alt="Logo" height="50" class="d-inline-block align-top" loading="lazy"><span class="ms-2">BATU <span
                         class="accent">CAMPING</span></span></a><button class="navbar-toggler" type="button"
                 data-bs-toggle="collapse" data-bs-target="#mainNav"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="mainNav">
@@ -812,7 +818,7 @@
     </header>
     <main class="article-main">
         <div class="container"><div class="row justify-content-center"><div class="col-lg-8"><article class="article-body">
-            <div class="article-img-wrap"><img decoding="async" src="image/tempat_camping_ada_mushola_di_batu.webp" alt="Tempat Camping Ada Mushola di Batu"><span class="img-caption">Fasilitas ibadah yang memadai sangat penting demi kenyamanan camping.</span></div>
+            <div class="article-img-wrap"><img decoding="async" src="image/tempat_camping_ada_mushola_di_batu.webp" alt="Tempat Camping Ada Mushola di Batu" loading="lazy"><span class="img-caption">Fasilitas ibadah yang memadai sangat penting demi kenyamanan camping.</span></div>
             <div class="toc-box"><div class="toc-title" onclick="document.getElementById('tocContent').classList.toggle('show');this.querySelector('.material-icons-round').innerText=document.getElementById('tocContent').classList.contains('show')?'expand_less':'expand_more'"><span><i class="bi bi-list-ul me-2"></i>Daftar Isi</span><span class="material-icons-round">expand_more</span></div><div class="toc-content" id="tocContent"><ul><li><a href="#s1">Kenapa Fasilitas Ibadah Penting Saat Camping?</a></li><li><a href="#s2">Rekomendasi Tempat Camping Ada Mushola di Batu</a></li><li><a href="#s3">Tips Persiapan Kemah Ramah Muslim</a></li><li><a href="#s4">Kesimpulan</a></li><li><a href="#s5">FAQ</a></li></ul></div></div>
             <p>Pernah nggak sih kamu merasa kepala udah mau meledak gara-gara revisian kerjaan yang nggak kelar-kelar, atau deadline yang terus ngejar kayak debt collector? Pas udah dapet approval cuti dari bos, maunya pasti kabur ke alam, nyari udara dingin Kota Batu buat healing. Tapi, sering kejadian kan, pas lagi asyik-asyiknya gelar tenda, eh bingung pas masuk waktu shalat.</p>
             <p>Mau wudhu airnya susah, nyari tempat sujud yang bersih juga PR banget. Jangan sampai deh momen liburan yang niatnya buat refreshing malah bikin kamu menyesal di kemudian hari karena kewajiban ibadah jadi bolong-bolong. Apalagi kalau kamu berangkat bareng rombongan keluarga besar.</p>
@@ -855,7 +861,7 @@
                 <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">Seberapa dingin air wudhu di area camping Kota Batu, terutama saat Subuh?</button></h2><div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">Sangat dingin. Di bulan-bulan tertentu (biasanya Juli hingga Agustus), suhu udara bisa turun drastis dan air keran akan terasa seperti air es dari kulkas. Jika tidak kuat dingin, kamu bisa memasak sedikit air panas di tenda untuk dicampur dengan air keran saat berwudhu, atau siapkan mental untuk kesegaran ekstra.</div></div></div>
                 <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">Apakah mushola di area perkemahan buka 24 jam?</button></h2><div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">Ya, hampir semua mushola di area camping ground selalu terbuka 24 jam karena letaknya berada di ruang publik atau dekat area fasilitas umum seperti toilet. Kamu bisa menggunakannya untuk shalat Tahajud di sepertiga malam tanpa khawatir terkunci.</div></div></div>
             </div></div>
-            <div class="author-card"><img src="image/Fachry Rendy.webp" alt="Fachry Rendy" class="author-avatar" style="object-fit:cover;"><div class="author-info"><h5>Fachry Rendy</h5><p>Outdoor Specialist &amp; Content Writer — Berpengalaman lebih dari 8 tahun dalam dunia petualangan luar ruang dan manajemen camping ground di Kota Batu.</p></div></div>
+            <div class="author-card"><img src="image/Fachry Rendy.webp" alt="Fachry Rendy" class="author-avatar" style="object-fit:cover;" loading="lazy"><div class="author-info"><h5>Fachry Rendy</h5><p>Outdoor Specialist &amp; Content Writer — Berpengalaman lebih dari 8 tahun dalam dunia petualangan luar ruang dan manajemen camping ground di Kota Batu.</p></div></div>
             <div class="share-section"><span>Bagikan:</span><a href="#" class="share-btn" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(window.location.href),'_blank','width=600,height=400');return false;"><i class="bi bi-facebook"></i></a><a href="#" class="share-btn" onclick="window.open('https://twitter.com/intent/tweet?url='+encodeURIComponent(window.location.href)+'&text='+encodeURIComponent(document.title),'_blank','width=600,height=400');return false;"><i class="bi bi-twitter-x"></i></a><a href="#" class="share-btn" onclick="window.open('https://wa.me/?text='+encodeURIComponent(document.title+' '+window.location.href),'_blank');return false;"><i class="bi bi-whatsapp"></i></a><a href="#" class="share-btn" onclick="window.open('https://www.linkedin.com/sharing/share-offsite/?url='+encodeURIComponent(window.location.href),'_blank','width=600,height=400');return false;"><i class="bi bi-linkedin"></i></a><a href="#" class="share-btn" onclick="window.open('https://t.me/share/url?url='+encodeURIComponent(window.location.href)+'&text='+encodeURIComponent(document.title),'_blank');return false;"><i class="bi bi-telegram"></i></a></div>
         </article></div></div></div>
     </main>
@@ -876,9 +882,9 @@
                     <p class="footer-desc">Penyedia area camping terbaik di Kota Wisata Batu. Berkomitmen memberikan
                         pengalaman menyatu dengan alam yang aman dan nyaman.</p>
                     <div class="mt-3">
-                        <a href="#" class="social-btn"><i class="bi bi-facebook"></i></a>
-                        <a href="#" class="social-btn"><i class="bi bi-instagram"></i></a>
-                        <a href="#" class="social-btn"><i class="bi bi-youtube"></i></a>
+                        <a href="#" class="social-btn" aria-label="Social Media"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="social-btn" aria-label="Social Media"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="social-btn" aria-label="Social Media"><i class="bi bi-youtube"></i></a>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-2">
@@ -920,9 +926,9 @@
             </div>
         </div>
     </footer>
-    <div class="float-actions"><a href="#" class="btn-float float-top" id="scrollTop"><span
+    <div class="float-actions"><a href="#" class="btn-float float-top" aria-label="Scroll to top" id="scrollTop"><span
                 class="material-icons-round">expand_less</span></a><a href="https://wa.me/6281239225692"
-            class="btn-float float-wa" target="_blank"><i class="bi bi-whatsapp" style="font-size:1.95rem;"></i></a>
+            class="btn-float float-wa" aria-label="WhatsApp" target="_blank"><i class="bi bi-whatsapp" style="font-size:1.95rem;"></i></a>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script>const sb = document.getElementById('scrollTop'); if (sb) { window.addEventListener('scroll', () => { sb.classList.toggle('show', window.pageYOffset > 300) }); sb.addEventListener('click', e => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) }) }</script>

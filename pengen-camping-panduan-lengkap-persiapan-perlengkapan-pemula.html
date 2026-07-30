@@ -50,8 +50,8 @@
     <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" media="print" onload="this.media='all'">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" media="print" onload="this.media='all'">
     <style>
         :root {
             --lime: #b5f23d;
@@ -774,11 +774,17 @@
     <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Berapa biaya yang dibutuhkan untuk camping pertama kali?","acceptedAnswer":{"@type":"Answer","text":"Biaya camping sangat bervariasi tergantung lokasi dan perlengkapan yang kamu miliki. Untuk pemula yang menyewa perlengkapan, biaya bisa berkisar antara Rp 200.000 hingga Rp 600.000 per orang untuk satu malam, belum termasuk transportasi dan konsumsi. Membeli perlengkapan sendiri membutuhkan investasi awal yang lebih besar namun lebih ekonomis jangka panjang."}},{"@type":"Question","name":"Apa yang harus dilakukan jika cuaca tiba-tiba buruk saat camping?","acceptedAnswer":{"@type":"Answer","text":"Masuk ke dalam tenda, pastikan tenda sudah dipatok dengan kuat, dan hindari pohon tinggi atau area terbuka saat petir. Jika kondisi sangat berbahaya dan kamu berada di jalur yang dikenal, turun ke titik evakuasi atau shelter terdekat."}},{"@type":"Question","name":"Apakah perlu membawa obat-obatan khusus saat camping?","acceptedAnswer":{"@type":"Answer","text":"Setidaknya bawa P3K dasar: antiseptik, perban, plester, obat sakit kepala, obat diare, dan obat alergi jika kamu punya riwayat alergi. Jika kamu memiliki kondisi medis tertentu, konsultasikan dengan dokter sebelum camping di alam bebas."}}]}
     </script>
-</head>
+
+    <style>
+        a:not([class]) { color: var(--lime, #b5f23d); text-decoration: underline; }
+        a:not([class]):hover { color: var(--lime-dark, #8fca22); }
+        .text-muted { color: var(--muted, #ffffff) !important; }
+    </style>
+    </head>
 <body>
     <nav class="navbar navbar-expand-lg">
         <div class="container"><a class="navbar-brand" href="index.html"><img src="image/Batu_Sunrise_Camp.png"
-                    alt="Logo" height="50" class="d-inline-block align-top"><span class="ms-2">BATU <span
+                    alt="Logo" height="50" class="d-inline-block align-top" loading="lazy"><span class="ms-2">BATU <span
                         class="accent">CAMPING</span></span></a><button class="navbar-toggler" type="button"
                 data-bs-toggle="collapse" data-bs-target="#mainNav"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="mainNav">
@@ -801,7 +807,7 @@
     </header>
     <main class="article-main">
         <div class="container"><div class="row justify-content-center"><div class="col-lg-8"><article class="article-body">
-            <div class="article-img-wrap"><img decoding="async" src="image/persiapan-yang-pingin-camping-pemula.webp" alt="Panduan lengkap persiapan dan perlengkapan camping untuk pemula"><span class="img-caption">Panduan lengkap persiapan dan perlengkapan camping untuk pemula yang ingin memulai petualangan alam terbuka.</span></div>
+            <div class="article-img-wrap"><img decoding="async" src="image/persiapan-yang-pingin-camping-pemula.webp" alt="Panduan lengkap persiapan dan perlengkapan camping untuk pemula" loading="lazy"><span class="img-caption">Panduan lengkap persiapan dan perlengkapan camping untuk pemula yang ingin memulai petualangan alam terbuka.</span></div>
 
             <p>Pengen camping adalah langkah awal yang bagus untuk menikmati alam terbuka — dengan persiapan yang tepat, pengalaman pertama kamu bisa aman, nyaman, dan menyenangkan.</p>
 
@@ -934,7 +940,7 @@
             </div>
 
             <!-- Author Card -->
-            <div class="author-card"><img src="image/Fachry Rendy.webp" alt="Fachry Rendy" class="author-avatar" style="object-fit:cover;"><div class="author-info"><h5>Fachry Rendy</h5><p>Outdoor Specialist &amp; Content Writer — Berpengalaman lebih dari 8 tahun dalam dunia petualangan luar ruang dan manajemen camping ground di Kota Batu.</p></div></div>
+            <div class="author-card"><img src="image/Fachry Rendy.webp" alt="Fachry Rendy" class="author-avatar" style="object-fit:cover;" loading="lazy"><div class="author-info"><h5>Fachry Rendy</h5><p>Outdoor Specialist &amp; Content Writer — Berpengalaman lebih dari 8 tahun dalam dunia petualangan luar ruang dan manajemen camping ground di Kota Batu.</p></div></div>
 
             <!-- Share Section -->
             <div class="share-section"><span>Bagikan:</span><a href="#" class="share-btn" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(window.location.href),'_blank','width=600,height=400');return false;"><i class="bi bi-facebook"></i></a><a href="#" class="share-btn" onclick="window.open('https://twitter.com/intent/tweet?url='+encodeURIComponent(window.location.href)+'&text='+encodeURIComponent(document.title),'_blank','width=600,height=400');return false;"><i class="bi bi-twitter-x"></i></a><a href="#" class="share-btn" onclick="window.open('https://wa.me/?text='+encodeURIComponent(document.title+' '+window.location.href),'_blank');return false;"><i class="bi bi-whatsapp"></i></a><a href="#" class="share-btn" onclick="window.open('https://www.linkedin.com/sharing/share-offsite/?url='+encodeURIComponent(window.location.href),'_blank','width=600,height=400');return false;"><i class="bi bi-linkedin"></i></a><a href="#" class="share-btn" onclick="window.open('https://t.me/share/url?url='+encodeURIComponent(window.location.href)+'&text='+encodeURIComponent(document.title),'_blank');return false;"><i class="bi bi-telegram"></i></a></div>
@@ -957,9 +963,9 @@
                     <p class="footer-desc">Penyedia area camping terbaik di Kota Wisata Batu. Berkomitmen memberikan
                         pengalaman menyatu dengan alam yang aman dan nyaman.</p>
                     <div class="mt-3">
-                        <a href="#" class="social-btn"><i class="bi bi-facebook"></i></a>
-                        <a href="#" class="social-btn"><i class="bi bi-instagram"></i></a>
-                        <a href="#" class="social-btn"><i class="bi bi-youtube"></i></a>
+                        <a href="#" class="social-btn" aria-label="Social Media"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="social-btn" aria-label="Social Media"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="social-btn" aria-label="Social Media"><i class="bi bi-youtube"></i></a>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-2">
@@ -1001,9 +1007,9 @@
             </div>
         </div>
     </footer>
-    <div class="float-actions"><a href="#" class="btn-float float-top" id="scrollTop"><span
+    <div class="float-actions"><a href="#" class="btn-float float-top" aria-label="Scroll to top" id="scrollTop"><span
                 class="material-icons-round">expand_less</span></a><a href="https://wa.me/6281239225692"
-            class="btn-float float-wa" target="_blank"><i class="bi bi-whatsapp" style="font-size:1.95rem;"></i></a>
+            class="btn-float float-wa" aria-label="WhatsApp" target="_blank"><i class="bi bi-whatsapp" style="font-size:1.95rem;"></i></a>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
     <script>const sb = document.getElementById('scrollTop'); if (sb) { window.addEventListener('scroll', () => { sb.classList.toggle('show', window.pageYOffset > 300) }); sb.addEventListener('click', e => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) }) }</script>
