@@ -123,19 +123,19 @@
         .share-btn:hover{background:var(--lime);color:var(--forest);border-color:var(--lime)}
         .related-section{padding:5rem 0;background:var(--forest-mid)}
         .related-section h3{font-weight:800;margin-bottom:2rem}
-        .rel-card{background:var(--forest-light);border:1px solid rgba(255,255,255,.05);border-radius:1.25rem;overflow:hidden;height:100%;transition:.3s}
+        .rel-card{background:var(--forest-light);border:1px solid rgba(255,255,255,.05);border-radius:1.25rem;overflow:hidden;height:100%;transition:.3s;display:flex;flex-direction:column}
         .rel-card:hover{border-color:rgba(181,242,61,.25);transform:translateY(-5px)}
         .rel-card-img{height:190px;overflow:hidden}
         .rel-card-img img{width:100%;height:100%;object-fit:cover;transition:transform .4s}
         .rel-card:hover .rel-card-img img{transform:scale(1.06)}
-        .rel-card-body{overflow-wrap:break-word;padding:1.25rem}
-        .rel-card-body .cat{display:inline-block;background:var(--lime);color:var(--forest);font-size:.68rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:.2rem .6rem;border-radius:50px;margin-bottom:.75rem}
+        .rel-card-body{overflow-wrap:break-word;padding:1.25rem;display:flex;flex-direction:column;flex-grow:1}
+        .rel-card-body .cat{display:inline-block;background:var(--lime);color:var(--forest);font-size:.68rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:.2rem .6rem;border-radius:50px;margin-bottom:.75rem;align-self:flex-start;}
         .rel-card-body h4{font-size:1rem;font-weight:700;line-height:1.35;margin-bottom:.5rem}
         .rel-card-body h4 a{color:var(--text);text-decoration:none;transition:color .2s}
         .rel-card-body h4 a:hover{color:var(--lime)}
         .rel-card-body .meta{font-size:.75rem;color:var(--muted);margin-bottom:.75rem}
         .rel-card-body p{font-size:.85rem;color:var(--muted);line-height:1.6;margin-bottom:1.25rem;text-align:justify}
-        .read-more{color:var(--lime);font-size:.82rem;font-weight:600;text-decoration:none;display:inline-flex;align-items:center;gap:.35rem;transition:all .2s}
+        .read-more{color:var(--lime);font-size:.82rem;font-weight:600;text-decoration:none;display:inline-flex;align-items:center;gap:.35rem;transition:all .2s;margin-top:auto}
         .read-more:hover{gap:.5rem;color:var(--lime)}
         footer{background:var(--forest);border-top:1px solid rgba(255,255,255,.06);padding:4rem 0 2rem}
         footer .brand{font-weight:800;font-size:1.2rem;color:var(--text);display:flex;align-items:center;gap:.5rem;margin-bottom:1rem}
@@ -280,6 +280,12 @@
 <p>Selain wahana permainan, tersedia juga area kuliner dengan produk UMKM lokal yang memudahkan orang tua mencari camilan atau makanan ringan untuk anak selama berwisata.</p>
 <p>Selain Mikutopia, kawasan Jatim Park 3 dengan wahana Legend Star turut menjadi pilihan karena menghadirkan replika bangunan dunia dan patung lilin yang mengedukasi anak tentang budaya berbagai negara sambil tetap menghibur.</p>
 
+
+<div class="read-also">
+    <span class="badge">BACA JUGA</span>
+    <a href="tips-dan-biaya-wisata-baru-di-batu-2026.html">Tips dan Biaya Wisata Baru di Batu 2026</a>
+</div>
+
 <h2 id="s2">Apa Fasilitas yang Tersedia di Wisata Baru Batu Ramah Keluarga?</h2>
 <p>Fasilitas yang umumnya tersedia meliputi wahana permainan bertingkat usia, area kuliner, tempat istirahat, serta spot foto keluarga.</p>
 <p>Batu Night Spectacular menawarkan kombinasi taman bermain dengan nuansa pasar malam modern, termasuk Lampion Garden yang cocok untuk foto keluarga serta pertunjukan air mancur menari dan layar multimedia yang bisa dinikmati bersama anak-anak menjelang malam.</p>
@@ -289,6 +295,12 @@
 <div class="article-img-wrap">
     <img decoding="async" src="image/wisata-batu-keluarga-anak.webp" alt="Wisata ramah anak di Batu" loading="lazy">
     <span class="img-caption">Ilustrasi AI tentang wisata keluarga di Batu yang menawarkan wahana aman yang didesain khusus agar anak-anak dapat bermain dan belajar dengan nyaman.</span>
+</div>
+
+
+<div class="read-also">
+    <span class="badge">BACA JUGA</span>
+    <a href="wisata-baru-di-batu-untuk-healing-dan-alam-2026.html">Wisata Baru di Batu untuk Healing dan Alam 2026</a>
 </div>
 
 <h2 id="s3">Bagaimana Cara Mengatur Waktu Kunjungan agar Nyaman untuk Anak?</h2>
@@ -355,37 +367,37 @@
             <div class="row g-4">
                 <div class="col-md-4">
                     <div class="rel-card">
-                        <div class="rel-card-img"><img decoding="async" src="image/Tenda_kemah_nyaman_di_alam_terbuka.webp" alt="Panduan berkemah pemula" loading="lazy"></div>
-                        <div class="rel-card-body">
-                            <span class="cat">Tips Camping</span>
-                            <h4><a href="panduan-cara-berkemah-pemula.html">Panduan Lengkap Cara Berkemah untuk Pemula</a></h4>
-                            <div class="meta">6 Apr 2026</div>
-                            <p>Mulai dari persiapan peralatan hingga etika Leave No Trace agar camping pertamamu sempurna.</p>
-                            <a href="panduan-cara-berkemah-pemula.html" class="read-more">Baca Selengkapnya <span class="material-icons-round" style="font-size:1rem;">arrow_forward</span></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="rel-card">
-                        <div class="rel-card-img"><img decoding="async" src="image/Camping_Bedengan.webp" alt="Camping Bedengan Malang" loading="lazy"></div>
-                        <div class="rel-card-body">
-                            <span class="cat">Tips Camping</span>
-                            <h4><a href="rute-tiket-camping-bedengan-malang.html">Rute &amp; Tiket Camping Bedengan Malang 2026 Sebelum Penuh</a></h4>
-                            <div class="meta">14 Mar 2026</div>
-                            <p>Panduan lengkap rute menuju Camping Bedengan Malang, harga tiket masuk 2026, dan fasilitas 24 jam.</p>
-                            <a href="rute-tiket-camping-bedengan-malang.html" class="read-more">Baca Selengkapnya <span class="material-icons-round" style="font-size:1rem;">arrow_forward</span></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="rel-card">
-                        <div class="rel-card-img"><img decoding="async" src="image/tempat_berkemah_di_malang.webp" alt="Tempat berkemah di Malang" loading="lazy"></div>
+                        <div class="rel-card-img"><img decoding="async" src="image/wisata-batu-tips-biaya.webp" alt="Tips dan Biaya Wisata Baru di Batu 2026" loading="lazy"></div>
                         <div class="rel-card-body">
                             <span class="cat">Wisata Batu</span>
-                            <h4><a href="tempat-berkemah-di-malang.html">Tempat Berkemah di Malang Terbaik: Ramah Keluarga &amp; Spot Sunrise</a></h4>
-                            <div class="meta">2 Apr 2026</div>
-                            <p>Rekomendasi tempat berkemah di Malang terbaik yang ramah keluarga dengan spot sunrise memukau.</p>
-                            <a href="tempat-berkemah-di-malang.html" class="read-more">Baca Selengkapnya <span class="material-icons-round" style="font-size:1rem;">arrow_forward</span></a>
+                            <h4><a href="tips-dan-biaya-wisata-baru-di-batu-2026.html">Tips dan Biaya Wisata Baru di Batu 2026</a></h4>
+                            <div class="meta">31 Jul 2026</div>
+                            <p>Biaya wisata baru di Batu bervariasi tergantung jenis destinasi, transportasi, dan penginapan yang dipilih, dengan kisaran mulai dari puluhan ribu rupiah untuk tiket masuk hingga jutaan rupiah untuk paket liburan lengkap.</p>
+                            <a href="tips-dan-biaya-wisata-baru-di-batu-2026.html" class="read-more">Baca Selengkapnya <span class="material-icons-round" style="font-size:1rem;">arrow_forward</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="rel-card">
+                        <div class="rel-card-img"><img decoding="async" src="image/wisata-batu-healing-alam.webp" alt="Wisata Baru di Batu untuk Healing dan Alam 2026" loading="lazy"></div>
+                        <div class="rel-card-body">
+                            <span class="cat">Wisata Batu</span>
+                            <h4><a href="wisata-baru-di-batu-untuk-healing-dan-alam-2026.html">Wisata Baru di Batu untuk Healing dan Alam 2026</a></h4>
+                            <div class="meta">30 Jul 2026</div>
+                            <p>Wisata baru di Batu untuk healing menawarkan panorama dataran tinggi yang masih alami, cocok bagi wisatawan yang ingin menjauh dari kebisingan kota sambil menikmati udara sejuk pegunungan.</p>
+                            <a href="wisata-baru-di-batu-untuk-healing-dan-alam-2026.html" class="read-more">Baca Selengkapnya <span class="material-icons-round" style="font-size:1rem;">arrow_forward</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="rel-card">
+                        <div class="rel-card-img"><img decoding="async" src="image/wisata-baru-batu-hero.webp" alt="Panduan Lengkap Destinasi Wisata Baru di Batu 2026" loading="lazy"></div>
+                        <div class="rel-card-body">
+                            <span class="cat">Wisata Batu</span>
+                            <h4><a href="panduan-lengkap-destinasi-wisata-baru-di-batu-2026.html">Panduan Lengkap Destinasi Wisata Baru di Batu 2026</a></h4>
+                            <div class="meta">30 Jul 2026</div>
+                            <p>Panduan lengkap destinasi wisata baru di Batu 2026 mencakup taman hiburan tematik, agrowisata modern, dan spot alam pegunungan. Temukan tips biaya, waktu terbaik, dan cara menuju wisata baru Batu.</p>
+                            <a href="panduan-lengkap-destinasi-wisata-baru-di-batu-2026.html" class="read-more">Baca Selengkapnya <span class="material-icons-round" style="font-size:1rem;">arrow_forward</span></a>
                         </div>
                     </div>
                 </div>
