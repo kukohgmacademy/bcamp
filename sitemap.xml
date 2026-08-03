@@ -1200,4 +1200,16 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://batucamping.web.id/pantai-pasir-putih-malang-wajib-dikunjungi.html</loc>
+    <lastmod>2026-08-03T16:00:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://batucamping.web.id/pantai-snorkeling-malang-air-laut-jernih.html</loc>
+    <lastmod>2026-08-03T16:00:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
