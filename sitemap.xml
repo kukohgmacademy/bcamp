@@ -1224,4 +1224,22 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://batucamping.web.id/lokasi-dan-jam-operasional-dusun-kuliner-batu.html</loc>
+    <lastmod>2026-08-05T15:00:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://batucamping.web.id/rekomendasi-menu-khas-di-dusun-kuliner-batu.html</loc>
+    <lastmod>2026-08-05T15:00:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://batucamping.web.id/tips-berkunjung-ke-dusun-kuliner-batu-bersama-keluarga.html</loc>
+    <lastmod>2026-08-05T15:00:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
