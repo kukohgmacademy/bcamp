@@ -1374,4 +1374,16 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://batucamping.web.id/tiket-jam-buka-dan-fasilitas-mikutopia-batu.html</loc>
+    <lastmod>2026-08-19T10:00:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://batucamping.web.id/tips-spot-foto-terbaik-di-mikutopia-batu.html</loc>
+    <lastmod>2026-08-19T10:00:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
