@@ -1410,4 +1410,16 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://batucamping.web.id/standar-keselamatan-dan-sertifikasi-guide-rafting-yang-wajib-dicek-wisatawan.html</loc>
+    <lastmod>2026-08-22T14:43:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://batucamping.web.id/cara-cek-sertifikasi-pemandu-rafting-sebelum-booking.html</loc>
+    <lastmod>2026-08-22T14:43:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
