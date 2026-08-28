@@ -1458,4 +1458,16 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://batucamping.web.id/kawah-ijen-panduan-lengkap-wisata-blue-fire.html</loc>
+    <lastmod>2026-08-28T10:00:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://batucamping.web.id/blue-fire-ijen-fenomena-api-biru-langka-di-dunia.html</loc>
+    <lastmod>2026-08-28T10:00:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
