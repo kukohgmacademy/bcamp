@@ -1554,5 +1554,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://batucamping.web.id/panduan-lengkap-wisata-jawa-tengah-terbaru.html</loc>
+    <lastmod>2026-09-07T10:00:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://batucamping.web.id/kenapa-sebagian-audiens-jawa-timur-tetap-membandingkan-wisata-jawa-tengah-dan-jogja.html</loc>
+    <lastmod>2026-09-07T10:00:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
 
