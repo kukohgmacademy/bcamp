@@ -1578,5 +1578,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://batucamping.web.id/offroad-coban-talun-panduan-lengkap-rute-dan-harga.html</loc>
+    <lastmod>2026-09-09T10:00:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://batucamping.web.id/panduan-trek-rute-offroad-coban-talun-dan-air-terjun.html</loc>
+    <lastmod>2026-09-09T10:00:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
 
