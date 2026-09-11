@@ -1602,5 +1602,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://batucamping.web.id/panduan-trip-multi-hari-destinasi-wisata-di-jawa-timur.html</loc>
+    <lastmod>2026-09-11T10:00:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://batucamping.web.id/itinerary-3-hari-malang-batu-dan-bromo-untuk-wisatawan.html</loc>
+    <lastmod>2026-09-11T10:00:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
 
