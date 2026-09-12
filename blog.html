@@ -60,8 +60,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=DM+Sans:wght@300;400;500&display=swap"
         rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" media="print" onload="this.media='all'">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" media="print" onload="this.media='all'">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" media="print"
+        onload="this.media='all'">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"
+        media="print" onload="this.media='all'">
 
     <!-- Structured Data - JSON-LD for AEO/GEO -->
     <script type="application/ld+json">
@@ -1098,11 +1100,20 @@
     </script>
 
     <style>
-        a:not([class]) { color: var(--lime, #b5f23d); text-decoration: underline; }
-        a:not([class]):hover { color: var(--lime-dark, #8fca22); }
-        .text-muted { color: var(--muted, #ffffff) !important; }
+        a:not([class]) {
+            color: var(--lime, #b5f23d);
+            text-decoration: underline;
+        }
+
+        a:not([class]):hover {
+            color: var(--lime-dark, #8fca22);
+        }
+
+        .text-muted {
+            color: var(--muted, #ffffff) !important;
+        }
     </style>
-    </head>
+</head>
 
 <body>
 
@@ -1280,758 +1291,776 @@
     <script>
         // Article Data
         const articles = [
-    {
-        title: "Itinerary 3 Hari Malang, Batu, dan Bromo untuk Wisatawan",
-        url: "itinerary-3-hari-malang-batu-dan-bromo-untuk-wisatawan.html",
-        category: "Tips Wisata",
-        date: "11 Sep 2026",
-        desc: "Panduan lengkap itinerary 3 hari wisata di Malang, Batu, dan Bromo untuk wisatawan.",
-        img: "image/itinerary-hari1-alun-alun-batu-golden-hour.webp"
-    },
-    {
-        title: "Panduan Trip Multi-Hari Destinasi Wisata di Jawa Timur",
-        url: "panduan-trip-multi-hari-destinasi-wisata-di-jawa-timur.html",
-        category: "Tips Wisata",
-        date: "11 Sep 2026",
-        desc: "Panduan lengkap trip multi-hari destinasi wisata di Jawa Timur. Itinerary, tips, rute terbaik, dan info lengkap untuk wisata di Jawa Timur.",
-        img: "image/destinasi-wisata-jawa-timur-bromo.webp"
-    },
-    {
-        title: "Perbandingan Harga dan Fasilitas Vendor Offroad Coban Talun",
-        url: "perbandingan-harga-dan-fasilitas-vendor-offroad-coban-talun.html",
-        category: "Wisata Batu",
-        date: "10 Sep 2026",
-        desc: "Cara membandingkan harga vendor offroad Coban Talun secara objektif melalui komponen fasilitas yang ditawarkan, agar perjalanan wisata lebih memuaskan.",
-        img: "image/perbandingan-armada-jeep-vendor-offroad-coban-talun.webp"
-    },
-    {
-        title: "Paket Offroad dan Outbound Coban Talun untuk Rombongan",
-        url: "paket-offroad-dan-outbound-coban-talun-untuk-rombongan.html",
-        category: "Wisata Batu",
-        date: "10 Sep 2026",
-        desc: "Panduan memesan paket offroad dan outbound Coban Talun untuk rombongan gathering perusahaan dan wisata rombongan besar.",
-        img: "image/offroad-coban-talun-rombongan-outbound.webp"
-    },
-    {
-        title: "Panduan Trek Rute Offroad Coban Talun dan Air Terjun",
-        url: "panduan-trek-rute-offroad-coban-talun-dan-air-terjun.html",
-        category: "Wisata Batu",
-        date: "09 Sep 2026",
-        desc: "Panduan trek rute offroad Coban Talun Kota Batu, detail jalur hutan pinus, kebun sayur, sungai berlumpur, dan titik air terjun.",
-        img: "image/rute-offroad-kebun-sayur-coban-talun.webp"
-    },
-    {
-        title: "Offroad Coban Talun: Panduan Lengkap Rute dan Harga",
-        url: "offroad-coban-talun-panduan-lengkap-rute-dan-harga.html",
-        category: "Wisata Batu",
-        date: "09 Sep 2026",
-        desc: "Panduan lengkap offroad Coban Talun Kota Batu, harga paket Jeep adventure, rute trek hutan pinus, dan tips wisata alam terbaru.",
-        img: "image/jeep-offroad-hutan-pinus-coban-talun.webp"
-    },
-    {
-        title: "Rekomendasi Itinerary Wisata Jawa Tengah dan Jogja untuk Wisatawan Jawa Timur",
-        url: "rekomendasi-itinerary-wisata-jawa-tengah-dan-jogja-untuk-wisatawan-jawa-timur.html",
-        category: "Wisata Jawa Tengah",
-        date: "08 Sep 2026",
-        desc: "Itinerary wisata Jawa Tengah dan Jogja untuk wisatawan Jawa Timur idealnya 3 hingga 5 hari dengan rute strategis mulai dari Solo menuju Borobudur dan Jogja.",
-        img: "image/roadtrip-rute-solo-borobudur-jogja.webp",
-        featured: true
-    },
-    {
-        title: "Perbandingan Destinasi dan Biaya Wisata Jogja vs Wisata Jawa Tengah",
-        url: "perbandingan-destinasi-dan-biaya-wisata-jogja-vs-wisata-jawa-tengah.html",
-        category: "Wisata Jawa Tengah",
-        date: "08 Sep 2026",
-        desc: "Perbandingan destinasi dan biaya wisata Jogja vs Jawa Tengah. Jogja unggul di aksesibilitas, sementara Jawa Tengah unggul di keragaman destinasi alam dan budaya.",
-        img: "image/malioboro-jogja.webp",
-        featured: true
-    },
-    {
-        title: "Kenapa Sebagian Audiens Jawa Timur Tetap Membandingkan Wisata Jawa Tengah dan Jogja?",
-        url: "kenapa-sebagian-audiens-jawa-timur-tetap-membandingkan-wisata-jawa-tengah-dan-jogja.html",
-        category: "Wisata Jawa Tengah",
-        date: "07 Sep 2026",
-        desc: "Sebagian audiens Jawa Timur tetap membandingkan wisata Jawa Tengah dan Jogja karena kedekatan geografis, kemiripan jenis destinasi budaya, dan popularitas Jogja yang sudah lebih dulu terbentuk secara nasional.",
-        img: "image/gapura-perbatasan-jateng-jogja-merapi.webp",
-        featured: true
-    },
-    {
-        title: "Panduan Lengkap Wisata Jawa Tengah Terbaru",
-        url: "panduan-lengkap-wisata-jawa-tengah-terbaru.html",
-        category: "Wisata Jawa Tengah",
-        date: "07 Sep 2026",
-        desc: "Panduan lengkap wisata Jawa Tengah terbaru, mencakup destinasi budaya seperti Borobudur, alam Dieng, heritage Semarang, dan data kunjungan wisatawan terkini.",
-        img: "image/candi-borobudur-jawa-tengah.webp",
-        featured: true
-    },
-    {
-        title: "Cara Memanfaatkan Dokumentasi Outbound untuk Laporan Internal",
-        url: "cara-memanfaatkan-dokumentasi-outbound-untuk-laporan-internal.html",
-        category: "Tips & Panduan",
-        date: "05 Sep 2026",
-        desc: "Dokumentasi outbound dapat dimanfaatkan untuk laporan internal dengan menyusun ringkasan visual, data partisipasi, dan evaluasi kegiatan secara terstruktur agar mudah dipahami manajemen.",
-        img: "image/tim-hr-menyusun-laporan-outbound.webp",
-        featured: true
-    },
-    {
-        title: "Manfaat dan Proses Pembuatan Video Outbound Perusahaan",
-        url: "manfaat-dan-proses-pembuatan-video-outbound-perusahaan.html",
-        category: "Tips & Panduan",
-        date: "05 Sep 2026",
-        desc: "Video outbound perusahaan bermanfaat sebagai ringkasan visual acara yang mempermudah manajemen memahami jalannya kegiatan, sekaligus menjadi materi employer branding dan bahan evaluasi program HR.",
-        img: "image/proses-syuting-video-outbound-lapangan.webp",
-        featured: true
-    },
-    {
-        title: "Tips Memilih Jasa Dokumentasi Outbound Perusahaan yang Tepat",
-        url: "tips-memilih-jasa-dokumentasi-outbound-perusahaan-yang-tepat.html",
-        category: "Tips & Panduan",
-        date: "04 Sep 2026",
-        desc: "Memilih jasa dokumentasi outbound yang tepat membutuhkan penilaian terhadap portofolio, pengalaman menangani acara korporat, dan kesesuaian format hasil akhir dengan kebutuhan laporan internal perusahaan.",
-        img: "image/fotografer-videografer-profesional-outbound.webp",
-        featured: true
-    },
-    {
-        title: "Corporate Gathering: Panduan Lengkap Dokumentasi Outbound untuk Laporan Internal",
-        url: "corporate-gathering-panduan-lengkap-dokumentasi-outbound-untuk-laporan-internal.html",
-        category: "Tips & Panduan",
-        date: "04 Sep 2026",
-        desc: "Corporate gathering adalah acara kumpul perusahaan seperti outbound, team building, atau retreat yang bertujuan mempererat hubungan tim dan menyelaraskan visi kerja. Dokumentasi outbound yang profesional menjadikan momen ini bukti nyata untuk laporan internal perusahaan.",
-        img: "image/corporate-gathering-di-alam.webp",
-        featured: true
-    },
-    {
-        title: "Itinerary Wisata Murah Malang Batu untuk 1 dan 2 Hari",
-        url: "itinerary-wisata-murah-malang-batu-untuk-1-dan-2-hari.html",
-        category: "Wisata Malang",
-        date: "03 Sep 2026",
-        desc: "Contoh panduan itinerary hemat untuk wisata 1 dan 2 hari di Malang dan Batu dengan anggaran terbatas dan kombinasi wisata gratis.",
-        img: "image/buku-catatan-itinerary-sehari-di-malang.webp",
-        featured: true
-    },
-    {
-        title: "Tips Hemat Transportasi untuk Wisata Malang yang Murah",
-        url: "tips-hemat-transportasi-untuk-wisata-malang-yang-murah.html",
-        category: "Wisata Malang",
-        date: "03 Sep 2026",
-        desc: "Panduan transportasi hemat untuk liburan ke Malang Batu, mulai dari menggunakan angkot, sewa motor, hingga sewa mobil untuk rombongan.",
-        img: "image/transportasi-angkot-biru--keliling-sekitaran-malang.webp",
-        featured: true
-    },
-    {
-        title: "Rekomendasi Tempat Tanpa Tiket Masuk di Wisata Sekitaran Malang",
-        url: "rekomendasi-tempat-tanpa-tiket-masuk-di-wisata-sekitaran-malang.html",
-        category: "Wisata Malang",
-        date: "02 Sep 2026",
-        desc: "Wisata Malang gratis adalah pilihan tepat bagi yang ingin menikmati suasana kota dan alam Malang tanpa mengeluarkan biaya tiket masuk, mulai dari alun-alun hingga kampung tematik.",
-        img: "image/suasana-wisata-keluarga-di-alun-alun-kota-malang.webp",
-        featured: true
-    },
-    {
-        title: "Panduan Lengkap Wisata Malang yang Murah dan Hemat 2026",
-        url: "panduan-lengkap-wisata-malang-yang-murah-dan-hemat-2026.html",
-        category: "Wisata Malang",
-        date: "02 Sep 2026",
-        desc: "Wisata Malang yang murah tetap bisa memberi pengalaman liburan berkualitas, mulai dari alun-alun gratis, wisata alam, hingga kampung wisata dengan tiket masuk terjangkau di kawasan Malang dan Batu.",
-        img: "image/pemandangan-wisata-alam-kebun-teh-batu-malang.webp",
-        featured: true
-    },
-    {
-        title: "Waktu Terbaik dan Tips Aman Snorkeling di Pantai Kondang Merak",
-        url: "waktu-terbaik-dan-tips-aman-snorkeling-di-pantai-kondang-merak.html",
-        category: "Wisata Malang Selatan",
-        date: "01 Sep 2026",
-        desc: "Ketahui waktu terbaik dan tips aman untuk snorkeling di Pantai Kondang Merak. Nikmati keindahan terumbu karang dengan aman dan nyaman.",
-        img: "image/pesona-bawah-laut-kondang-merak.webp",
-        featured: true
-    },
-    {
-        title: "Program Konservasi Terumbu Karang di Pantai Kondang Merak",
-        url: "program-konservasi-terumbu-karang-di-pantai-kondang-merak.html",
-        category: "Wisata Malang Selatan",
-        date: "01 Sep 2026",
-        desc: "Pelajari lebih lanjut mengenai program konservasi terumbu karang di Pantai Kondang Merak, dikelola oleh komunitas setempat dan pemerintah.",
-        img: "image/konservasi-transplantasi-karang-malang.webp",
-        featured: true
-    },
+            {
+                title: "Destinasi Wisata di Jawa Timur untuk Keluarga dan Rombongan",
+                url: "destinasi-wisata-di-jawa-timur-untuk-keluarga-dan-rombongan.html",
+                category: "Tips Wisata",
+                date: "12 Sep 2026",
+                desc: "Destinasi wisata di Jawa Timur untuk keluarga dan rombongan dapat disesuaikan dengan karakter masing-masing kawasan.",
+                img: "image/wisata-edukasi-keluarga-museum-satwa-malang.webp",
+                featured: true
+            },
+            {
+                title: "Cara Memilih Vendor Outbound Wisata Jawa Timur yang Tepat",
+                url: "cara-memilih-vendor-outbound-wisata-jawa-timur-yang-tepat.html",
+                category: "Tips Wisata",
+                date: "12 Sep 2026",
+                desc: "Memilih vendor outbound wisata Jawa Timur yang tepat memerlukan pengecekan transparansi biaya, kejelasan itinerary, dan rekam jejak penanganan rute sebelumnya.",
+                img: "image/rombongan-outbound-gathering-coban-rondo.webp",
+                featured: true
+            },
+            {
+                title: "Itinerary 3 Hari Malang, Batu, dan Bromo untuk Wisatawan",
+                url: "itinerary-3-hari-malang-batu-dan-bromo-untuk-wisatawan.html",
+                category: "Tips Wisata",
+                date: "11 Sep 2026",
+                desc: "Panduan lengkap itinerary 3 hari wisata di Malang, Batu, dan Bromo untuk wisatawan.",
+                img: "image/itinerary-hari1-alun-alun-batu-golden-hour.webp"
+            },
+            {
+                title: "Panduan Trip Multi-Hari Destinasi Wisata di Jawa Timur",
+                url: "panduan-trip-multi-hari-destinasi-wisata-di-jawa-timur.html",
+                category: "Tips Wisata",
+                date: "11 Sep 2026",
+                desc: "Panduan lengkap trip multi-hari destinasi wisata di Jawa Timur. Itinerary, tips, rute terbaik, dan info lengkap untuk wisata di Jawa Timur.",
+                img: "image/destinasi-wisata-jawa-timur-bromo.webp"
+            },
+            {
+                title: "Perbandingan Harga dan Fasilitas Vendor Offroad Coban Talun",
+                url: "perbandingan-harga-dan-fasilitas-vendor-offroad-coban-talun.html",
+                category: "Wisata Batu",
+                date: "10 Sep 2026",
+                desc: "Cara membandingkan harga vendor offroad Coban Talun secara objektif melalui komponen fasilitas yang ditawarkan, agar perjalanan wisata lebih memuaskan.",
+                img: "image/perbandingan-armada-jeep-vendor-offroad-coban-talun.webp"
+            },
+            {
+                title: "Paket Offroad dan Outbound Coban Talun untuk Rombongan",
+                url: "paket-offroad-dan-outbound-coban-talun-untuk-rombongan.html",
+                category: "Wisata Batu",
+                date: "10 Sep 2026",
+                desc: "Panduan memesan paket offroad dan outbound Coban Talun untuk rombongan gathering perusahaan dan wisata rombongan besar.",
+                img: "image/offroad-coban-talun-rombongan-outbound.webp"
+            },
+            {
+                title: "Panduan Trek Rute Offroad Coban Talun dan Air Terjun",
+                url: "panduan-trek-rute-offroad-coban-talun-dan-air-terjun.html",
+                category: "Wisata Batu",
+                date: "09 Sep 2026",
+                desc: "Panduan trek rute offroad Coban Talun Kota Batu, detail jalur hutan pinus, kebun sayur, sungai berlumpur, dan titik air terjun.",
+                img: "image/rute-offroad-kebun-sayur-coban-talun.webp"
+            },
+            {
+                title: "Offroad Coban Talun: Panduan Lengkap Rute dan Harga",
+                url: "offroad-coban-talun-panduan-lengkap-rute-dan-harga.html",
+                category: "Wisata Batu",
+                date: "09 Sep 2026",
+                desc: "Panduan lengkap offroad Coban Talun Kota Batu, harga paket Jeep adventure, rute trek hutan pinus, dan tips wisata alam terbaru.",
+                img: "image/jeep-offroad-hutan-pinus-coban-talun.webp"
+            },
+            {
+                title: "Rekomendasi Itinerary Wisata Jawa Tengah dan Jogja untuk Wisatawan Jawa Timur",
+                url: "rekomendasi-itinerary-wisata-jawa-tengah-dan-jogja-untuk-wisatawan-jawa-timur.html",
+                category: "Wisata Jawa Tengah",
+                date: "08 Sep 2026",
+                desc: "Itinerary wisata Jawa Tengah dan Jogja untuk wisatawan Jawa Timur idealnya 3 hingga 5 hari dengan rute strategis mulai dari Solo menuju Borobudur dan Jogja.",
+                img: "image/roadtrip-rute-solo-borobudur-jogja.webp",
+                featured: true
+            },
+            {
+                title: "Perbandingan Destinasi dan Biaya Wisata Jogja vs Wisata Jawa Tengah",
+                url: "perbandingan-destinasi-dan-biaya-wisata-jogja-vs-wisata-jawa-tengah.html",
+                category: "Wisata Jawa Tengah",
+                date: "08 Sep 2026",
+                desc: "Perbandingan destinasi dan biaya wisata Jogja vs Jawa Tengah. Jogja unggul di aksesibilitas, sementara Jawa Tengah unggul di keragaman destinasi alam dan budaya.",
+                img: "image/malioboro-jogja.webp",
+                featured: true
+            },
+            {
+                title: "Kenapa Sebagian Audiens Jawa Timur Tetap Membandingkan Wisata Jawa Tengah dan Jogja?",
+                url: "kenapa-sebagian-audiens-jawa-timur-tetap-membandingkan-wisata-jawa-tengah-dan-jogja.html",
+                category: "Wisata Jawa Tengah",
+                date: "07 Sep 2026",
+                desc: "Sebagian audiens Jawa Timur tetap membandingkan wisata Jawa Tengah dan Jogja karena kedekatan geografis, kemiripan jenis destinasi budaya, dan popularitas Jogja yang sudah lebih dulu terbentuk secara nasional.",
+                img: "image/gapura-perbatasan-jateng-jogja-merapi.webp",
+                featured: true
+            },
+            {
+                title: "Panduan Lengkap Wisata Jawa Tengah Terbaru",
+                url: "panduan-lengkap-wisata-jawa-tengah-terbaru.html",
+                category: "Wisata Jawa Tengah",
+                date: "07 Sep 2026",
+                desc: "Panduan lengkap wisata Jawa Tengah terbaru, mencakup destinasi budaya seperti Borobudur, alam Dieng, heritage Semarang, dan data kunjungan wisatawan terkini.",
+                img: "image/candi-borobudur-jawa-tengah.webp",
+                featured: true
+            },
+            {
+                title: "Cara Memanfaatkan Dokumentasi Outbound untuk Laporan Internal",
+                url: "cara-memanfaatkan-dokumentasi-outbound-untuk-laporan-internal.html",
+                category: "Tips & Panduan",
+                date: "05 Sep 2026",
+                desc: "Dokumentasi outbound dapat dimanfaatkan untuk laporan internal dengan menyusun ringkasan visual, data partisipasi, dan evaluasi kegiatan secara terstruktur agar mudah dipahami manajemen.",
+                img: "image/tim-hr-menyusun-laporan-outbound.webp",
+                featured: true
+            },
+            {
+                title: "Manfaat dan Proses Pembuatan Video Outbound Perusahaan",
+                url: "manfaat-dan-proses-pembuatan-video-outbound-perusahaan.html",
+                category: "Tips & Panduan",
+                date: "05 Sep 2026",
+                desc: "Video outbound perusahaan bermanfaat sebagai ringkasan visual acara yang mempermudah manajemen memahami jalannya kegiatan, sekaligus menjadi materi employer branding dan bahan evaluasi program HR.",
+                img: "image/proses-syuting-video-outbound-lapangan.webp",
+                featured: true
+            },
+            {
+                title: "Tips Memilih Jasa Dokumentasi Outbound Perusahaan yang Tepat",
+                url: "tips-memilih-jasa-dokumentasi-outbound-perusahaan-yang-tepat.html",
+                category: "Tips & Panduan",
+                date: "04 Sep 2026",
+                desc: "Memilih jasa dokumentasi outbound yang tepat membutuhkan penilaian terhadap portofolio, pengalaman menangani acara korporat, dan kesesuaian format hasil akhir dengan kebutuhan laporan internal perusahaan.",
+                img: "image/fotografer-videografer-profesional-outbound.webp",
+                featured: true
+            },
+            {
+                title: "Corporate Gathering: Panduan Lengkap Dokumentasi Outbound untuk Laporan Internal",
+                url: "corporate-gathering-panduan-lengkap-dokumentasi-outbound-untuk-laporan-internal.html",
+                category: "Tips & Panduan",
+                date: "04 Sep 2026",
+                desc: "Corporate gathering adalah acara kumpul perusahaan seperti outbound, team building, atau retreat yang bertujuan mempererat hubungan tim dan menyelaraskan visi kerja. Dokumentasi outbound yang profesional menjadikan momen ini bukti nyata untuk laporan internal perusahaan.",
+                img: "image/corporate-gathering-di-alam.webp",
+                featured: true
+            },
+            {
+                title: "Itinerary Wisata Murah Malang Batu untuk 1 dan 2 Hari",
+                url: "itinerary-wisata-murah-malang-batu-untuk-1-dan-2-hari.html",
+                category: "Wisata Malang",
+                date: "03 Sep 2026",
+                desc: "Contoh panduan itinerary hemat untuk wisata 1 dan 2 hari di Malang dan Batu dengan anggaran terbatas dan kombinasi wisata gratis.",
+                img: "image/buku-catatan-itinerary-sehari-di-malang.webp",
+                featured: true
+            },
+            {
+                title: "Tips Hemat Transportasi untuk Wisata Malang yang Murah",
+                url: "tips-hemat-transportasi-untuk-wisata-malang-yang-murah.html",
+                category: "Wisata Malang",
+                date: "03 Sep 2026",
+                desc: "Panduan transportasi hemat untuk liburan ke Malang Batu, mulai dari menggunakan angkot, sewa motor, hingga sewa mobil untuk rombongan.",
+                img: "image/transportasi-angkot-biru--keliling-sekitaran-malang.webp",
+                featured: true
+            },
+            {
+                title: "Rekomendasi Tempat Tanpa Tiket Masuk di Wisata Sekitaran Malang",
+                url: "rekomendasi-tempat-tanpa-tiket-masuk-di-wisata-sekitaran-malang.html",
+                category: "Wisata Malang",
+                date: "02 Sep 2026",
+                desc: "Wisata Malang gratis adalah pilihan tepat bagi yang ingin menikmati suasana kota dan alam Malang tanpa mengeluarkan biaya tiket masuk, mulai dari alun-alun hingga kampung tematik.",
+                img: "image/suasana-wisata-keluarga-di-alun-alun-kota-malang.webp",
+                featured: true
+            },
+            {
+                title: "Panduan Lengkap Wisata Malang yang Murah dan Hemat 2026",
+                url: "panduan-lengkap-wisata-malang-yang-murah-dan-hemat-2026.html",
+                category: "Wisata Malang",
+                date: "02 Sep 2026",
+                desc: "Wisata Malang yang murah tetap bisa memberi pengalaman liburan berkualitas, mulai dari alun-alun gratis, wisata alam, hingga kampung wisata dengan tiket masuk terjangkau di kawasan Malang dan Batu.",
+                img: "image/pemandangan-wisata-alam-kebun-teh-batu-malang.webp",
+                featured: true
+            },
+            {
+                title: "Waktu Terbaik dan Tips Aman Snorkeling di Pantai Kondang Merak",
+                url: "waktu-terbaik-dan-tips-aman-snorkeling-di-pantai-kondang-merak.html",
+                category: "Wisata Malang Selatan",
+                date: "01 Sep 2026",
+                desc: "Ketahui waktu terbaik dan tips aman untuk snorkeling di Pantai Kondang Merak. Nikmati keindahan terumbu karang dengan aman dan nyaman.",
+                img: "image/pesona-bawah-laut-kondang-merak.webp",
+                featured: true
+            },
+            {
+                title: "Program Konservasi Terumbu Karang di Pantai Kondang Merak",
+                url: "program-konservasi-terumbu-karang-di-pantai-kondang-merak.html",
+                category: "Wisata Malang Selatan",
+                date: "01 Sep 2026",
+                desc: "Pelajari lebih lanjut mengenai program konservasi terumbu karang di Pantai Kondang Merak, dikelola oleh komunitas setempat dan pemerintah.",
+                img: "image/konservasi-transplantasi-karang-malang.webp",
+                featured: true
+            },
 
-    {
-        title: "Rute dan Akses Menuju Pantai Kondang Merak Malang 2026",
-        url: "rute-dan-akses-menuju-pantai-kondang-merak-malang-2026.html",
-        category: "Wisata Malang Selatan",
-        date: "31 Aug 2026",
-        desc: "Rute menuju Pantai Kondang Merak dari Kota Malang menempuh jarak sekitar 60 kilometer melalui jalur Malang Selatan dengan waktu perjalanan kurang lebih dua jam menggunakan kendaraan pribadi.",
-        img: "image/rute-menuju-kondang-merak.webp",
-        featured: true
-    },
-    {
-        title: "Pantai Kondang Merak Malang: Panduan Wisata dan Konservasi Terumbu Karang",
-        url: "pantai-kondang-merak-malang-panduan-wisata-dan-konservasi-terumbu-karang.html",
-        category: "Wisata Malang Selatan",
-        date: "31 Aug 2026",
-        desc: "Pantai Kondang Merak adalah pantai di Desa Sumberbening, Kecamatan Bantur, Kabupaten Malang, yang dikenal sebagai kawasan konservasi terumbu karang sekaligus lokasi snorkeling ringan.",
-        img: "image/pantai-kondang-merak-panorama.webp",
-        featured: true
-    },
-    {
-        title: "Waktu Terbaik dan Persiapan Trekking Kawah Ijen",
-        url: "waktu-terbaik-dan-persiapan-trekking-kawah-ijen.html",
-        category: "Wisata Jawa Timur",
-        date: "29 Aug 2026",
-        desc: "Panduan waktu terbaik dan persiapan trekking Kawah Ijen, meliputi perlengkapan wajib, kondisi fisik, dan tips keselamatan.",
-        img: "image/perlengkapan-trekking-ijen.webp",
-        featured: true
-    },
-    {
-        title: "Rute Wisata Bromo Ijen dari Malang dan Surabaya",
-        url: "rute-wisata-bromo-ijen-dari-malang-dan-surabaya.html",
-        category: "Wisata Jawa Timur",
-        date: "29 Aug 2026",
-        desc: "Panduan rute wisata Bromo Ijen dari Malang dan Surabaya, termasuk waktu tempuh, transportasi, dan tips perjalanan gabungan.",
-        img: "image/rute-bromo-ijen-peta.webp",
-        featured: true
-    },
-    {
-        title: "Blue Fire Ijen: Fenomena Api Biru Langka di Dunia",
-        url: "blue-fire-ijen-fenomena-api-biru-langka-di-dunia.html",
-        category: "Wisata Jawa Timur",
-        date: "28 Aug 2026",
-        desc: "Pelajari fenomena langka Blue Fire Ijen di Jawa Timur, mulai dari proses terjadinya hingga tips terbaik menyaksikannya.",
-        img: "image/blue-fire-malam-hari.webp",
-        featured: true
-    },
-    {
-        title: "Kawah Ijen: Panduan Lengkap Wisata Blue Fire di Jawa Timur",
-        url: "kawah-ijen-panduan-lengkap-wisata-blue-fire.html",
-        category: "Wisata Jawa Timur",
-        date: "28 Aug 2026",
-        desc: "Panduan lengkap wisata Kawah Ijen dan fenomena blue fire di Jawa Timur, termasuk rute, waktu terbaik, tips mendaki, dan tiket.",
-        img: "image/kawah-ijen-blue-fire.webp",
-        featured: true
-    },
-    {
-        title: "Aktivitas dan Spot Foto Terbaik di Pantai Teluk Asmara",
-        url: "aktivitas-dan-spot-foto-terbaik-di-pantai-teluk-asmara.html",
-        category: "Wisata Malang Selatan",
-        date: "27 Aug 2026",
-        desc: "Pantai Teluk Asmara menawarkan aktivitas beragam mulai dari menikmati panorama dari bukit, berenang di air tenang, hingga berfoto dengan latar gugusan pulau berbentuk hati yang menjadi ciri khas kawasan ini.",
-        img: "image/bukit-teluk-asmara.webp",
-        featured: true
-    },
-    {
-        title: "Tiket Masuk dan Fasilitas Pantai Teluk Asmara 2026",
-        url: "tiket-masuk-dan-fasilitas-pantai-teluk-asmara-2026.html",
-        category: "Wisata Malang Selatan",
-        date: "27 Aug 2026",
-        desc: "Tiket masuk Pantai Teluk Asmara tergolong terjangkau dengan kisaran umum belasan ribu rupiah per orang, ditambah biaya parkir, sewa alat, dan penginapan bagi yang ingin bermalam di kawasan tersebut.",
-        img: "image/tiket-teluk-asmara.webp",
-        featured: true
-    },
-    {
-        title: "Rute dan Lokasi Pantai Teluk Asmara Malang Terbaru",
-        url: "rute-dan-lokasi-pantai-teluk-asmara-malang-terbaru.html",
-        category: "Wisata Malang Selatan",
-        date: "26 Aug 2026",
-        desc: "Pantai Teluk Asmara berada di Desa Tambakrejo, Kecamatan Sumbermanjing Wetan, Kabupaten Malang, dan dapat dijangkau lewat dua rute utama dari Kota Malang.",
-        img: "image/rute-teluk-asmara.webp",
-        featured: true
-    },
-    {
-        title: "Pantai Teluk Asmara: Panduan Lengkap Wisata Malang Selatan 2026",
-        url: "pantai-teluk-asmara-panduan-lengkap-wisata-malang-selatan.html",
-        category: "Wisata Malang Selatan",
-        date: "26 Aug 2026",
-        desc: "Pantai Teluk Asmara adalah destinasi pantai di Malang Selatan yang dikenal dengan gugusan pulau kecil berbentuk hati. Pantai ini populer sebagai julukan Raja Ampat-nya Jawa Timur.",
-        img: "image/pemandangan-teluk-asmara-dari-udara.webp",
-        featured: true
-    },
-    {
-        title: "Kesalahan Umum Wisatawan Memilih Operator Rafting",
-        url: "kesalahan-umum-wisatawan-memilih-operator-rafting.html",
-        category: "Tips Rafting",
-        date: "24 Aug 2026",
-        desc: "Kesalahan umum wisatawan saat memilih operator rafting adalah terlalu fokus pada harga termurah dan mengabaikan pertanyaan soal sertifikasi pemandu.",
-        img: "image/memilih-operator-rafting-aman.webp",
-        featured: true
-    },
-    {
-        title: "SOP Rafting: Prosedur Keselamatan yang Wajib Ada",
-        url: "sop-rafting-prosedur-keselamatan-yang-wajib-ada.html",
-        category: "Tips Rafting",
-        date: "24 Aug 2026",
-        desc: "SOP rafting adalah dokumen prosedur yang merinci setiap langkah keselamatan yang wajib dijalankan operator wisata arung jeram.",
-        img: "image/sop-rafting-pengecekan-alat.webp",
-        featured: true
-    },
-    {
-        title: "Cara Cek Sertifikasi Pemandu Rafting Sebelum Booking",
-        url: "cara-cek-sertifikasi-pemandu-rafting-sebelum-booking.html",
-        category: "Tips Rafting",
-        date: "22 Aug 2026",
-        desc: "Panduan lengkap cara cek sertifikasi pemandu rafting sebelum booking untuk memastikan standar keselamatan dan kompetensi arung jeram Anda.",
-        img: "image/verifikasi-sertifikat-pemandu.webp",
-        featured: true
-    },
-    {
-        title: "Standar Keselamatan dan Sertifikasi Guide Rafting yang Wajib Dicek Wisatawan",
-        url: "standar-keselamatan-dan-sertifikasi-guide-rafting-yang-wajib-dicek-wisatawan.html",
-        category: "Tips Rafting",
-        date: "22 Aug 2026",
-        desc: "Sertifikasi guide rafting adalah bukti resmi uji kompetensi navigasi sungai. Wisatawan wajib mengecek standar keselamatan sebelum booking.",
-        img: "image/pemandu-rafting-sertifikat.webp",
-        featured: true
-    },
-    {
-        title: "Trawas vs Batu Malang: Mana yang Lebih Cocok untuk Liburan Sejuk",
-        url: "trawas-vs-batu-malang-mana-yang-lebih-cocok-untuk-liburan-sejuk.html",
-        category: "Wisata Mojokerto",
-        date: "21 Aug 2026",
-        desc: "Trawas cocok untuk liburan singkat dari Surabaya dengan biaya lebih hemat, sementara Batu Malang unggul dari sisi kelengkapan wahana wisata dan skala pengembangan destinasi yang lebih besar.",
-        img: "image/perbandingan-trawas-batu-malang.webp",
-        featured: true
-    },
-    {
-        title: "Tips dan Biaya Liburan ke Trawas Pacet dari Surabaya dan Malang",
-        url: "tips-dan-biaya-liburan-ke-trawas-pacet-dari-surabaya-dan-malang.html",
-        category: "Wisata Mojokerto",
-        date: "21 Aug 2026",
-        desc: "Biaya liburan ke Trawas dan Pacet umumnya dapat ditekan di bawah Rp200.000 per orang untuk perjalanan sehari, mencakup tiket masuk, konsumsi, dan parkir, tergantung jumlah destinasi yang dikunjungi.",
-        img: "image/rute-trawas-pacet-surabaya.webp",
-        featured: true
-    },
-    {
-        title: "Wisata Pacet Mojokerto: Rekomendasi Destinasi Alam dan Air Panas",
-        url: "wisata-pacet-mojokerto-rekomendasi-destinasi-alam-dan-air-panas.html",
-        category: "Wisata Mojokerto",
-        date: "20 Aug 2026",
-        desc: "Wisata Pacet adalah kawasan dataran tinggi di Kabupaten Mojokerto yang terkenal dengan pemandian air panas Padusan, hutan pinus, dan wahana petualangan, menjadikannya alternatif wisata Trawas dengan karakter yang lebih menantang.",
-        img: "image/pacet-padusan-air-panas.webp",
-        featured: true
-    },
-    {
-        title: "Wisata Trawas: Panduan Lengkap Destinasi Alam Sejuk 2026",
-        url: "wisata-trawas-panduan-lengkap-destinasi-alam-sejuk-2026.html",
-        category: "Wisata Mojokerto",
-        date: "20 Aug 2026",
-        desc: "Wisata Trawas adalah kawasan dataran tinggi di Kabupaten Mojokerto yang menawarkan udara sejuk, pemandangan Gunung Penanggungan dan Gunung Welirang, air terjun, hutan pinus, serta glamping sebagai alternatif liburan alam selain Batu Malang.",
-        img: "image/trawas-gunung-penanggungan.webp",
-        featured: true
-    },
-    {
-        title: "Tips Spot Foto Terbaik di Mikutopia Batu",
-        url: "tips-spot-foto-terbaik-di-mikutopia-batu.html",
-        category: "Wisata Batu",
-        date: "19 Aug 2026",
-        desc: "Mikutopia Batu menawarkan banyak spot foto tematik bergaya dunia jamur, mulai dari area outdoor berwarna cerah hingga ruang indoor dengan pencahayaan artistik.",
-        img: "image/spot-foto-jamur-mikutopia.webp",
-        featured: true
-    },
-    {
-        title: "Tiket, Jam Buka, dan Fasilitas Mikutopia Batu",
-        url: "tiket-jam-buka-dan-fasilitas-mikutopia-batu.html",
-        category: "Wisata Batu",
-        date: "19 Aug 2026",
-        desc: "Informasi lengkap mengenai harga tiket masuk, jam operasional terbaik, serta fasilitas penunjang di Mikutopia Batu.",
-        img: "image/tiket-mikutopia-batu.webp",
-        featured: true
-    },
-    {
-        title: "Lokasi dan Rute Menuju Mikutopia Batu dari Malang",
-        url: "lokasi-dan-rute-menuju-mikutopia-batu-dari-malang.html",
-        category: "Wisata Batu",
-        date: "18 Aug 2026",
-        desc: "Mikutopia Batu berlokasi di Desa Tulungrejo, Kecamatan Bumiaji, Kota Batu, dan dapat ditempuh sekitar 50 menit perjalanan darat dari pusat Kota Malang melalui jalur Raya Gempol.",
-        img: "image/rute-mikutopia-batu.webp",
-        featured: true
-    },
-    {
-        title: "Mikutopia Batu: Wisata Dunia Jamur Viral di Kota Batu",
-        url: "mikutopia-batu-wisata-dunia-jamur-viral-di-kota-batu.html",
-        category: "Wisata Batu",
-        date: "18 Aug 2026",
-        desc: "Mikutopia Batu adalah destinasi wisata baru di Desa Tulungrejo, Kecamatan Bumiaji, Kota Batu, yang mengusung konsep \"dunia jamur\" berwarna-warni dan viral karena kemiripannya dengan Super Nintendo World.",
-        img: "image/mikutopia-batu-dunia-jamur.webp",
-        featured: true
-    },
-    {
-        title: "Tips dan Persiapan Wisata Pasuruan untuk Pemula",
-        url: "tips-dan-persiapan-wisata-pasuruan-untuk-pemula.html",
-        category: "Wisata Pasuruan",
-        date: "15 Aug 2026",
-        desc: "Tips wisata Pasuruan untuk pemula meliputi persiapan pakaian hangat, pengecekan cuaca, dan penentuan waktu kunjungan yang tepat agar perjalanan ke kawasan pegunungan berjalan nyaman.",
-        img: "image/persiapan-wisata-pasuruan.webp",
-        featured: true
-    },
-    {
-        title: "Rute dan Estimasi Waktu Batu Malang ke Bromo Lewat Pasuruan",
-        url: "rute-dan-estimasi-waktu-batu-malang-ke-bromo-lewat-pasuruan.html",
-        category: "Wisata Pasuruan",
-        date: "15 Aug 2026",
-        desc: "Rute Batu Malang ke Bromo lewat Pasuruan umumnya ditempuh melalui jalur Prigen menuju Pasuruan kota, kemudian dilanjutkan ke arah Tosari atau Probolinggo sebelum mencapai kawasan Bromo.",
-        img: "image/rute-batu-bromo-pasuruan.webp",
-        featured: true
-    },
-    {
-        title: "5 Destinasi Wisata Alam Pasuruan yang Wajib Dikunjungi",
-        url: "5-destinasi-wisata-alam-pasuruan-yang-wajib-dikunjungi.html",
-        category: "Wisata Pasuruan",
-        date: "14 Aug 2026",
-        desc: "Wisata alam Pasuruan menawarkan pilihan destinasi mulai dari air terjun, kebun raya, hingga pemandian alam yang tersebar di kawasan dataran rendah hingga pegunungan Prigen dan Tretes.",
-        img: "image/air-terjun-kakek-bodo.webp",
-        featured: true
-    },
-    {
-        title: "Wisata Pasuruan: Panduan Lengkap sebagai Rute Alternatif Batu Malang Menuju Bromo",
-        url: "wisata-pasuruan-panduan-lengkap-sebagai-rute-alternatif-batu-malang-menuju-bromo.html",
-        category: "Wisata Pasuruan",
-        date: "14 Aug 2026",
-        desc: "Wisata Pasuruan adalah pilihan destinasi di Jawa Timur yang menawarkan kombinasi wisata alam, sejarah, dan religi, sekaligus berfungsi sebagai jalur alternatif yang nyaman ketika bepergian dari kawasan Batu Malang menuju Gunung Bromo.",
-        img: "image/wisata-pasuruan-air-terjun.webp",
-        featured: true
-    },
-    {
-        title: "Kuliner dan Penginapan Dekat Stasiun Malang untuk Wisatawan Kereta",
-        url: "kuliner-dan-penginapan-dekat-stasiun-malang-untuk-wisatawan-kereta.html",
-        category: "Wisata Malang",
-        date: "13 Aug 2026",
-        desc: "Kuliner dan penginapan dekat stasiun Malang banyak tersedia di sekitar Alun-Alun Tugu dan Alun-Alun Merdeka, mulai dari jajanan kaki lima hingga penginapan sederhana yang ramah backpacker.",
-        img: "image/kuliner-kaki-lima-alun-alun-malang.webp",
-        featured: true
-    },
-    {
-        title: "Itinerary Wisata Malang Dekat Stasiun untuk Wisatawan Transit",
-        url: "itinerary-wisata-malang-dekat-stasiun-untuk-wisatawan-transit.html",
-        category: "Wisata Malang",
-        date: "13 Aug 2026",
-        desc: "Itinerary wisata malang dekat stasiun untuk wisatawan transit bisa disusun dalam dua hingga empat jam, dimulai dari Taman Trunojoyo dan diakhiri di Alun-Alun Merdeka atau Kayutangan Heritage.",
-        img: "image/alun-alun-merdeka-malang.webp",
-        featured: true
-    },
-    {
-        title: "Spot yang Bisa Dijangkau Pejalan Kaki yang Wisata Dekat Stasiun Malang",
-        url: "spot-yang-bisa-dijangkau-pejalan-kaki-wisata-dekat-stasiun-malang.html",
-        category: "Wisata Malang",
-        date: "12 Aug 2026",
-        desc: "Wisata dekat stasiun Malang yang bisa dijangkau jalan kaki antara lain Taman Trunojoyo, Alun-Alun Tugu, Alun-Alun Merdeka, dan Masjid Agung Jami.",
-        img: "image/taman-trunojoyo-malang.webp",
-        featured: true
-    },
-    {
-        title: "Panduan Lengkap Wisata Malang Kota Dekat Stasiun",
-        url: "panduan-lengkap-wisata-malang-kota-dekat-stasiun.html",
-        category: "Wisata Malang",
-        date: "12 Aug 2026",
-        desc: "Panduan lengkap wisata Malang kota dekat stasiun, dari Taman Trunojoyo hingga Kayutangan Heritage, cocok untuk city tour jalan kaki.",
-        img: "image/alun-alun-tugu-malang.webp",
-        featured: true
-    },
-    {
-        title: "River Tubing dan Camping di Taman Wisata Batu Kapal",
-        url: "river-tubing-dan-camping-di-taman-wisata-batu-kapal.html",
-        category: "Wisata Bantul",
-        date: "11 Aug 2026",
-        desc: "Taman Wisata Batu Kapal menawarkan wahana river tubing di Sungai Opak menggunakan ban pelampung dan life vest, serta camping ground di tepi sungai yang dikelilingi hutan bambu.",
-        img: "image/river-tubing-sungai-opak.webp",
-        featured: true
-    },
-    {
-        title: "Daya Tarik dan Fasilitas Taman Wisata Batu Kapal",
-        url: "daya-tarik-dan-fasilitas-taman-wisata-batu-kapal.html",
-        category: "Wisata Bantul",
-        date: "11 Aug 2026",
-        desc: "Daya tarik utama Taman Wisata Batu Kapal adalah formasi batu besar berbentuk kapal di Sungai Opak, dilengkapi jembatan gantung, hutan bambu, dan berbagai spot foto alami di sepanjang kawasan.",
-        img: "image/spot-foto-batu-kapal.webp",
-        featured: true
-    },
-    {
-        title: "Rute dan Lokasi Taman Wisata Batu Kapal Bantul",
-        url: "rute-dan-lokasi-taman-wisata-batu-kapal-bantul.html",
-        category: "Wisata Bantul",
-        date: "10 Aug 2026",
-        desc: "Panduan rute dan lokasi Taman Wisata Batu Kapal di Jalan Klenggotan, Srimulyo, Piyungan, Bantul, termasuk patokan jalan, estimasi waktu tempuh, dan opsi transportasi.",
-        img: "image/rute-taman-wisata-batu-kapal.webp"
-    },
-    {
-        title: "Panduan Lengkap Lokasi, Tiket, dan Wahana Taman Wisata Batu Kapal",
-        url: "panduan-lengkap-lokasi-tiket-dan-wahana-taman-wisata-batu-kapal.html",
-        category: "Wisata Bantul",
-        date: "10 Aug 2026",
-        desc: "Panduan lengkap Taman Wisata Batu Kapal di Sungai Opak, Piyungan, Bantul, meliputi lokasi, rute, tiket masuk seikhlasnya, jam buka, wahana river tubing, camping ground, dan tips berkunjung.",
-        img: "image/batu-kapal-sungai-opak.webp",
-        featured: true
-    },
-    {
-        title: "Rekomendasi Agro Wisata Batu Terbaik untuk Keluarga",
-        url: "rekomendasi-agro-wisata-batu-terbaik-untuk-keluarga.html",
-        category: "Wisata Batu",
-        date: "10 Aug 2026",
-        desc: "Rekomendasi agro wisata Batu terbaik untuk keluarga, mulai dari kriteria memilih kebun, fasilitas lengkap, nilai edukasi untuk anak, hingga tips kunjungan sesuai kebutuhan.",
-        img: "image/keluarga-agro-wisata-batu.webp",
-        featured: true
-    },
-    {
-        title: "Biaya Agro Wisata Batu: Kisaran Tiket dan Biaya Tambahan",
-        url: "biaya-agro-wisata-batu-kisaran-tiket-dan-biaya-tambahan.html",
-        category: "Wisata Batu",
-        date: "08 Aug 2026",
-        desc: "Informasi lengkap mengenai kisaran tiket masuk agro wisata Batu, biaya tambahan petik apel, dan tips menghemat biaya liburan di kebun apel.",
-        img: "image/biaya-petik-apel-batu.webp",
-        featured: true
-    },
-    {
-        title: "Jenis Agro Wisata Petik Apel di Batu dan Perbedaannya",
-        url: "jenis-agro-wisata-petik-apel-di-batu-dan-perbedaannya.html",
-        category: "Wisata Batu",
-        date: "08 Aug 2026",
-        desc: "Temukan perbedaan antara kebun apel rakyat dan agro wisata terpadu di Batu. Ketahui juga varietas apel yang bisa dipetik beserta tips untuk rombongan.",
-        img: "image/kebun-apel-desa-bumiaji.webp",
-        featured: true
-    },
-    {
-        title: "Panduan Lengkap Wisata Petik Buah dan Edukasi Pertanian di Agro Wisata Batu",
-        url: "panduan-lengkap-wisata-petik-buah-dan-edukasi-pertanian-di-agro-wisata-batu.html",
-        category: "Wisata Batu",
-        date: "08 Aug 2026",
-        desc: "Panduan lengkap wisata petik buah dan edukasi pertanian di Agro Wisata Batu. Temukan kebun apel terbaik, biaya, lokasi, dan tips untuk liburan keluarga di Batu.",
-        img: "image/agro-wisata-batu-pemandangan.webp",
-        featured: true
-    },
-    {
-        title: "Rekomendasi dan Tips Kunjungan Wisata Keluarga Jombang",
-        url: "rekomendasi-dan-tips-kunjungan-wisata-keluarga-jombang.html",
-        category: "Wisata Jombang",
-        date: "07 Aug 2026",
-        desc: "Wisata keluarga Jombang menghadirkan pilihan rekreasi ramah anak mulai dari kolam renang hingga agrowisata durian dengan taman bermain.",
-        img: "image/wisata-keluarga-jombang-tirta-wisata.webp",
-        featured: true
-    },
-    {
-        title: "Wisata Religi Jombang: Tebuireng hingga Klenteng Hong San Kiong",
-        url: "wisata-religi-jombang-tebuireng-hingga-klenteng-hong-san-kiong.html",
-        category: "Wisata Jombang",
-        date: "07 Aug 2026",
-        desc: "Wisata religi Jombang menjadi ikon penting kabupaten yang dikenal dengan julukan Kota Santri, mencakup kompleks makam, masjid bersejarah, hingga klenteng dan gereja tua.",
-        img: "image/wisata-religi-jombang-tebuireng.webp",
-        featured: true
-    },
-    {
-        title: "Wisata Alam Jombang: Wonosalam, Goa Sriti, dan Sekitarnya",
-        url: "wisata-alam-jombang-wonosalam-goa-sriti-dan-sekitarnya.html",
-        category: "Wisata Jombang",
-        date: "07 Aug 2026",
-        desc: "Wisata alam Jombang terpusat di kawasan Wonosalam yang menawarkan perbukitan sejuk, air terjun, dan agrowisata durian sebagai daya tarik utama.",
-        img: "image/wisata-alam-jombang-tretes.webp",
-        featured: true
-    },
-    {
-        title: "Panduan Lengkap Destinasi Terbaik Wisata Jombang",
-        url: "panduan-lengkap-destinasi-terbaik-wisata-jombang.html",
-        category: "Wisata Jombang",
-        date: "06 Aug 2026",
-        desc: "Panduan lengkap destinasi terbaik wisata Jombang, mulai dari wisata alam Wonosalam, wisata religi Tebuireng, wisata budaya Candi Arimbi, hingga wisata keluarga Tirta Wisata.",
-        img: "image/wisata-jombang-wonosalam.webp",
-        featured: true
-    },
-    {
-        title: "Tips Berkunjung ke Dusun Kuliner Batu Bersama Keluarga",
-        url: "tips-berkunjung-ke-dusun-kuliner-batu-bersama-keluarga.html",
-        category: "Wisata Batu",
-        date: "05 Aug 2026",
-        desc: "Berkunjung ke dusun kuliner Batu bersama keluarga akan lebih nyaman jika mempersiapkan pakaian hangat, memilih waktu yang tepat, dan menyesuaikan menu dengan kebutuhan anak-anak.",
-        img: "image/keluarga-dusun-kuliner-batu.webp",
-        featured: true
-    },
-    {
-        title: "Rekomendasi Menu Khas di Dusun Kuliner Batu",
-        url: "rekomendasi-menu-khas-di-dusun-kuliner-batu.html",
-        category: "Wisata Batu",
-        date: "05 Aug 2026",
-        desc: "Menu khas di dusun kuliner Batu didominasi oleh hidangan yang cocok dengan udara sejuk pegunungan, seperti sate kelinci, jagung bakar, dan berbagai minuman hangat khas dataran tinggi.",
-        img: "image/menu-sate-kelinci-batu.webp",
-        featured: true
-    },
-    {
-        title: "Lokasi dan Jam Operasional Dusun Kuliner Batu",
-        url: "lokasi-dan-jam-operasional-dusun-kuliner-batu.html",
-        category: "Wisata Batu",
-        date: "05 Aug 2026",
-        desc: "Lokasi dan jam operasional dusun kuliner Batu perlu direncanakan sejak awal agar kunjungan berjalan lancar, terutama karena kawasan ini tersebar di beberapa titik dengan jam buka yang bervariasi.",
-        img: "image/lokasi-dusun-kuliner-batu.webp",
-        featured: true
-    },
-    {
-        title: "Panduan Lengkap Wisata Kuliner Dusun Kuliner Batu",
-        url: "panduan-lengkap-wisata-kuliner-dusun-kuliner-batu.html",
-        category: "Wisata Batu",
-        date: "04 Aug 2026",
-        desc: "Panduan lengkap wisata kuliner dusun kuliner Batu, termasuk menu khas, suasana tempat, waktu terbaik berkunjung, tips praktis, dan perbandingan dengan restoran modern.",
-        img: "image/dusun-kuliner-batu-suasana.webp",
-        featured: true
-    },
-    {
-        title: "Pantai Malang Dekat Kota yang Mudah Diakses",
-        url: "pantai-malang-dekat-kota-yang-mudah-diakses.html",
-        category: "Wisata Batu",
-        date: "04 Aug 2026",
-        desc: "Panduan lengkap pantai Malang yang paling dekat dan mudah diakses dari pusat kota, termasuk Pantai Balekambang dan Pantai Ngudel beserta tips kunjungan singkat.",
-        img: "image/pantai-ngudel-malang.webp",
-        featured: true
-    },
-    {
-        title: "Pantai Snorkeling Malang dengan Air Laut Jernih",
-        url: "pantai-snorkeling-malang-air-laut-jernih.html",
-        category: "Wisata Batu",
-        date: "03 Aug 2026",
-        desc: "Rekomendasi pantai snorkeling terbaik di Malang seperti Pantai Sendang Biru, Teluk Asmara, dan Pantai Bolu-Bolu yang menawarkan pemandangan bawah laut memukau.",
-        img: "image/pantai-teluk-asmara-malang.webp",
-        featured: true
-    },
-    {
-        title: "Pantai Pasir Putih Malang yang Wajib Dikunjungi",
-        url: "pantai-pasir-putih-malang-wajib-dikunjungi.html",
-        category: "Wisata Batu",
-        date: "03 Aug 2026",
-        desc: "Panduan lengkap rekomendasi pantai pasir putih terbaik di Malang, mulai dari Pantai Sendiki, Pantai Kondang Merak, hingga Pantai Balekambang.",
-        img: "image/pantai-sendiki-malang.webp",
-        featured: true
-    },
-    {
-        title: "Rekomendasi Pantai Malang Terbaik untuk Liburan 2026",
-        url: "rekomendasi-pantai-malang-terbaik-untuk-liburan-2026.html",
-        category: "Wisata Batu",
-        date: "01 Aug 2026",
-        desc: "Rekomendasi pantai Malang terbaik mencakup Balekambang, Tiga Warna, Sendiki, dan Ngantep, yang tersebar di sepanjang Malang Selatan dengan karakter pasir putih dan ombak Samudra Hindia yang khas.",
-        img: "image/pantai-balekambang-malang.webp",
-        featured: true
-    },
-    {
-        title: "Fasilitas dan Tips Aman Berkunjung ke Pantai Balekambang",
-        url: "fasilitas-dan-tips-aman-berkunjung-ke-pantai-balekambang.html",
-        category: "Wisata Batu",
-        date: "01 Aug 2026",
-        desc: "Panduan fasilitas lengkap Pantai Balekambang dan tips aman berwisata, termasuk aturan berenang, kelestarian pantai, dan hal penting yang wajib dibawa.",
-        img: "image/fasilitas-pantai-balekambang.webp",
-        featured: true
-    },
-    {
-        title: "Daya Tarik dan Aktivitas Seru di Pantai Balekambang",
-        url: "daya-tarik-dan-aktivitas-seru-di-pantai-balekambang.html",
-        category: "Wisata Batu",
-        date: "01 Aug 2026",
-        desc: "Panduan lengkap daya tarik utama Pantai Balekambang, aktivitas seru yang bisa dilakukan, hingga nilai budaya Tanah Lot Jawa Timur untuk liburan Anda.",
-        img: "image/pura-amerta-jati-balekambang.webp",
-        featured: true
-    },
-    {
-        title: "Rute dan Harga Tiket Pantai Balekambang Malang",
-        url: "rute-dan-harga-tiket-pantai-balekambang-malang.html",
-        category: "Wisata Batu",
-        date: "31 Jul 2026",
-        desc: "Panduan lengkap rute menuju Pantai Balekambang dari Kota Malang, harga tiket masuk terbaru, pilihan transportasi, dan tips perjalanan agar liburan berjalan lancar.",
-        img: "image/rute-pantai-balekambang.webp",
-        featured: true
-    },
-    {
-        title: "Pantai Balekambang: Panduan Lengkap Wisata Malang Selatan",
-        url: "pantai-balekambang-panduan-lengkap-wisata-malang-selatan.html",
-        category: "Wisata Batu",
-        date: "31 Jul 2026",
-        desc: "Pantai Balekambang adalah pantai di Kabupaten Malang, Jawa Timur, yang terkenal karena pura di atas pulau karang dan sering dijuluki Tanah Lot Jawa Timur. Pantai ini cocok untuk wisata keluarga, fotografi, dan menikmati matahari terbenam.",
-        img: "image/pantai-balekambang-pura-ismoyo.webp",
-        featured: true
-    },
-    {
-        title: "Tips dan Biaya Wisata Baru di Batu 2026",
-        url: "tips-dan-biaya-wisata-baru-di-batu-2026.html",
-        category: "Wisata Batu",
-        date: "31 Jul 2026",
-        desc: "Biaya wisata baru di Batu bervariasi tergantung jenis destinasi, transportasi, dan penginapan yang dipilih, dengan kisaran mulai dari puluhan ribu rupiah untuk tiket masuk hingga jutaan rupiah untuk paket liburan lengkap.",
-        img: "image/wisata-batu-tips-biaya.webp",
-        featured: true
-    },
-    {
-        title: "Wisata Baru di Batu untuk Healing dan Alam 2026",
-        url: "wisata-baru-di-batu-untuk-healing-dan-alam-2026.html",
-        category: "Wisata Batu",
-        date: "30 Jul 2026",
-        desc: "Wisata baru di Batu untuk healing menawarkan panorama dataran tinggi yang masih alami, cocok bagi wisatawan yang ingin menjauh dari kebisingan kota sambil menikmati udara sejuk pegunungan.",
-        img: "image/wisata-batu-healing-alam.webp",
-        featured: true
-    },
-    {
-        title: "Wisata Baru di Batu untuk Liburan Keluarga 2026",
-        url: "wisata-baru-di-batu-untuk-liburan-keluarga-2026.html",
-        category: "Wisata Batu",
-        date: "30 Jul 2026",
-        desc: "Wisata baru di Batu untuk keluarga menghadirkan taman hiburan tematik dengan wahana ramah anak, area kuliner, dan fasilitas foto yang mendukung liburan bersama seluruh anggota keluarga.",
-        img: "image/wisata-batu-keluarga-wahana.webp",
-        featured: true
-    },
-    {
-        title: "Panduan Lengkap Destinasi Wisata Baru di Batu 2026",
-        url: "panduan-lengkap-destinasi-wisata-baru-di-batu-2026.html",
-        category: "Wisata Batu",
-        date: "30 Jul 2026",
-        desc: "Panduan lengkap destinasi wisata baru di Batu 2026 mencakup taman hiburan tematik, agrowisata modern, dan spot alam pegunungan. Temukan tips biaya, waktu terbaik, dan cara menuju wisata baru Batu.",
-        img: "image/wisata-baru-batu-hero.webp",
-        featured: true
-    },
-    {
-        title: "Perlengkapan dan Keselamatan War Game Paintball Outdoor",
-        url: "perlengkapan-dan-keselamatan-war-game-paintball-outdoor.html",
-        category: "Wisata Batu",
-        date: "29 Jul 2026",
-        desc: "Perlengkapan keselamatan war game paintball outdoor mencakup masker pelindung wajah, rompi pelindung tubuh, dan pakaian tertutup yang wajib digunakan peserta sepanjang sesi bermain berlangsung.",
-        img: "image/perlengkapan-wajib-war-game-paintball.webp"
-    },
-    {
-        title: "Strategi Tim Efektif dalam War Game Paintball",
-        url: "strategi-tim-efektif-dalam-war-game-paintball.html",
-        category: "Wisata Batu",
-        date: "29 Jul 2026",
-        desc: "Strategi tim efektif dalam war game paintball dibangun melalui komunikasi yang jelas, pembagian posisi yang tepat, serta pemanfaatan medan alam terbuka sebagai keunggulan taktis selama permainan berlangsung.",
-        img: "image/strategi-tim-war-game-paintball.webp"
-    },
-    {
-        title: "Jenis Mode Permainan War Game Paintball yang Populer",
-        url: "jenis-mode-permainan-war-game-paintball-yang-populer.html",
-        category: "Wisata Batu",
-        date: "29 Jul 2026",
-        desc: "Mode permainan war game paintball yang populer meliputi capture the flag, elimination, dan defend the base, masing-masing memiliki aturan dan tingkat strategi yang berbeda sesuai kebutuhan kelompok.",
-        img: "image/capture-the-flag-paintball.webp"
-    },
-    {
-        title: "Pengalaman Seru War Game Paintball di Alam Terbuka Batu",
-        url: "pengalaman-seru-war-game-paintball-di-alam-terbuka-batu.html",
-        category: "Wisata Batu",
-        date: "28 Jul 2026",
-        desc: "War game paintball di alam terbuka Batu adalah pengalaman bermain strategi tim menggunakan peluru cat di area luar ruangan dengan rintangan alami maupun buatan, memberi sensasi menegangkan sekaligus menyenangkan bagi peserta.",
-        img: "image/war-game-paintball-alam-terbuka-batu.webp"
-    },
-    {
-        title: "Perbandingan Arena Paintball Hutan Pinus dan Lapangan Terbuka",
-        url: "perbandingan-arena-paintball-hutan-pinus-dan-lapangan-terbuka.html",
-        category: "Wisata Batu",
-        date: "27 Jul 2026",
-        desc: "Perbandingan arena paintball hutan pinus dan lapangan terbuka terletak pada suasana medan, tingkat tantangan, dan jenis rintangan yang digunakan selama permainan berlangsung.",
-        img: "image/perbandingan-arena-paintball.webp"
-    },
-    {
-        title: "Tips Persiapan Sebelum Bermain Adventure Paintball Hutan Pinus",
-        url: "tips-persiapan-sebelum-bermain-adventure-paintball-hutan-pinus.html",
-        category: "Wisata Batu",
-        date: "25 Jul 2026",
-        desc: "Persiapan untuk bermain paintball di hutan pinus meliputi pemilihan pakaian yang menutupi tubuh dan sesuai dengan kondisi medan, kesiapan fisik untuk kegiatan di luar ruangan, serta membawa perlengkapan pribadi seperti air minum dan sepatu yang nyaman.",
-        img: "image/persiapan-pakaian-paintball-hutan.webp"
-    },
-    {
-        title: "Fasilitas Arena Adventure Paintball Hutan Pinus Batu",
-        url: "fasilitas-arena-adventure-paintball-hutan-pinus-batu.html",
-        category: "Wisata Batu",
-        date: "24 Jul 2026",
-        desc: "Fasilitas arena adventure paintball hutan pinus di Batu umumnya mencakup beberapa zona bermain dengan tingkat kesulitan berbeda, peralatan pelindung standar, serta fasilitas pendukung seperti area istirahat dan sanitasi.",
-        img: "image/zona-bermain-paintball-hutan-pinus.webp"
-    },
+            {
+                title: "Rute dan Akses Menuju Pantai Kondang Merak Malang 2026",
+                url: "rute-dan-akses-menuju-pantai-kondang-merak-malang-2026.html",
+                category: "Wisata Malang Selatan",
+                date: "31 Aug 2026",
+                desc: "Rute menuju Pantai Kondang Merak dari Kota Malang menempuh jarak sekitar 60 kilometer melalui jalur Malang Selatan dengan waktu perjalanan kurang lebih dua jam menggunakan kendaraan pribadi.",
+                img: "image/rute-menuju-kondang-merak.webp",
+                featured: true
+            },
+            {
+                title: "Pantai Kondang Merak Malang: Panduan Wisata dan Konservasi Terumbu Karang",
+                url: "pantai-kondang-merak-malang-panduan-wisata-dan-konservasi-terumbu-karang.html",
+                category: "Wisata Malang Selatan",
+                date: "31 Aug 2026",
+                desc: "Pantai Kondang Merak adalah pantai di Desa Sumberbening, Kecamatan Bantur, Kabupaten Malang, yang dikenal sebagai kawasan konservasi terumbu karang sekaligus lokasi snorkeling ringan.",
+                img: "image/pantai-kondang-merak-panorama.webp",
+                featured: true
+            },
+            {
+                title: "Waktu Terbaik dan Persiapan Trekking Kawah Ijen",
+                url: "waktu-terbaik-dan-persiapan-trekking-kawah-ijen.html",
+                category: "Wisata Jawa Timur",
+                date: "29 Aug 2026",
+                desc: "Panduan waktu terbaik dan persiapan trekking Kawah Ijen, meliputi perlengkapan wajib, kondisi fisik, dan tips keselamatan.",
+                img: "image/perlengkapan-trekking-ijen.webp",
+                featured: true
+            },
+            {
+                title: "Rute Wisata Bromo Ijen dari Malang dan Surabaya",
+                url: "rute-wisata-bromo-ijen-dari-malang-dan-surabaya.html",
+                category: "Wisata Jawa Timur",
+                date: "29 Aug 2026",
+                desc: "Panduan rute wisata Bromo Ijen dari Malang dan Surabaya, termasuk waktu tempuh, transportasi, dan tips perjalanan gabungan.",
+                img: "image/rute-bromo-ijen-peta.webp",
+                featured: true
+            },
+            {
+                title: "Blue Fire Ijen: Fenomena Api Biru Langka di Dunia",
+                url: "blue-fire-ijen-fenomena-api-biru-langka-di-dunia.html",
+                category: "Wisata Jawa Timur",
+                date: "28 Aug 2026",
+                desc: "Pelajari fenomena langka Blue Fire Ijen di Jawa Timur, mulai dari proses terjadinya hingga tips terbaik menyaksikannya.",
+                img: "image/blue-fire-malam-hari.webp",
+                featured: true
+            },
+            {
+                title: "Kawah Ijen: Panduan Lengkap Wisata Blue Fire di Jawa Timur",
+                url: "kawah-ijen-panduan-lengkap-wisata-blue-fire.html",
+                category: "Wisata Jawa Timur",
+                date: "28 Aug 2026",
+                desc: "Panduan lengkap wisata Kawah Ijen dan fenomena blue fire di Jawa Timur, termasuk rute, waktu terbaik, tips mendaki, dan tiket.",
+                img: "image/kawah-ijen-blue-fire.webp",
+                featured: true
+            },
+            {
+                title: "Aktivitas dan Spot Foto Terbaik di Pantai Teluk Asmara",
+                url: "aktivitas-dan-spot-foto-terbaik-di-pantai-teluk-asmara.html",
+                category: "Wisata Malang Selatan",
+                date: "27 Aug 2026",
+                desc: "Pantai Teluk Asmara menawarkan aktivitas beragam mulai dari menikmati panorama dari bukit, berenang di air tenang, hingga berfoto dengan latar gugusan pulau berbentuk hati yang menjadi ciri khas kawasan ini.",
+                img: "image/bukit-teluk-asmara.webp",
+                featured: true
+            },
+            {
+                title: "Tiket Masuk dan Fasilitas Pantai Teluk Asmara 2026",
+                url: "tiket-masuk-dan-fasilitas-pantai-teluk-asmara-2026.html",
+                category: "Wisata Malang Selatan",
+                date: "27 Aug 2026",
+                desc: "Tiket masuk Pantai Teluk Asmara tergolong terjangkau dengan kisaran umum belasan ribu rupiah per orang, ditambah biaya parkir, sewa alat, dan penginapan bagi yang ingin bermalam di kawasan tersebut.",
+                img: "image/tiket-teluk-asmara.webp",
+                featured: true
+            },
+            {
+                title: "Rute dan Lokasi Pantai Teluk Asmara Malang Terbaru",
+                url: "rute-dan-lokasi-pantai-teluk-asmara-malang-terbaru.html",
+                category: "Wisata Malang Selatan",
+                date: "26 Aug 2026",
+                desc: "Pantai Teluk Asmara berada di Desa Tambakrejo, Kecamatan Sumbermanjing Wetan, Kabupaten Malang, dan dapat dijangkau lewat dua rute utama dari Kota Malang.",
+                img: "image/rute-teluk-asmara.webp",
+                featured: true
+            },
+            {
+                title: "Pantai Teluk Asmara: Panduan Lengkap Wisata Malang Selatan 2026",
+                url: "pantai-teluk-asmara-panduan-lengkap-wisata-malang-selatan.html",
+                category: "Wisata Malang Selatan",
+                date: "26 Aug 2026",
+                desc: "Pantai Teluk Asmara adalah destinasi pantai di Malang Selatan yang dikenal dengan gugusan pulau kecil berbentuk hati. Pantai ini populer sebagai julukan Raja Ampat-nya Jawa Timur.",
+                img: "image/pemandangan-teluk-asmara-dari-udara.webp",
+                featured: true
+            },
+            {
+                title: "Kesalahan Umum Wisatawan Memilih Operator Rafting",
+                url: "kesalahan-umum-wisatawan-memilih-operator-rafting.html",
+                category: "Tips Rafting",
+                date: "24 Aug 2026",
+                desc: "Kesalahan umum wisatawan saat memilih operator rafting adalah terlalu fokus pada harga termurah dan mengabaikan pertanyaan soal sertifikasi pemandu.",
+                img: "image/memilih-operator-rafting-aman.webp",
+                featured: true
+            },
+            {
+                title: "SOP Rafting: Prosedur Keselamatan yang Wajib Ada",
+                url: "sop-rafting-prosedur-keselamatan-yang-wajib-ada.html",
+                category: "Tips Rafting",
+                date: "24 Aug 2026",
+                desc: "SOP rafting adalah dokumen prosedur yang merinci setiap langkah keselamatan yang wajib dijalankan operator wisata arung jeram.",
+                img: "image/sop-rafting-pengecekan-alat.webp",
+                featured: true
+            },
+            {
+                title: "Cara Cek Sertifikasi Pemandu Rafting Sebelum Booking",
+                url: "cara-cek-sertifikasi-pemandu-rafting-sebelum-booking.html",
+                category: "Tips Rafting",
+                date: "22 Aug 2026",
+                desc: "Panduan lengkap cara cek sertifikasi pemandu rafting sebelum booking untuk memastikan standar keselamatan dan kompetensi arung jeram Anda.",
+                img: "image/verifikasi-sertifikat-pemandu.webp",
+                featured: true
+            },
+            {
+                title: "Standar Keselamatan dan Sertifikasi Guide Rafting yang Wajib Dicek Wisatawan",
+                url: "standar-keselamatan-dan-sertifikasi-guide-rafting-yang-wajib-dicek-wisatawan.html",
+                category: "Tips Rafting",
+                date: "22 Aug 2026",
+                desc: "Sertifikasi guide rafting adalah bukti resmi uji kompetensi navigasi sungai. Wisatawan wajib mengecek standar keselamatan sebelum booking.",
+                img: "image/pemandu-rafting-sertifikat.webp",
+                featured: true
+            },
+            {
+                title: "Trawas vs Batu Malang: Mana yang Lebih Cocok untuk Liburan Sejuk",
+                url: "trawas-vs-batu-malang-mana-yang-lebih-cocok-untuk-liburan-sejuk.html",
+                category: "Wisata Mojokerto",
+                date: "21 Aug 2026",
+                desc: "Trawas cocok untuk liburan singkat dari Surabaya dengan biaya lebih hemat, sementara Batu Malang unggul dari sisi kelengkapan wahana wisata dan skala pengembangan destinasi yang lebih besar.",
+                img: "image/perbandingan-trawas-batu-malang.webp",
+                featured: true
+            },
+            {
+                title: "Tips dan Biaya Liburan ke Trawas Pacet dari Surabaya dan Malang",
+                url: "tips-dan-biaya-liburan-ke-trawas-pacet-dari-surabaya-dan-malang.html",
+                category: "Wisata Mojokerto",
+                date: "21 Aug 2026",
+                desc: "Biaya liburan ke Trawas dan Pacet umumnya dapat ditekan di bawah Rp200.000 per orang untuk perjalanan sehari, mencakup tiket masuk, konsumsi, dan parkir, tergantung jumlah destinasi yang dikunjungi.",
+                img: "image/rute-trawas-pacet-surabaya.webp",
+                featured: true
+            },
+            {
+                title: "Wisata Pacet Mojokerto: Rekomendasi Destinasi Alam dan Air Panas",
+                url: "wisata-pacet-mojokerto-rekomendasi-destinasi-alam-dan-air-panas.html",
+                category: "Wisata Mojokerto",
+                date: "20 Aug 2026",
+                desc: "Wisata Pacet adalah kawasan dataran tinggi di Kabupaten Mojokerto yang terkenal dengan pemandian air panas Padusan, hutan pinus, dan wahana petualangan, menjadikannya alternatif wisata Trawas dengan karakter yang lebih menantang.",
+                img: "image/pacet-padusan-air-panas.webp",
+                featured: true
+            },
+            {
+                title: "Wisata Trawas: Panduan Lengkap Destinasi Alam Sejuk 2026",
+                url: "wisata-trawas-panduan-lengkap-destinasi-alam-sejuk-2026.html",
+                category: "Wisata Mojokerto",
+                date: "20 Aug 2026",
+                desc: "Wisata Trawas adalah kawasan dataran tinggi di Kabupaten Mojokerto yang menawarkan udara sejuk, pemandangan Gunung Penanggungan dan Gunung Welirang, air terjun, hutan pinus, serta glamping sebagai alternatif liburan alam selain Batu Malang.",
+                img: "image/trawas-gunung-penanggungan.webp",
+                featured: true
+            },
+            {
+                title: "Tips Spot Foto Terbaik di Mikutopia Batu",
+                url: "tips-spot-foto-terbaik-di-mikutopia-batu.html",
+                category: "Wisata Batu",
+                date: "19 Aug 2026",
+                desc: "Mikutopia Batu menawarkan banyak spot foto tematik bergaya dunia jamur, mulai dari area outdoor berwarna cerah hingga ruang indoor dengan pencahayaan artistik.",
+                img: "image/spot-foto-jamur-mikutopia.webp",
+                featured: true
+            },
+            {
+                title: "Tiket, Jam Buka, dan Fasilitas Mikutopia Batu",
+                url: "tiket-jam-buka-dan-fasilitas-mikutopia-batu.html",
+                category: "Wisata Batu",
+                date: "19 Aug 2026",
+                desc: "Informasi lengkap mengenai harga tiket masuk, jam operasional terbaik, serta fasilitas penunjang di Mikutopia Batu.",
+                img: "image/tiket-mikutopia-batu.webp",
+                featured: true
+            },
+            {
+                title: "Lokasi dan Rute Menuju Mikutopia Batu dari Malang",
+                url: "lokasi-dan-rute-menuju-mikutopia-batu-dari-malang.html",
+                category: "Wisata Batu",
+                date: "18 Aug 2026",
+                desc: "Mikutopia Batu berlokasi di Desa Tulungrejo, Kecamatan Bumiaji, Kota Batu, dan dapat ditempuh sekitar 50 menit perjalanan darat dari pusat Kota Malang melalui jalur Raya Gempol.",
+                img: "image/rute-mikutopia-batu.webp",
+                featured: true
+            },
+            {
+                title: "Mikutopia Batu: Wisata Dunia Jamur Viral di Kota Batu",
+                url: "mikutopia-batu-wisata-dunia-jamur-viral-di-kota-batu.html",
+                category: "Wisata Batu",
+                date: "18 Aug 2026",
+                desc: "Mikutopia Batu adalah destinasi wisata baru di Desa Tulungrejo, Kecamatan Bumiaji, Kota Batu, yang mengusung konsep \"dunia jamur\" berwarna-warni dan viral karena kemiripannya dengan Super Nintendo World.",
+                img: "image/mikutopia-batu-dunia-jamur.webp",
+                featured: true
+            },
+            {
+                title: "Tips dan Persiapan Wisata Pasuruan untuk Pemula",
+                url: "tips-dan-persiapan-wisata-pasuruan-untuk-pemula.html",
+                category: "Wisata Pasuruan",
+                date: "15 Aug 2026",
+                desc: "Tips wisata Pasuruan untuk pemula meliputi persiapan pakaian hangat, pengecekan cuaca, dan penentuan waktu kunjungan yang tepat agar perjalanan ke kawasan pegunungan berjalan nyaman.",
+                img: "image/persiapan-wisata-pasuruan.webp",
+                featured: true
+            },
+            {
+                title: "Rute dan Estimasi Waktu Batu Malang ke Bromo Lewat Pasuruan",
+                url: "rute-dan-estimasi-waktu-batu-malang-ke-bromo-lewat-pasuruan.html",
+                category: "Wisata Pasuruan",
+                date: "15 Aug 2026",
+                desc: "Rute Batu Malang ke Bromo lewat Pasuruan umumnya ditempuh melalui jalur Prigen menuju Pasuruan kota, kemudian dilanjutkan ke arah Tosari atau Probolinggo sebelum mencapai kawasan Bromo.",
+                img: "image/rute-batu-bromo-pasuruan.webp",
+                featured: true
+            },
+            {
+                title: "5 Destinasi Wisata Alam Pasuruan yang Wajib Dikunjungi",
+                url: "5-destinasi-wisata-alam-pasuruan-yang-wajib-dikunjungi.html",
+                category: "Wisata Pasuruan",
+                date: "14 Aug 2026",
+                desc: "Wisata alam Pasuruan menawarkan pilihan destinasi mulai dari air terjun, kebun raya, hingga pemandian alam yang tersebar di kawasan dataran rendah hingga pegunungan Prigen dan Tretes.",
+                img: "image/air-terjun-kakek-bodo.webp",
+                featured: true
+            },
+            {
+                title: "Wisata Pasuruan: Panduan Lengkap sebagai Rute Alternatif Batu Malang Menuju Bromo",
+                url: "wisata-pasuruan-panduan-lengkap-sebagai-rute-alternatif-batu-malang-menuju-bromo.html",
+                category: "Wisata Pasuruan",
+                date: "14 Aug 2026",
+                desc: "Wisata Pasuruan adalah pilihan destinasi di Jawa Timur yang menawarkan kombinasi wisata alam, sejarah, dan religi, sekaligus berfungsi sebagai jalur alternatif yang nyaman ketika bepergian dari kawasan Batu Malang menuju Gunung Bromo.",
+                img: "image/wisata-pasuruan-air-terjun.webp",
+                featured: true
+            },
+            {
+                title: "Kuliner dan Penginapan Dekat Stasiun Malang untuk Wisatawan Kereta",
+                url: "kuliner-dan-penginapan-dekat-stasiun-malang-untuk-wisatawan-kereta.html",
+                category: "Wisata Malang",
+                date: "13 Aug 2026",
+                desc: "Kuliner dan penginapan dekat stasiun Malang banyak tersedia di sekitar Alun-Alun Tugu dan Alun-Alun Merdeka, mulai dari jajanan kaki lima hingga penginapan sederhana yang ramah backpacker.",
+                img: "image/kuliner-kaki-lima-alun-alun-malang.webp",
+                featured: true
+            },
+            {
+                title: "Itinerary Wisata Malang Dekat Stasiun untuk Wisatawan Transit",
+                url: "itinerary-wisata-malang-dekat-stasiun-untuk-wisatawan-transit.html",
+                category: "Wisata Malang",
+                date: "13 Aug 2026",
+                desc: "Itinerary wisata malang dekat stasiun untuk wisatawan transit bisa disusun dalam dua hingga empat jam, dimulai dari Taman Trunojoyo dan diakhiri di Alun-Alun Merdeka atau Kayutangan Heritage.",
+                img: "image/alun-alun-merdeka-malang.webp",
+                featured: true
+            },
+            {
+                title: "Spot yang Bisa Dijangkau Pejalan Kaki yang Wisata Dekat Stasiun Malang",
+                url: "spot-yang-bisa-dijangkau-pejalan-kaki-wisata-dekat-stasiun-malang.html",
+                category: "Wisata Malang",
+                date: "12 Aug 2026",
+                desc: "Wisata dekat stasiun Malang yang bisa dijangkau jalan kaki antara lain Taman Trunojoyo, Alun-Alun Tugu, Alun-Alun Merdeka, dan Masjid Agung Jami.",
+                img: "image/taman-trunojoyo-malang.webp",
+                featured: true
+            },
+            {
+                title: "Panduan Lengkap Wisata Malang Kota Dekat Stasiun",
+                url: "panduan-lengkap-wisata-malang-kota-dekat-stasiun.html",
+                category: "Wisata Malang",
+                date: "12 Aug 2026",
+                desc: "Panduan lengkap wisata Malang kota dekat stasiun, dari Taman Trunojoyo hingga Kayutangan Heritage, cocok untuk city tour jalan kaki.",
+                img: "image/alun-alun-tugu-malang.webp",
+                featured: true
+            },
+            {
+                title: "River Tubing dan Camping di Taman Wisata Batu Kapal",
+                url: "river-tubing-dan-camping-di-taman-wisata-batu-kapal.html",
+                category: "Wisata Bantul",
+                date: "11 Aug 2026",
+                desc: "Taman Wisata Batu Kapal menawarkan wahana river tubing di Sungai Opak menggunakan ban pelampung dan life vest, serta camping ground di tepi sungai yang dikelilingi hutan bambu.",
+                img: "image/river-tubing-sungai-opak.webp",
+                featured: true
+            },
+            {
+                title: "Daya Tarik dan Fasilitas Taman Wisata Batu Kapal",
+                url: "daya-tarik-dan-fasilitas-taman-wisata-batu-kapal.html",
+                category: "Wisata Bantul",
+                date: "11 Aug 2026",
+                desc: "Daya tarik utama Taman Wisata Batu Kapal adalah formasi batu besar berbentuk kapal di Sungai Opak, dilengkapi jembatan gantung, hutan bambu, dan berbagai spot foto alami di sepanjang kawasan.",
+                img: "image/spot-foto-batu-kapal.webp",
+                featured: true
+            },
+            {
+                title: "Rute dan Lokasi Taman Wisata Batu Kapal Bantul",
+                url: "rute-dan-lokasi-taman-wisata-batu-kapal-bantul.html",
+                category: "Wisata Bantul",
+                date: "10 Aug 2026",
+                desc: "Panduan rute dan lokasi Taman Wisata Batu Kapal di Jalan Klenggotan, Srimulyo, Piyungan, Bantul, termasuk patokan jalan, estimasi waktu tempuh, dan opsi transportasi.",
+                img: "image/rute-taman-wisata-batu-kapal.webp"
+            },
+            {
+                title: "Panduan Lengkap Lokasi, Tiket, dan Wahana Taman Wisata Batu Kapal",
+                url: "panduan-lengkap-lokasi-tiket-dan-wahana-taman-wisata-batu-kapal.html",
+                category: "Wisata Bantul",
+                date: "10 Aug 2026",
+                desc: "Panduan lengkap Taman Wisata Batu Kapal di Sungai Opak, Piyungan, Bantul, meliputi lokasi, rute, tiket masuk seikhlasnya, jam buka, wahana river tubing, camping ground, dan tips berkunjung.",
+                img: "image/batu-kapal-sungai-opak.webp",
+                featured: true
+            },
+            {
+                title: "Rekomendasi Agro Wisata Batu Terbaik untuk Keluarga",
+                url: "rekomendasi-agro-wisata-batu-terbaik-untuk-keluarga.html",
+                category: "Wisata Batu",
+                date: "10 Aug 2026",
+                desc: "Rekomendasi agro wisata Batu terbaik untuk keluarga, mulai dari kriteria memilih kebun, fasilitas lengkap, nilai edukasi untuk anak, hingga tips kunjungan sesuai kebutuhan.",
+                img: "image/keluarga-agro-wisata-batu.webp",
+                featured: true
+            },
+            {
+                title: "Biaya Agro Wisata Batu: Kisaran Tiket dan Biaya Tambahan",
+                url: "biaya-agro-wisata-batu-kisaran-tiket-dan-biaya-tambahan.html",
+                category: "Wisata Batu",
+                date: "08 Aug 2026",
+                desc: "Informasi lengkap mengenai kisaran tiket masuk agro wisata Batu, biaya tambahan petik apel, dan tips menghemat biaya liburan di kebun apel.",
+                img: "image/biaya-petik-apel-batu.webp",
+                featured: true
+            },
+            {
+                title: "Jenis Agro Wisata Petik Apel di Batu dan Perbedaannya",
+                url: "jenis-agro-wisata-petik-apel-di-batu-dan-perbedaannya.html",
+                category: "Wisata Batu",
+                date: "08 Aug 2026",
+                desc: "Temukan perbedaan antara kebun apel rakyat dan agro wisata terpadu di Batu. Ketahui juga varietas apel yang bisa dipetik beserta tips untuk rombongan.",
+                img: "image/kebun-apel-desa-bumiaji.webp",
+                featured: true
+            },
+            {
+                title: "Panduan Lengkap Wisata Petik Buah dan Edukasi Pertanian di Agro Wisata Batu",
+                url: "panduan-lengkap-wisata-petik-buah-dan-edukasi-pertanian-di-agro-wisata-batu.html",
+                category: "Wisata Batu",
+                date: "08 Aug 2026",
+                desc: "Panduan lengkap wisata petik buah dan edukasi pertanian di Agro Wisata Batu. Temukan kebun apel terbaik, biaya, lokasi, dan tips untuk liburan keluarga di Batu.",
+                img: "image/agro-wisata-batu-pemandangan.webp",
+                featured: true
+            },
+            {
+                title: "Rekomendasi dan Tips Kunjungan Wisata Keluarga Jombang",
+                url: "rekomendasi-dan-tips-kunjungan-wisata-keluarga-jombang.html",
+                category: "Wisata Jombang",
+                date: "07 Aug 2026",
+                desc: "Wisata keluarga Jombang menghadirkan pilihan rekreasi ramah anak mulai dari kolam renang hingga agrowisata durian dengan taman bermain.",
+                img: "image/wisata-keluarga-jombang-tirta-wisata.webp",
+                featured: true
+            },
+            {
+                title: "Wisata Religi Jombang: Tebuireng hingga Klenteng Hong San Kiong",
+                url: "wisata-religi-jombang-tebuireng-hingga-klenteng-hong-san-kiong.html",
+                category: "Wisata Jombang",
+                date: "07 Aug 2026",
+                desc: "Wisata religi Jombang menjadi ikon penting kabupaten yang dikenal dengan julukan Kota Santri, mencakup kompleks makam, masjid bersejarah, hingga klenteng dan gereja tua.",
+                img: "image/wisata-religi-jombang-tebuireng.webp",
+                featured: true
+            },
+            {
+                title: "Wisata Alam Jombang: Wonosalam, Goa Sriti, dan Sekitarnya",
+                url: "wisata-alam-jombang-wonosalam-goa-sriti-dan-sekitarnya.html",
+                category: "Wisata Jombang",
+                date: "07 Aug 2026",
+                desc: "Wisata alam Jombang terpusat di kawasan Wonosalam yang menawarkan perbukitan sejuk, air terjun, dan agrowisata durian sebagai daya tarik utama.",
+                img: "image/wisata-alam-jombang-tretes.webp",
+                featured: true
+            },
+            {
+                title: "Panduan Lengkap Destinasi Terbaik Wisata Jombang",
+                url: "panduan-lengkap-destinasi-terbaik-wisata-jombang.html",
+                category: "Wisata Jombang",
+                date: "06 Aug 2026",
+                desc: "Panduan lengkap destinasi terbaik wisata Jombang, mulai dari wisata alam Wonosalam, wisata religi Tebuireng, wisata budaya Candi Arimbi, hingga wisata keluarga Tirta Wisata.",
+                img: "image/wisata-jombang-wonosalam.webp",
+                featured: true
+            },
+            {
+                title: "Tips Berkunjung ke Dusun Kuliner Batu Bersama Keluarga",
+                url: "tips-berkunjung-ke-dusun-kuliner-batu-bersama-keluarga.html",
+                category: "Wisata Batu",
+                date: "05 Aug 2026",
+                desc: "Berkunjung ke dusun kuliner Batu bersama keluarga akan lebih nyaman jika mempersiapkan pakaian hangat, memilih waktu yang tepat, dan menyesuaikan menu dengan kebutuhan anak-anak.",
+                img: "image/keluarga-dusun-kuliner-batu.webp",
+                featured: true
+            },
+            {
+                title: "Rekomendasi Menu Khas di Dusun Kuliner Batu",
+                url: "rekomendasi-menu-khas-di-dusun-kuliner-batu.html",
+                category: "Wisata Batu",
+                date: "05 Aug 2026",
+                desc: "Menu khas di dusun kuliner Batu didominasi oleh hidangan yang cocok dengan udara sejuk pegunungan, seperti sate kelinci, jagung bakar, dan berbagai minuman hangat khas dataran tinggi.",
+                img: "image/menu-sate-kelinci-batu.webp",
+                featured: true
+            },
+            {
+                title: "Lokasi dan Jam Operasional Dusun Kuliner Batu",
+                url: "lokasi-dan-jam-operasional-dusun-kuliner-batu.html",
+                category: "Wisata Batu",
+                date: "05 Aug 2026",
+                desc: "Lokasi dan jam operasional dusun kuliner Batu perlu direncanakan sejak awal agar kunjungan berjalan lancar, terutama karena kawasan ini tersebar di beberapa titik dengan jam buka yang bervariasi.",
+                img: "image/lokasi-dusun-kuliner-batu.webp",
+                featured: true
+            },
+            {
+                title: "Panduan Lengkap Wisata Kuliner Dusun Kuliner Batu",
+                url: "panduan-lengkap-wisata-kuliner-dusun-kuliner-batu.html",
+                category: "Wisata Batu",
+                date: "04 Aug 2026",
+                desc: "Panduan lengkap wisata kuliner dusun kuliner Batu, termasuk menu khas, suasana tempat, waktu terbaik berkunjung, tips praktis, dan perbandingan dengan restoran modern.",
+                img: "image/dusun-kuliner-batu-suasana.webp",
+                featured: true
+            },
+            {
+                title: "Pantai Malang Dekat Kota yang Mudah Diakses",
+                url: "pantai-malang-dekat-kota-yang-mudah-diakses.html",
+                category: "Wisata Batu",
+                date: "04 Aug 2026",
+                desc: "Panduan lengkap pantai Malang yang paling dekat dan mudah diakses dari pusat kota, termasuk Pantai Balekambang dan Pantai Ngudel beserta tips kunjungan singkat.",
+                img: "image/pantai-ngudel-malang.webp",
+                featured: true
+            },
+            {
+                title: "Pantai Snorkeling Malang dengan Air Laut Jernih",
+                url: "pantai-snorkeling-malang-air-laut-jernih.html",
+                category: "Wisata Batu",
+                date: "03 Aug 2026",
+                desc: "Rekomendasi pantai snorkeling terbaik di Malang seperti Pantai Sendang Biru, Teluk Asmara, dan Pantai Bolu-Bolu yang menawarkan pemandangan bawah laut memukau.",
+                img: "image/pantai-teluk-asmara-malang.webp",
+                featured: true
+            },
+            {
+                title: "Pantai Pasir Putih Malang yang Wajib Dikunjungi",
+                url: "pantai-pasir-putih-malang-wajib-dikunjungi.html",
+                category: "Wisata Batu",
+                date: "03 Aug 2026",
+                desc: "Panduan lengkap rekomendasi pantai pasir putih terbaik di Malang, mulai dari Pantai Sendiki, Pantai Kondang Merak, hingga Pantai Balekambang.",
+                img: "image/pantai-sendiki-malang.webp",
+                featured: true
+            },
+            {
+                title: "Rekomendasi Pantai Malang Terbaik untuk Liburan 2026",
+                url: "rekomendasi-pantai-malang-terbaik-untuk-liburan-2026.html",
+                category: "Wisata Batu",
+                date: "01 Aug 2026",
+                desc: "Rekomendasi pantai Malang terbaik mencakup Balekambang, Tiga Warna, Sendiki, dan Ngantep, yang tersebar di sepanjang Malang Selatan dengan karakter pasir putih dan ombak Samudra Hindia yang khas.",
+                img: "image/pantai-balekambang-malang.webp",
+                featured: true
+            },
+            {
+                title: "Fasilitas dan Tips Aman Berkunjung ke Pantai Balekambang",
+                url: "fasilitas-dan-tips-aman-berkunjung-ke-pantai-balekambang.html",
+                category: "Wisata Batu",
+                date: "01 Aug 2026",
+                desc: "Panduan fasilitas lengkap Pantai Balekambang dan tips aman berwisata, termasuk aturan berenang, kelestarian pantai, dan hal penting yang wajib dibawa.",
+                img: "image/fasilitas-pantai-balekambang.webp",
+                featured: true
+            },
+            {
+                title: "Daya Tarik dan Aktivitas Seru di Pantai Balekambang",
+                url: "daya-tarik-dan-aktivitas-seru-di-pantai-balekambang.html",
+                category: "Wisata Batu",
+                date: "01 Aug 2026",
+                desc: "Panduan lengkap daya tarik utama Pantai Balekambang, aktivitas seru yang bisa dilakukan, hingga nilai budaya Tanah Lot Jawa Timur untuk liburan Anda.",
+                img: "image/pura-amerta-jati-balekambang.webp",
+                featured: true
+            },
+            {
+                title: "Rute dan Harga Tiket Pantai Balekambang Malang",
+                url: "rute-dan-harga-tiket-pantai-balekambang-malang.html",
+                category: "Wisata Batu",
+                date: "31 Jul 2026",
+                desc: "Panduan lengkap rute menuju Pantai Balekambang dari Kota Malang, harga tiket masuk terbaru, pilihan transportasi, dan tips perjalanan agar liburan berjalan lancar.",
+                img: "image/rute-pantai-balekambang.webp",
+                featured: true
+            },
+            {
+                title: "Pantai Balekambang: Panduan Lengkap Wisata Malang Selatan",
+                url: "pantai-balekambang-panduan-lengkap-wisata-malang-selatan.html",
+                category: "Wisata Batu",
+                date: "31 Jul 2026",
+                desc: "Pantai Balekambang adalah pantai di Kabupaten Malang, Jawa Timur, yang terkenal karena pura di atas pulau karang dan sering dijuluki Tanah Lot Jawa Timur. Pantai ini cocok untuk wisata keluarga, fotografi, dan menikmati matahari terbenam.",
+                img: "image/pantai-balekambang-pura-ismoyo.webp",
+                featured: true
+            },
+            {
+                title: "Tips dan Biaya Wisata Baru di Batu 2026",
+                url: "tips-dan-biaya-wisata-baru-di-batu-2026.html",
+                category: "Wisata Batu",
+                date: "31 Jul 2026",
+                desc: "Biaya wisata baru di Batu bervariasi tergantung jenis destinasi, transportasi, dan penginapan yang dipilih, dengan kisaran mulai dari puluhan ribu rupiah untuk tiket masuk hingga jutaan rupiah untuk paket liburan lengkap.",
+                img: "image/wisata-batu-tips-biaya.webp",
+                featured: true
+            },
+            {
+                title: "Wisata Baru di Batu untuk Healing dan Alam 2026",
+                url: "wisata-baru-di-batu-untuk-healing-dan-alam-2026.html",
+                category: "Wisata Batu",
+                date: "30 Jul 2026",
+                desc: "Wisata baru di Batu untuk healing menawarkan panorama dataran tinggi yang masih alami, cocok bagi wisatawan yang ingin menjauh dari kebisingan kota sambil menikmati udara sejuk pegunungan.",
+                img: "image/wisata-batu-healing-alam.webp",
+                featured: true
+            },
+            {
+                title: "Wisata Baru di Batu untuk Liburan Keluarga 2026",
+                url: "wisata-baru-di-batu-untuk-liburan-keluarga-2026.html",
+                category: "Wisata Batu",
+                date: "30 Jul 2026",
+                desc: "Wisata baru di Batu untuk keluarga menghadirkan taman hiburan tematik dengan wahana ramah anak, area kuliner, dan fasilitas foto yang mendukung liburan bersama seluruh anggota keluarga.",
+                img: "image/wisata-batu-keluarga-wahana.webp",
+                featured: true
+            },
+            {
+                title: "Panduan Lengkap Destinasi Wisata Baru di Batu 2026",
+                url: "panduan-lengkap-destinasi-wisata-baru-di-batu-2026.html",
+                category: "Wisata Batu",
+                date: "30 Jul 2026",
+                desc: "Panduan lengkap destinasi wisata baru di Batu 2026 mencakup taman hiburan tematik, agrowisata modern, dan spot alam pegunungan. Temukan tips biaya, waktu terbaik, dan cara menuju wisata baru Batu.",
+                img: "image/wisata-baru-batu-hero.webp",
+                featured: true
+            },
+            {
+                title: "Perlengkapan dan Keselamatan War Game Paintball Outdoor",
+                url: "perlengkapan-dan-keselamatan-war-game-paintball-outdoor.html",
+                category: "Wisata Batu",
+                date: "29 Jul 2026",
+                desc: "Perlengkapan keselamatan war game paintball outdoor mencakup masker pelindung wajah, rompi pelindung tubuh, dan pakaian tertutup yang wajib digunakan peserta sepanjang sesi bermain berlangsung.",
+                img: "image/perlengkapan-wajib-war-game-paintball.webp"
+            },
+            {
+                title: "Strategi Tim Efektif dalam War Game Paintball",
+                url: "strategi-tim-efektif-dalam-war-game-paintball.html",
+                category: "Wisata Batu",
+                date: "29 Jul 2026",
+                desc: "Strategi tim efektif dalam war game paintball dibangun melalui komunikasi yang jelas, pembagian posisi yang tepat, serta pemanfaatan medan alam terbuka sebagai keunggulan taktis selama permainan berlangsung.",
+                img: "image/strategi-tim-war-game-paintball.webp"
+            },
+            {
+                title: "Jenis Mode Permainan War Game Paintball yang Populer",
+                url: "jenis-mode-permainan-war-game-paintball-yang-populer.html",
+                category: "Wisata Batu",
+                date: "29 Jul 2026",
+                desc: "Mode permainan war game paintball yang populer meliputi capture the flag, elimination, dan defend the base, masing-masing memiliki aturan dan tingkat strategi yang berbeda sesuai kebutuhan kelompok.",
+                img: "image/capture-the-flag-paintball.webp"
+            },
+            {
+                title: "Pengalaman Seru War Game Paintball di Alam Terbuka Batu",
+                url: "pengalaman-seru-war-game-paintball-di-alam-terbuka-batu.html",
+                category: "Wisata Batu",
+                date: "28 Jul 2026",
+                desc: "War game paintball di alam terbuka Batu adalah pengalaman bermain strategi tim menggunakan peluru cat di area luar ruangan dengan rintangan alami maupun buatan, memberi sensasi menegangkan sekaligus menyenangkan bagi peserta.",
+                img: "image/war-game-paintball-alam-terbuka-batu.webp"
+            },
+            {
+                title: "Perbandingan Arena Paintball Hutan Pinus dan Lapangan Terbuka",
+                url: "perbandingan-arena-paintball-hutan-pinus-dan-lapangan-terbuka.html",
+                category: "Wisata Batu",
+                date: "27 Jul 2026",
+                desc: "Perbandingan arena paintball hutan pinus dan lapangan terbuka terletak pada suasana medan, tingkat tantangan, dan jenis rintangan yang digunakan selama permainan berlangsung.",
+                img: "image/perbandingan-arena-paintball.webp"
+            },
+            {
+                title: "Tips Persiapan Sebelum Bermain Adventure Paintball Hutan Pinus",
+                url: "tips-persiapan-sebelum-bermain-adventure-paintball-hutan-pinus.html",
+                category: "Wisata Batu",
+                date: "25 Jul 2026",
+                desc: "Persiapan untuk bermain paintball di hutan pinus meliputi pemilihan pakaian yang menutupi tubuh dan sesuai dengan kondisi medan, kesiapan fisik untuk kegiatan di luar ruangan, serta membawa perlengkapan pribadi seperti air minum dan sepatu yang nyaman.",
+                img: "image/persiapan-pakaian-paintball-hutan.webp"
+            },
+            {
+                title: "Fasilitas Arena Adventure Paintball Hutan Pinus Batu",
+                url: "fasilitas-arena-adventure-paintball-hutan-pinus-batu.html",
+                category: "Wisata Batu",
+                date: "24 Jul 2026",
+                desc: "Fasilitas arena adventure paintball hutan pinus di Batu umumnya mencakup beberapa zona bermain dengan tingkat kesulitan berbeda, peralatan pelindung standar, serta fasilitas pendukung seperti area istirahat dan sanitasi.",
+                img: "image/zona-bermain-paintball-hutan-pinus.webp"
+            },
             {
                 title: "Wisata Adventure Paintball Hutan Pinus Terlengkap di Batu",
                 url: "wisata-adventure-paintball-hutan-pinus-terlengkap-di-batu.html",
