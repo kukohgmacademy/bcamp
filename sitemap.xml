@@ -1698,4 +1698,16 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://batucamping.web.id/harga-dan-info-lengkap-tiket-masuk-air-terjun-coban-rondo.html</loc>
+    <lastmod>2026-09-21T10:00:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://batucamping.web.id/rincian-harga-tiket-dan-wahana-di-coban-rondo-2026.html</loc>
+    <lastmod>2026-09-21T10:00:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
