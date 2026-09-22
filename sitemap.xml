@@ -1710,4 +1710,16 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://batucamping.web.id/jam-operasional-dan-rute-menuju-air-terjun-coban-rondo.html</loc>
+    <lastmod>2026-09-22T13:30:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://batucamping.web.id/tips-hemat-dan-waktu-terbaik-berkunjung-ke-coban-rondo.html</loc>
+    <lastmod>2026-09-22T13:30:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
