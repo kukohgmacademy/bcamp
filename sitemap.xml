@@ -1846,7 +1846,7 @@
     <loc>https://batucamping.web.id/kegiatan-kemah-pramuka-lembah-tumpang-2026.html</loc>
     <lastmod>2026-10-07T10:00:00+07:00</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://batucamping.web.id/perlengkapan-kemah-pramuka-di-lembah-tumpang.html</loc>
@@ -1863,6 +1863,18 @@
   <url>
     <loc>https://batucamping.web.id/biaya-dan-reservasi-kemah-pramuka-lembah-tumpang.html</loc>
     <lastmod>2026-10-08T10:00:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://batucamping.web.id/corporate-training-daerah-lembah-tumpang-2026.html</loc>
+    <lastmod>2026-10-09T10:00:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://batucamping.web.id/memilih-vendor-corporate-training-tumpang-malang.html</loc>
+    <lastmod>2026-10-09T10:00:00+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
